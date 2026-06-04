@@ -5,7 +5,7 @@
 ![Local Practice](https://img.shields.io/badge/Practice-Local%20NeetCode%20150-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-> A local NeetCode 150 workspace with an AI Prep Coach for testing,
+> **TL;DR**: A local NeetCode 150 workspace with an AI Prep Coach for testing,
 > debugging, reviewing, note-taking, smarter revisits, and interview-ready
 > technique-guide generation.
 
@@ -147,23 +147,6 @@ flow, see [WORKFLOW.md](WORKFLOW.md).
 | One-off debugging | Evidence-driven Debug mode tied to local test failures |
 | Topic review from scratch | Technique Guide Generation creates standalone first-principles guides for reusable patterns |
 | Flat problem list | Study-plan sections, tag drill pages, status views, and revisit queues for targeted practice |
-
-## What Is Inside
-
-- 150 NeetCode problem folders in a clean `todo` state
-- blank `solution.py` attempt files
-- local `prompt.md` files with problem statements, examples, constraints, and source links
-- local tests with LeetCode-style failure reports
-- enriched AI-authored reference solutions under `solutions/`
-- a strict all-reference validator for checking every solution variant
-- `study_plans/neetcode_150.md` for ordered progress by section
-- `tags/` for focused drills by data structure or technique
-- `REVISIT.md` for concepts, APIs, bug patterns, and problems to drill again
-- reusable tools for running, validating, fetching, regenerating, and expanding
-- bundled `$neetcode-prep-coach` skill for Test, Debug, Review, Consolidate,
-  Reference Enrichment, Revisit Queue, and Technique Guide Generation
-- sample technique guides under `technique_guides/sample_guides/`
-- generated topic-level learning notes under `technique_guides/`
 
 ## Recommended Coach-First Practice Flow
 
