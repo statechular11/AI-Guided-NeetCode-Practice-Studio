@@ -1,0 +1,119 @@
+{
+  "id": 104,
+  "title": "Maximum Depth of Binary Tree",
+  "slug": "maximum-depth-of-binary-tree",
+  "folder": "0104_maximum_depth_of_binary_tree",
+  "difficulty": "Easy",
+  "section": "Trees",
+  "order": 46,
+  "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+  "problem_url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "maxDepth",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 46
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Balanced Binary Tree",
+      "titleSlug": "balanced-binary-tree",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Minimum Depth of Binary Tree",
+      "titleSlug": "minimum-depth-of-binary-tree",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Maximum Depth of N-ary Tree",
+      "titleSlug": "maximum-depth-of-n-ary-tree",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Time Needed to Inform All Employees",
+      "titleSlug": "time-needed-to-inform-all-employees",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Amount of Time for Binary Tree to Be Infected",
+      "titleSlug": "amount-of-time-for-binary-tree-to-be-infected",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Height of Binary Tree After Subtree Removal Queries",
+      "titleSlug": "height-of-binary-tree-after-subtree-removal-queries",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0104-maximum-depth-of-binary-tree",
+    "url": "https://neetcode.io/problems/depth-of-binary-tree",
+    "video": "hTM3phVI6YQ"
+  },
+  "reference_solution": "solutions/solution_recursive_depth.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_recursive_depth.py",
+      "approach": "recursive max child depth",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(h)"
+    },
+    {
+      "file": "solutions/solution_bfs_queue.py",
+      "approach": "level-order depth count",
+      "role": "iterative traversal reference",
+      "complexity": "Time: O(n); Space: O(w)"
+    }
+  ]
+}

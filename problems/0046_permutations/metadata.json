@@ -1,0 +1,99 @@
+{
+  "id": 46,
+  "title": "Permutations",
+  "slug": "permutations",
+  "folder": "0046_permutations",
+  "difficulty": "Medium",
+  "section": "Backtracking",
+  "order": 70,
+  "url": "https://leetcode.com/problems/permutations/",
+  "problem_url": "https://leetcode.com/problems/permutations/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Backtracking",
+      "slug": "backtracking"
+    }
+  ],
+  "tags": [
+    "array",
+    "backtracking"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "permute",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "list<list<integer>>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 70
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Backtracking"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Next Permutation",
+      "titleSlug": "next-permutation",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Permutations II",
+      "titleSlug": "permutations-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Permutation Sequence",
+      "titleSlug": "permutation-sequence",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Combinations",
+      "titleSlug": "combinations",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "backtracking",
+  "neetcode": {
+    "code": "0046-permutations",
+    "url": "https://neetcode.io/problems/permutations",
+    "video": "FZe0UqISmUw"
+  },
+  "reference_solution": "solutions/solution_used_flags.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_used_flags.py",
+      "approach": "choose unused value for each position",
+      "role": "primary clear solution",
+      "complexity": "Time: O(n!*n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_in_place_swaps.py",
+      "approach": "fix positions by swapping in-place",
+      "role": "alternative backtracking pattern",
+      "complexity": "Time: O(n!*n); Space: O(n)"
+    }
+  ]
+}

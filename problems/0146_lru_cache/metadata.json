@@ -1,0 +1,133 @@
+{
+  "id": 146,
+  "title": "LRU Cache",
+  "slug": "lru-cache",
+  "folder": "0146_lru_cache",
+  "difficulty": "Medium",
+  "section": "Linked List",
+  "order": 42,
+  "url": "https://leetcode.com/problems/lru-cache/",
+  "problem_url": "https://leetcode.com/problems/lru-cache/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Linked List",
+      "slug": "linked-list"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    },
+    {
+      "name": "Doubly-Linked List",
+      "slug": "doubly-linked-list"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "linked-list",
+    "design",
+    "doubly-linked-list"
+  ],
+  "function": {
+    "class_name": "LRUCache",
+    "methods": [
+      {
+        "name": "get",
+        "params": [
+          {
+            "type": "integer",
+            "name": "key"
+          }
+        ],
+        "return_type": "integer"
+      },
+      {
+        "name": "put",
+        "params": [
+          {
+            "type": "integer",
+            "name": "key"
+          },
+          {
+            "type": "integer",
+            "name": "value"
+          }
+        ],
+        "return_type": "void"
+      }
+    ]
+  },
+  "judge": {
+    "mode": "design"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 42
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Linked List"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "LFU Cache",
+      "titleSlug": "lfu-cache",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Design In-Memory File System",
+      "titleSlug": "design-in-memory-file-system",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Design Compressed String Iterator",
+      "titleSlug": "design-compressed-string-iterator",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Design Most Recently Used Queue",
+      "titleSlug": "design-most-recently-used-queue",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "linked_list",
+  "neetcode": {
+    "code": "0146-lru-cache",
+    "url": "https://neetcode.io/problems/lru-cache",
+    "video": "7ABFKPK2hD4"
+  },
+  "reference_solution": "solutions/solution_hash_map_doubly_linked_list.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_linear_order_baseline.py",
+      "approach": "dictionary plus linear ordered key list",
+      "role": "teaching baseline that shows why O(1) order maintenance is needed",
+      "complexity": "O(capacity) get/put; Space: O(capacity)"
+    },
+    {
+      "file": "solutions/solution_hash_map_doubly_linked_list.py",
+      "approach": "hash map for lookup plus usage-order list",
+      "role": "primary design solution",
+      "complexity": "O(1) get/put; Space: O(capacity)"
+    },
+    {
+      "file": "solutions/solution_ordered_dict.py",
+      "approach": "OrderedDict for lookup plus built-in recency order",
+      "role": "Pythonic built-in ordered map solution",
+      "complexity": "O(1) get/put; Space: O(capacity)"
+    }
+  ]
+}

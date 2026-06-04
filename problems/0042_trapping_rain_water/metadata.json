@@ -1,0 +1,125 @@
+{
+  "id": 42,
+  "title": "Trapping Rain Water",
+  "slug": "trapping-rain-water",
+  "folder": "0042_trapping_rain_water",
+  "difficulty": "Hard",
+  "section": "Two Pointers",
+  "order": 14,
+  "url": "https://leetcode.com/problems/trapping-rain-water/",
+  "problem_url": "https://leetcode.com/problems/trapping-rain-water/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Stack",
+      "slug": "stack"
+    },
+    {
+      "name": "Monotonic Stack",
+      "slug": "monotonic-stack"
+    }
+  ],
+  "tags": [
+    "array",
+    "two-pointers",
+    "dynamic-programming",
+    "stack",
+    "monotonic-stack"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "trap",
+    "params": [
+      {
+        "name": "height",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 14
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Two Pointers"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Container With Most Water",
+      "titleSlug": "container-with-most-water",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Product of Array Except Self",
+      "titleSlug": "product-of-array-except-self",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Trapping Rain Water II",
+      "titleSlug": "trapping-rain-water-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Pour Water",
+      "titleSlug": "pour-water",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Value of an Ordered Triplet II",
+      "titleSlug": "maximum-value-of-an-ordered-triplet-ii",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "two_pointers",
+  "neetcode": {
+    "code": "0042-trapping-rain-water",
+    "url": "https://neetcode.io/problems/trapping-rain-water",
+    "video": "ZI2z5pq0TqA"
+  },
+  "reference_solution": "solutions/solution_two_pointers.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_prefix_suffix_arrays.py",
+      "approach": "precomputed left/right maxima",
+      "role": "learning-friendly DP view",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_two_pointers.py",
+      "approach": "two running maxima",
+      "role": "primary optimized solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_monotonic_stack.py",
+      "approach": "monotonic decreasing stack of unresolved boundaries",
+      "role": "representative stack solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

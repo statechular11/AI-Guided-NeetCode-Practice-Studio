@@ -1,0 +1,119 @@
+{
+  "id": 15,
+  "title": "3Sum",
+  "slug": "3sum",
+  "folder": "0015_3sum",
+  "difficulty": "Medium",
+  "section": "Two Pointers",
+  "order": 12,
+  "url": "https://leetcode.com/problems/3sum/",
+  "problem_url": "https://leetcode.com/problems/3sum/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    }
+  ],
+  "tags": [
+    "array",
+    "two-pointers",
+    "sorting"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "threeSum",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "list<list<integer>>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 12
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Two Pointers"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Two Sum",
+      "titleSlug": "two-sum",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "3Sum Closest",
+      "titleSlug": "3sum-closest",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "4Sum",
+      "titleSlug": "4sum",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "3Sum Smaller",
+      "titleSlug": "3sum-smaller",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Number of Arithmetic Triplets",
+      "titleSlug": "number-of-arithmetic-triplets",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Minimum Sum of Mountain Triplets I",
+      "titleSlug": "minimum-sum-of-mountain-triplets-i",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Minimum Sum of Mountain Triplets II",
+      "titleSlug": "minimum-sum-of-mountain-triplets-ii",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "two_pointers",
+  "neetcode": {
+    "code": "0015-3sum",
+    "url": "https://neetcode.io/problems/three-integer-sum",
+    "video": "jzZsG8n2R9A"
+  },
+  "reference_solution": "solutions/solution_sort_two_pointers.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_sort_two_pointers.py",
+      "approach": "sort plus two-sum scan",
+      "role": "primary solution",
+      "complexity": "Time: O(n^2); Space: O(1) extra"
+    },
+    {
+      "file": "solutions/solution_hash_set_complements.py",
+      "approach": "fixed value plus hash-set complements",
+      "role": "educational hash-set variant",
+      "complexity": "Time: O(n^2); Space: O(n + k)"
+    }
+  ]
+}

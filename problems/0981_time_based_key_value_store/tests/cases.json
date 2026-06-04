@@ -1,0 +1,81 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "operations": [
+        "TimeMap",
+        "set",
+        "get",
+        "get",
+        "set",
+        "get",
+        "get"
+      ],
+      "arguments": [
+        [],
+        [
+          "foo",
+          "bar",
+          1
+        ],
+        [
+          "foo",
+          1
+        ],
+        [
+          "foo",
+          3
+        ],
+        [
+          "foo",
+          "bar2",
+          4
+        ],
+        [
+          "foo",
+          4
+        ],
+        [
+          "foo",
+          5
+        ]
+      ],
+      "expected": [
+        null,
+        null,
+        "bar",
+        "bar",
+        null,
+        "bar2",
+        "bar2"
+      ]
+    },
+    {
+      "name": "before_first",
+      "operations": [
+        "TimeMap",
+        "set",
+        "get"
+      ],
+      "arguments": [
+        [],
+        [
+          "a",
+          "x",
+          10
+        ],
+        [
+          "a",
+          5
+        ]
+      ],
+      "expected": [
+        null,
+        null,
+        ""
+      ]
+    }
+  ]
+}

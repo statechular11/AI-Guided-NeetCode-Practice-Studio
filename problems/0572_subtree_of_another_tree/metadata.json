@@ -1,0 +1,108 @@
+{
+  "id": 572,
+  "title": "Subtree of Another Tree",
+  "slug": "subtree-of-another-tree",
+  "folder": "0572_subtree_of_another_tree",
+  "difficulty": "Easy",
+  "section": "Trees",
+  "order": 50,
+  "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+  "problem_url": "https://leetcode.com/problems/subtree-of-another-tree/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "String Matching",
+      "slug": "string-matching"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    },
+    {
+      "name": "Hash Function",
+      "slug": "hash-function"
+    }
+  ],
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "string-matching",
+    "binary-tree",
+    "hash-function"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "isSubtree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      },
+      {
+        "name": "subRoot",
+        "type": "TreeNode"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 50
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Count Univalue Subtrees",
+      "titleSlug": "count-univalue-subtrees",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Most Frequent Subtree Sum",
+      "titleSlug": "most-frequent-subtree-sum",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0572-subtree-of-another-tree",
+    "url": "https://neetcode.io/problems/subtree-of-a-binary-tree",
+    "video": "E36O5SWp-LE"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_same_tree_scan.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_same_tree_scan.py",
+      "approach": "DFS scan with same-tree comparison",
+      "role": "primary solution",
+      "complexity": "Time: O(n*m); Space: O(h)"
+    },
+    {
+      "file": "solutions/solution_serialization.py",
+      "approach": "tree serialization containment",
+      "role": "alternative tree-shape reference",
+      "complexity": "Time: O(m + n); Space: O(m + n)"
+    }
+  ]
+}

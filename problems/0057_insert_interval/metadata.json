@@ -1,0 +1,93 @@
+{
+  "id": 57,
+  "title": "Insert Interval",
+  "slug": "insert-interval",
+  "folder": "0057_insert_interval",
+  "difficulty": "Medium",
+  "section": "Intervals",
+  "order": 130,
+  "url": "https://leetcode.com/problems/insert-interval/",
+  "problem_url": "https://leetcode.com/problems/insert-interval/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    }
+  ],
+  "tags": [
+    "array"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "insert",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      },
+      {
+        "name": "newInterval",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer[][]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 130
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Intervals"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Merge Intervals",
+      "titleSlug": "merge-intervals",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Range Module",
+      "titleSlug": "range-module",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Count Integers in Intervals",
+      "titleSlug": "count-integers-in-intervals",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "intervals",
+  "neetcode": {
+    "code": "0057-insert-interval",
+    "url": "https://neetcode.io/problems/insert-new-interval",
+    "video": "A8NUOmlwOlM"
+  },
+  "reference_solution": "solutions/solution_three_phases.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_three_phases.py",
+      "approach": "before/merge/after scan",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_insert_then_merge.py",
+      "approach": "append then reuse merge intervals",
+      "role": "simple baseline reference",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    }
+  ]
+}

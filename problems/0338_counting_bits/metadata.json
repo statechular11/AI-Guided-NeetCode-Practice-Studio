@@ -1,0 +1,112 @@
+{
+  "id": 338,
+  "title": "Counting Bits",
+  "slug": "counting-bits",
+  "folder": "0338_counting_bits",
+  "difficulty": "Easy",
+  "section": "Bit Manipulation",
+  "order": 146,
+  "url": "https://leetcode.com/problems/counting-bits/",
+  "problem_url": "https://leetcode.com/problems/counting-bits/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Bit Manipulation",
+      "slug": "bit-manipulation"
+    }
+  ],
+  "tags": [
+    "dynamic-programming",
+    "bit-manipulation"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "countBits",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer[]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 146
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Bit Manipulation"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Number of 1 Bits",
+      "titleSlug": "number-of-1-bits",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Sum of Values at Indices With K Set Bits",
+      "titleSlug": "sum-of-values-at-indices-with-k-set-bits",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Find the K-or of an Array",
+      "titleSlug": "find-the-k-or-of-an-array",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "bit_manipulation",
+  "neetcode": {
+    "code": "0338-counting-bits",
+    "url": "https://neetcode.io/problems/counting-bits",
+    "video": "RyBM56RIWrM"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_dp_lowest_bit.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_dp_lowest_bit.py",
+      "approach": "shift plus low bit DP",
+      "role": "primary DP bit solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_dp_clear_lowest_bit.py",
+      "approach": "clear lowest set bit DP",
+      "role": "bit-trick variant",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_dp_offset.py",
+      "approach": "highest power offset DP",
+      "role": "offset recurrence variant",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_per_number_kernighan.py",
+      "approach": "count each number with Kernighan loop",
+      "role": "O(n log n) educational baseline",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_builtin_bit_count.py",
+      "approach": "use Python int.bit_count for each value",
+      "role": "Python API contrast",
+      "complexity": "Time: O(n log n) bit-work; Space: O(n)"
+    }
+  ]
+}

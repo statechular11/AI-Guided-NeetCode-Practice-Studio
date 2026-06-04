@@ -1,0 +1,99 @@
+{
+  "id": 131,
+  "title": "Palindrome Partitioning",
+  "slug": "palindrome-partitioning",
+  "folder": "0131_palindrome_partitioning",
+  "difficulty": "Medium",
+  "section": "Backtracking",
+  "order": 74,
+  "url": "https://leetcode.com/problems/palindrome-partitioning/",
+  "problem_url": "https://leetcode.com/problems/palindrome-partitioning/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Backtracking",
+      "slug": "backtracking"
+    }
+  ],
+  "tags": [
+    "string",
+    "dynamic-programming",
+    "backtracking"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "partition",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return_type": "list<list<string>>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 74
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Backtracking"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Palindrome Partitioning II",
+      "titleSlug": "palindrome-partitioning-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Palindrome Partitioning IV",
+      "titleSlug": "palindrome-partitioning-iv",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+      "titleSlug": "maximum-number-of-non-overlapping-palindrome-substrings",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "backtracking",
+  "neetcode": {
+    "code": "0131-palindrome-partitioning",
+    "url": "https://neetcode.io/problems/palindrome-partitioning",
+    "video": "3jvWodd7ht0"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_backtracking.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_backtracking.py",
+      "approach": "choose palindrome prefixes by direct check",
+      "role": "primary clear solution",
+      "complexity": "Time: O(n*2^n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_dp_precompute.py",
+      "approach": "precompute palindrome table before backtracking",
+      "role": "optimized substring-check variant",
+      "complexity": "Time: O(n^2 + output*n); Space: O(n^2)"
+    }
+  ]
+}

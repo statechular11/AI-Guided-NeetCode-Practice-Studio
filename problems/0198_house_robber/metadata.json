@@ -1,0 +1,149 @@
+{
+  "id": 198,
+  "title": "House Robber",
+  "slug": "house-robber",
+  "folder": "0198_house_robber",
+  "difficulty": "Medium",
+  "section": "1-D Dynamic Programming",
+  "order": 101,
+  "url": "https://leetcode.com/problems/house-robber/",
+  "problem_url": "https://leetcode.com/problems/house-robber/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "rob",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 101
+  },
+  "sections_by_plan": {
+    "neetcode-150": "1-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Maximum Product Subarray",
+      "titleSlug": "maximum-product-subarray",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "House Robber II",
+      "titleSlug": "house-robber-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Paint House",
+      "titleSlug": "paint-house",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Paint Fence",
+      "titleSlug": "paint-fence",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "House Robber III",
+      "titleSlug": "house-robber-iii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Non-negative Integers without Consecutive Ones",
+      "titleSlug": "non-negative-integers-without-consecutive-ones",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Coin Path",
+      "titleSlug": "coin-path",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Delete and Earn",
+      "titleSlug": "delete-and-earn",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Solving Questions With Brainpower",
+      "titleSlug": "solving-questions-with-brainpower",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count Number of Ways to Place Houses",
+      "titleSlug": "count-number-of-ways-to-place-houses",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "House Robber IV",
+      "titleSlug": "house-robber-iv",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Mice and Cheese",
+      "titleSlug": "mice-and-cheese",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Largest Element in an Array after Merge Operations",
+      "titleSlug": "largest-element-in-an-array-after-merge-operations",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "House Robber V",
+      "titleSlug": "house-robber-v",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "dynamic_programming",
+  "neetcode": {
+    "code": "0198-house-robber",
+    "url": "https://neetcode.io/problems/house-robber",
+    "video": "73r3KWiEvyk"
+  },
+  "reference_solution": "solutions/solution_rolling_two_states.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_rolling_two_states.py",
+      "approach": "max of skip current vs rob current",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_dp_array.py",
+      "approach": "full DP table",
+      "role": "first-principles DP baseline",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

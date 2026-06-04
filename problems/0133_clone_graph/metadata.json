@@ -1,0 +1,104 @@
+{
+  "id": 133,
+  "title": "Clone Graph",
+  "slug": "clone-graph",
+  "folder": "0133_clone_graph",
+  "difficulty": "Medium",
+  "section": "Graphs",
+  "order": 82,
+  "url": "https://leetcode.com/problems/clone-graph/",
+  "problem_url": "https://leetcode.com/problems/clone-graph/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Graph Theory",
+      "slug": "graph"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "depth-first-search",
+    "breadth-first-search",
+    "graph"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "cloneGraph",
+    "params": [
+      {
+        "name": "edges",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 82
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Graphs"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Copy List with Random Pointer",
+      "titleSlug": "copy-list-with-random-pointer",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Clone Binary Tree With Random Pointer",
+      "titleSlug": "clone-binary-tree-with-random-pointer",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Clone N-ary Tree",
+      "titleSlug": "clone-n-ary-tree",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "graph",
+  "neetcode": {
+    "code": "0133-clone-graph",
+    "url": "https://neetcode.io/problems/clone-graph",
+    "video": "mQeF6bN8hMk"
+  },
+  "reference_solution": "solutions/solution_dfs_hash_map.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_dfs_hash_map.py",
+      "approach": "DFS clone with original-to-copy map",
+      "role": "primary solution",
+      "complexity": "Time: O(V+E); Space: O(V)"
+    },
+    {
+      "file": "solutions/solution_bfs_hash_map.py",
+      "approach": "BFS clone map",
+      "role": "alternative graph traversal reference",
+      "complexity": "Time: O(V + E); Space: O(V)"
+    }
+  ]
+}

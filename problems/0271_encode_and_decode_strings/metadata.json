@@ -1,0 +1,113 @@
+{
+  "id": 271,
+  "title": "Encode and Decode Strings",
+  "slug": "encode-and-decode-strings",
+  "folder": "0271_encode_and_decode_strings",
+  "difficulty": "Medium",
+  "section": "Arrays & Hashing",
+  "order": 6,
+  "url": "https://leetcode.com/problems/encode-and-decode-strings/",
+  "problem_url": "https://neetcode.io/problems/string-encode-and-decode/question",
+  "problem_source": "neetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    }
+  ],
+  "tags": [
+    "array",
+    "string",
+    "design"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "encode",
+    "params": [
+      {
+        "name": "dummy_input",
+        "type": "list<string>"
+      }
+    ],
+    "return_type": "list<string>"
+  },
+  "judge": {
+    "mode": "codec"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 6
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Arrays & Hashing"
+  },
+  "is_paid_only": true,
+  "content_available": true,
+  "leetcode_content_available": false,
+  "content_source": "neetcode",
+  "similar_questions": [
+    {
+      "title": "Count and Say",
+      "titleSlug": "count-and-say",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Serialize and Deserialize Binary Tree",
+      "titleSlug": "serialize-and-deserialize-binary-tree",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "String Compression",
+      "titleSlug": "string-compression",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count Binary Substrings",
+      "titleSlug": "count-binary-substrings",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "arrays_and_hashing",
+  "neetcode": {
+    "code": "0271-encode-and-decode-strings",
+    "url": "https://neetcode.io/problems/string-encode-and-decode",
+    "video": "B1k_sxOSgv8",
+    "question_url": "https://neetcode.io/problems/string-encode-and-decode/question",
+    "topics": [
+      "Array",
+      "String",
+      "Design",
+      "Recommended Time & Space Complexity",
+      "You should aim for a solution with O(m) time for each encode() and decode() call and O(m+n) space",
+      "where m is the sum of lengths of all the strings and n is the number of strings."
+    ]
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_length_prefix.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_length_prefix.py",
+      "approach": "length-prefixed codec",
+      "role": "primary robust codec",
+      "complexity": "Time: O(total characters); Space: O(total characters)"
+    },
+    {
+      "file": "solutions/solution_escape_delimiter.py",
+      "approach": "counted escaped delimiter codec",
+      "role": "alternative robust codec reference",
+      "complexity": "Time: O(total characters); Space: O(total characters)"
+    }
+  ]
+}

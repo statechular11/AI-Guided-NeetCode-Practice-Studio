@@ -1,0 +1,133 @@
+{
+  "id": 322,
+  "title": "Coin Change",
+  "slug": "coin-change",
+  "folder": "0322_coin_change",
+  "difficulty": "Medium",
+  "section": "1-D Dynamic Programming",
+  "order": 106,
+  "url": "https://leetcode.com/problems/coin-change/",
+  "problem_url": "https://leetcode.com/problems/coin-change/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "breadth-first-search"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "coinChange",
+    "params": [
+      {
+        "name": "coins",
+        "type": "integer[]"
+      },
+      {
+        "name": "amount",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 106
+  },
+  "sections_by_plan": {
+    "neetcode-150": "1-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Minimum Cost For Tickets",
+      "titleSlug": "minimum-cost-for-tickets",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Value of K Coins From Piles",
+      "titleSlug": "maximum-value-of-k-coins-from-piles",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Minimum Number of Operations to Convert Time",
+      "titleSlug": "minimum-number-of-operations-to-convert-time",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Minimum Cost to Split an Array",
+      "titleSlug": "minimum-cost-to-split-an-array",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Count of Sub-Multisets With Bounded Sum",
+      "titleSlug": "count-of-sub-multisets-with-bounded-sum",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Length of the Longest Subsequence That Sums to Target",
+      "titleSlug": "length-of-the-longest-subsequence-that-sums-to-target",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Number of Coins to be Added",
+      "titleSlug": "minimum-number-of-coins-to-be-added",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Most Expensive Item That Can Not Be Bought",
+      "titleSlug": "most-expensive-item-that-can-not-be-bought",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Inverse Coin Change",
+      "titleSlug": "inverse-coin-change",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "dynamic_programming",
+  "neetcode": {
+    "code": "0322-coin-change",
+    "url": "https://neetcode.io/problems/coin-change",
+    "video": "H9bfqozjoqs"
+  },
+  "reference_solution": "solutions/solution_bottom_up.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_bottom_up.py",
+      "approach": "minimum coins for every amount prefix",
+      "role": "primary solution",
+      "complexity": "Time: O(amount*coins); Space: O(amount)"
+    },
+    {
+      "file": "solutions/solution_top_down_memo.py",
+      "approach": "top-down minimum coins DP",
+      "role": "recursive DP reference",
+      "complexity": "Time: O(amount * len(coins)); Space: O(amount)"
+    }
+  ]
+}

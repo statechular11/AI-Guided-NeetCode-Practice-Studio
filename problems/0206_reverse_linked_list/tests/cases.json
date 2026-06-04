@@ -1,0 +1,81 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": {
+        "return": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "head": [
+          1,
+          2
+        ]
+      },
+      "expected": {
+        "return": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "name": "example_3",
+      "args": {
+        "head": []
+      },
+      "expected": {
+        "return": null
+      }
+    },
+    {
+      "name": "single_node",
+      "args": {
+        "head": [
+          7
+        ]
+      },
+      "expected": {
+        "return": [
+          7
+        ]
+      }
+    },
+    {
+      "name": "negative_and_zero_values",
+      "args": {
+        "head": [
+          -1,
+          0,
+          3
+        ]
+      },
+      "expected": {
+        "return": [
+          3,
+          0,
+          -1
+        ]
+      }
+    }
+  ]
+}

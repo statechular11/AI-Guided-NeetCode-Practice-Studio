@@ -1,0 +1,45 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "dummy_input": [
+          "Hello",
+          "World"
+        ]
+      },
+      "expected": [
+        "Hello",
+        "World"
+      ]
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "dummy_input": [
+          ""
+        ]
+      },
+      "expected": [
+        ""
+      ]
+    },
+    {
+      "name": "contains_separator_and_digits",
+      "args": {
+        "dummy_input": [
+          "0#abc",
+          "",
+          "12"
+        ]
+      },
+      "expected": [
+        "0#abc",
+        "",
+        "12"
+      ]
+    }
+  ]
+}

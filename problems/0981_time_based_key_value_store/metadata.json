@@ -1,0 +1,120 @@
+{
+  "id": 981,
+  "title": "Time Based Key-Value Store",
+  "slug": "time-based-key-value-store",
+  "folder": "0981_time_based_key_value_store",
+  "difficulty": "Medium",
+  "section": "Binary Search",
+  "order": 32,
+  "url": "https://leetcode.com/problems/time-based-key-value-store/",
+  "problem_url": "https://leetcode.com/problems/time-based-key-value-store/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Binary Search",
+      "slug": "binary-search"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "string",
+    "binary-search",
+    "design"
+  ],
+  "function": {
+    "class_name": "TimeMap",
+    "methods": [
+      {
+        "name": "set",
+        "params": [
+          {
+            "type": "string",
+            "name": "key"
+          },
+          {
+            "type": "string",
+            "name": "value"
+          },
+          {
+            "type": "integer",
+            "name": "timestamp"
+          }
+        ],
+        "return_type": "void"
+      },
+      {
+        "name": "get",
+        "params": [
+          {
+            "type": "string",
+            "name": "key"
+          },
+          {
+            "type": "integer",
+            "name": "timestamp"
+          }
+        ],
+        "return_type": "string"
+      }
+    ]
+  },
+  "judge": {
+    "mode": "design"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 32
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Binary Search"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Stock Price Fluctuation ",
+      "titleSlug": "stock-price-fluctuation",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "binary_search",
+  "neetcode": {
+    "code": "0981-time-based-key-value-store",
+    "url": "https://neetcode.io/problems/time-based-key-value-store",
+    "video": "fu2cD_6E8Hw"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_binary_search_per_key.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_binary_search_per_key.py",
+      "approach": "per-key timestamp list",
+      "role": "primary design solution",
+      "complexity": "set O(1), get O(log n); Space O(n)"
+    },
+    {
+      "file": "solutions/solution_manual_binary_search.py",
+      "approach": "manual rightmost-timestamp binary search",
+      "role": "alternative design reference",
+      "complexity": "set: O(1); get: O(log n); Space: O(total set calls)"
+    }
+  ]
+}

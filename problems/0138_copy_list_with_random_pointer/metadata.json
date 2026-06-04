@@ -1,0 +1,100 @@
+{
+  "id": 138,
+  "title": "Copy List with Random Pointer",
+  "slug": "copy-list-with-random-pointer",
+  "folder": "0138_copy_list_with_random_pointer",
+  "difficulty": "Medium",
+  "section": "Linked List",
+  "order": 39,
+  "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+  "problem_url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Linked List",
+      "slug": "linked-list"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "linked-list"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "copyRandomList",
+    "params": [
+      {
+        "name": "head",
+        "type": "Node"
+      }
+    ],
+    "return_type": "Node"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 39
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Linked List"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Clone Graph",
+      "titleSlug": "clone-graph",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Clone Binary Tree With Random Pointer",
+      "titleSlug": "clone-binary-tree-with-random-pointer",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Clone N-ary Tree",
+      "titleSlug": "clone-n-ary-tree",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "linked_list",
+  "neetcode": {
+    "code": "0138-copy-list-with-random-pointer",
+    "url": "https://neetcode.io/problems/copy-linked-list-with-random-pointer",
+    "video": "5Y2EiZST97Y"
+  },
+  "reference_solution": "solutions/solution_hash_map.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_hash_map.py",
+      "approach": "map original nodes to clone nodes",
+      "role": "primary clear solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_interweaving.py",
+      "approach": "interweave clones beside originals",
+      "role": "optimized extra-space solution",
+      "complexity": "Time: O(n); Space: O(1) extra"
+    },
+    {
+      "file": "solutions/solution_graph_traversal.py",
+      "approach": "treat next/random as graph edges with memoized clones",
+      "role": "educational graph-clone framing",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

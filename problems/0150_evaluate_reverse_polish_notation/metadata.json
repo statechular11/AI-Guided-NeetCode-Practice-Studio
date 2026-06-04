@@ -1,0 +1,100 @@
+{
+  "id": 150,
+  "title": "Evaluate Reverse Polish Notation",
+  "slug": "evaluate-reverse-polish-notation",
+  "folder": "0150_evaluate_reverse_polish_notation",
+  "difficulty": "Medium",
+  "section": "Stack",
+  "order": 23,
+  "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+  "problem_url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Math",
+      "slug": "math"
+    },
+    {
+      "name": "Stack",
+      "slug": "stack"
+    }
+  ],
+  "tags": [
+    "array",
+    "math",
+    "stack"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "evalRPN",
+    "params": [
+      {
+        "name": "tokens",
+        "type": "string[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 23
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Stack"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Basic Calculator",
+      "titleSlug": "basic-calculator",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Expression Add Operators",
+      "titleSlug": "expression-add-operators",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "stack",
+  "neetcode": {
+    "code": "0150-evaluate-reverse-polish-notation",
+    "url": "https://neetcode.io/problems/evaluate-reverse-polish-notation",
+    "video": "iu0082c4HDE"
+  },
+  "reference_solution": "solutions/solution_operand_stack.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_operand_stack.py",
+      "approach": "operand stack",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_operand_stack_integer_division.py",
+      "approach": "operand stack with integer truncation helper",
+      "role": "Python division-rule variant",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_recursive_from_right.py",
+      "approach": "recursive right-to-left postfix parser",
+      "role": "educational parser/tree variant",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

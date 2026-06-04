@@ -1,0 +1,188 @@
+{
+  "id": 1,
+  "title": "Two Sum",
+  "slug": "two-sum",
+  "folder": "0001_two_sum",
+  "difficulty": "Easy",
+  "section": "Arrays & Hashing",
+  "order": 3,
+  "url": "https://leetcode.com/problems/two-sum/",
+  "problem_url": "https://leetcode.com/problems/two-sum/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    }
+  ],
+  "tags": [
+    "array",
+    "hash-table"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "twoSum",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer[]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 3
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Arrays & Hashing"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "3Sum",
+      "titleSlug": "3sum",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "4Sum",
+      "titleSlug": "4sum",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Two Sum II - Input Array Is Sorted",
+      "titleSlug": "two-sum-ii-input-array-is-sorted",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Two Sum III - Data structure design",
+      "titleSlug": "two-sum-iii-data-structure-design",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Subarray Sum Equals K",
+      "titleSlug": "subarray-sum-equals-k",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Two Sum IV - Input is a BST",
+      "titleSlug": "two-sum-iv-input-is-a-bst",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Two Sum Less Than K",
+      "titleSlug": "two-sum-less-than-k",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Max Number of K-Sum Pairs",
+      "titleSlug": "max-number-of-k-sum-pairs",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count Good Meals",
+      "titleSlug": "count-good-meals",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count Number of Pairs With Absolute Difference K",
+      "titleSlug": "count-number-of-pairs-with-absolute-difference-k",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Number of Pairs of Strings With Concatenation Equal to Target",
+      "titleSlug": "number-of-pairs-of-strings-with-concatenation-equal-to-target",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find All K-Distant Indices in an Array",
+      "titleSlug": "find-all-k-distant-indices-in-an-array",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "First Letter to Appear Twice",
+      "titleSlug": "first-letter-to-appear-twice",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Number of Excellent Pairs",
+      "titleSlug": "number-of-excellent-pairs",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Number of Arithmetic Triplets",
+      "titleSlug": "number-of-arithmetic-triplets",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Node With Highest Edge Score",
+      "titleSlug": "node-with-highest-edge-score",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Check Distances Between Same Letters",
+      "titleSlug": "check-distances-between-same-letters",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Find Subarrays With Equal Sum",
+      "titleSlug": "find-subarrays-with-equal-sum",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Largest Positive Integer That Exists With Its Negative",
+      "titleSlug": "largest-positive-integer-that-exists-with-its-negative",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Number of Distinct Averages",
+      "titleSlug": "number-of-distinct-averages",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Count Pairs Whose Sum is Less than Target",
+      "titleSlug": "count-pairs-whose-sum-is-less-than-target",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "hash_map",
+  "neetcode": {
+    "code": "0001-two-sum",
+    "url": "https://neetcode.io/problems/two-integer-sum",
+    "video": "KLlXCFG5TnA"
+  },
+  "reference_solution": "solutions/solution_hash_map.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_brute_force.py",
+      "approach": "brute force pair scan",
+      "role": "learning baseline",
+      "complexity": "Time: O(n^2); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_hash_map.py",
+      "approach": "one-pass hash map",
+      "role": "primary interview solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

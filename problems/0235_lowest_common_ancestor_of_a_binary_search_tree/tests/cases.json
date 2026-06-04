@@ -1,0 +1,89 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "root": [
+          6,
+          2,
+          8,
+          0,
+          4,
+          7,
+          9,
+          null,
+          null,
+          3,
+          5
+        ],
+        "p": 2,
+        "q": 8
+      },
+      "expected": {
+        "return": [
+          6,
+          2,
+          8,
+          0,
+          4,
+          7,
+          9,
+          null,
+          null,
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "root": [
+          6,
+          2,
+          8,
+          0,
+          4,
+          7,
+          9,
+          null,
+          null,
+          3,
+          5
+        ],
+        "p": 2,
+        "q": 4
+      },
+      "expected": {
+        "return": [
+          2,
+          0,
+          4,
+          null,
+          null,
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "name": "example_3",
+      "args": {
+        "root": [
+          2,
+          1
+        ],
+        "p": 2,
+        "q": 1
+      },
+      "expected": {
+        "return": [
+          2,
+          1
+        ]
+      }
+    }
+  ]
+}

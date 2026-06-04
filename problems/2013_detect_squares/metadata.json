@@ -1,0 +1,113 @@
+{
+  "id": 2013,
+  "title": "Detect Squares",
+  "slug": "detect-squares",
+  "folder": "2013_detect_squares",
+  "difficulty": "Medium",
+  "section": "Math & Geometry",
+  "order": 143,
+  "url": "https://leetcode.com/problems/detect-squares/",
+  "problem_url": "https://leetcode.com/problems/detect-squares/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    },
+    {
+      "name": "Counting",
+      "slug": "counting"
+    },
+    {
+      "name": "Data Stream",
+      "slug": "data-stream"
+    }
+  ],
+  "tags": [
+    "array",
+    "hash-table",
+    "design",
+    "counting",
+    "data-stream"
+  ],
+  "function": {
+    "class_name": "DetectSquares",
+    "methods": [
+      {
+        "name": "add",
+        "params": [
+          {
+            "type": "integer[]",
+            "name": "point"
+          }
+        ],
+        "return_type": "void"
+      },
+      {
+        "name": "count",
+        "params": [
+          {
+            "type": "integer[]",
+            "name": "point"
+          }
+        ],
+        "return_type": "integer"
+      }
+    ]
+  },
+  "judge": {
+    "mode": "design"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 143
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Math & Geometry"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [],
+  "approach": "math_geometry",
+  "neetcode": {
+    "code": "2013-detect-squares",
+    "url": "https://neetcode.io/problems/count-squares",
+    "video": "bahebearrDc"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_point_counter.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_point_counter.py",
+      "approach": "enumerate diagonal corners and multiply point counts",
+      "role": "primary design solution",
+      "complexity": "add O(1), count O(P); Space: O(P)"
+    },
+    {
+      "file": "solutions/solution_row_counter.py",
+      "approach": "group points by row and enumerate same-row side endpoints",
+      "role": "query-row optimized sparse variant",
+      "complexity": "add O(1), count O(R); Space: O(P)"
+    },
+    {
+      "file": "solutions/solution_bounded_grid.py",
+      "approach": "use the 0..1000 coordinate bound as a fixed count grid",
+      "role": "coordinate-bounded grid variant",
+      "complexity": "add O(1), count O(1001); Space: O(1001^2)"
+    }
+  ]
+}

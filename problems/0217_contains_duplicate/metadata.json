@@ -1,0 +1,104 @@
+{
+  "id": 217,
+  "title": "Contains Duplicate",
+  "slug": "contains-duplicate",
+  "folder": "0217_contains_duplicate",
+  "difficulty": "Easy",
+  "section": "Arrays & Hashing",
+  "order": 1,
+  "url": "https://leetcode.com/problems/contains-duplicate/",
+  "problem_url": "https://leetcode.com/problems/contains-duplicate/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    }
+  ],
+  "tags": [
+    "array",
+    "hash-table",
+    "sorting"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "containsDuplicate",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 1
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Arrays & Hashing"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Contains Duplicate II",
+      "titleSlug": "contains-duplicate-ii",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Contains Duplicate III",
+      "titleSlug": "contains-duplicate-iii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Make Array Zero by Subtracting Equal Amounts",
+      "titleSlug": "make-array-zero-by-subtracting-equal-amounts",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Find Valid Pair of Adjacent Digits in String",
+      "titleSlug": "find-valid-pair-of-adjacent-digits-in-string",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "arrays_and_hashing",
+  "neetcode": {
+    "code": "0217-contains-duplicate",
+    "url": "https://neetcode.io/problems/duplicate-integer",
+    "video": "3OamzN90kPg"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_hash_set.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_sorting.py",
+      "approach": "sorting adjacency check",
+      "role": "space-conscious comparison",
+      "complexity": "Time: O(n log n); Space: O(n) in Python"
+    },
+    {
+      "file": "solutions/solution_hash_set.py",
+      "approach": "seen set",
+      "role": "primary interview solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "beginWord": "hit",
+        "endWord": "cog",
+        "wordList": [
+          "hot",
+          "dot",
+          "dog",
+          "lot",
+          "log",
+          "cog"
+        ]
+      },
+      "expected": 5
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "beginWord": "hit",
+        "endWord": "cog",
+        "wordList": [
+          "hot",
+          "dot",
+          "dog",
+          "lot",
+          "log"
+        ]
+      },
+      "expected": 0
+    }
+  ]
+}

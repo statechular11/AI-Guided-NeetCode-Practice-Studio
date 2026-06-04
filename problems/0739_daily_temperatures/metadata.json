@@ -1,0 +1,100 @@
+{
+  "id": 739,
+  "title": "Daily Temperatures",
+  "slug": "daily-temperatures",
+  "folder": "0739_daily_temperatures",
+  "difficulty": "Medium",
+  "section": "Stack",
+  "order": 24,
+  "url": "https://leetcode.com/problems/daily-temperatures/",
+  "problem_url": "https://leetcode.com/problems/daily-temperatures/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Stack",
+      "slug": "stack"
+    },
+    {
+      "name": "Monotonic Stack",
+      "slug": "monotonic-stack"
+    }
+  ],
+  "tags": [
+    "array",
+    "stack",
+    "monotonic-stack"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "dailyTemperatures",
+    "params": [
+      {
+        "name": "temperatures",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer[]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 24
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Stack"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Next Greater Element I",
+      "titleSlug": "next-greater-element-i",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Online Stock Span",
+      "titleSlug": "online-stock-span",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "stack",
+  "neetcode": {
+    "code": "0739-daily-temperatures",
+    "url": "https://neetcode.io/problems/daily-temperatures",
+    "video": "cTBiBSnjO3c"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_monotonic_stack.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_monotonic_stack.py",
+      "approach": "decreasing stack of unresolved days",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_next_temperature_table.py",
+      "approach": "reverse scan with nearest future index per temperature",
+      "role": "constraint-aware alternative",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_brute_force.py",
+      "approach": "scan future days for each day",
+      "role": "baseline for understanding",
+      "complexity": "Time: O(n^2); Space: O(1)"
+    }
+  ]
+}

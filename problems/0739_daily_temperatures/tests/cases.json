@@ -1,0 +1,78 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "temperatures": [
+          73,
+          74,
+          75,
+          71,
+          69,
+          72,
+          76,
+          73
+        ]
+      },
+      "expected": [
+        1,
+        1,
+        4,
+        2,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "temperatures": [
+          30,
+          40,
+          50,
+          60
+        ]
+      },
+      "expected": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "example_3",
+      "args": {
+        "temperatures": [
+          30,
+          60,
+          90
+        ]
+      },
+      "expected": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "decreasing",
+      "args": {
+        "temperatures": [
+          90,
+          80,
+          70
+        ]
+      },
+      "expected": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

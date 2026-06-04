@@ -1,0 +1,109 @@
+{
+  "id": 213,
+  "title": "House Robber II",
+  "slug": "house-robber-ii",
+  "folder": "0213_house_robber_ii",
+  "difficulty": "Medium",
+  "section": "1-D Dynamic Programming",
+  "order": 102,
+  "url": "https://leetcode.com/problems/house-robber-ii/",
+  "problem_url": "https://leetcode.com/problems/house-robber-ii/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "rob",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 102
+  },
+  "sections_by_plan": {
+    "neetcode-150": "1-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "House Robber",
+      "titleSlug": "house-robber",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Paint House",
+      "titleSlug": "paint-house",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Paint Fence",
+      "titleSlug": "paint-fence",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "House Robber III",
+      "titleSlug": "house-robber-iii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Non-negative Integers without Consecutive Ones",
+      "titleSlug": "non-negative-integers-without-consecutive-ones",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Coin Path",
+      "titleSlug": "coin-path",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "dynamic_programming",
+  "neetcode": {
+    "code": "0213-house-robber-ii",
+    "url": "https://neetcode.io/problems/house-robber-ii",
+    "video": "rWAJCfYYOvM"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_two_linear_ranges.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_two_linear_ranges.py",
+      "approach": "reduce circle to two non-circular robber runs",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_dp_array_ranges.py",
+      "approach": "two linear DP tables",
+      "role": "first-principles circular-DP reference",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

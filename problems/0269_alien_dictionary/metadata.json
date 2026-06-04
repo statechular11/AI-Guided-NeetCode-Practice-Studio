@@ -1,0 +1,119 @@
+{
+  "id": 269,
+  "title": "Alien Dictionary",
+  "slug": "alien-dictionary",
+  "folder": "0269_alien_dictionary",
+  "difficulty": "Hard",
+  "section": "Advanced Graphs",
+  "order": 97,
+  "url": "https://leetcode.com/problems/alien-dictionary/",
+  "problem_url": "https://neetcode.io/problems/foreign-dictionary/question",
+  "problem_source": "neetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Graph Theory",
+      "slug": "graph"
+    },
+    {
+      "name": "Topological Sort",
+      "slug": "topological-sort"
+    }
+  ],
+  "tags": [
+    "array",
+    "string",
+    "depth-first-search",
+    "breadth-first-search",
+    "graph",
+    "topological-sort"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "alienOrder",
+    "params": [
+      {
+        "name": "words",
+        "type": "string[]"
+      }
+    ],
+    "return_type": "string"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 97
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Advanced Graphs"
+  },
+  "is_paid_only": true,
+  "content_available": true,
+  "leetcode_content_available": false,
+  "content_source": "neetcode",
+  "similar_questions": [
+    {
+      "title": "Course Schedule II",
+      "titleSlug": "course-schedule-ii",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "advanced_graph",
+  "neetcode": {
+    "code": "0269-alien-dictionary",
+    "url": "https://neetcode.io/problems/foreign-dictionary",
+    "video": "6kTZYvNNyps",
+    "question_url": "https://neetcode.io/problems/foreign-dictionary/question",
+    "topics": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Theory",
+      "Topological Sort",
+      "Recommended Time & Space Complexity",
+      "You should aim for a solution with O(N + V + E) time and O(V + E) space",
+      "where N is the sum of the lengths of all the strings",
+      "V is the number of unique characters (vertices)",
+      "and E is the number of edges."
+    ]
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_topological_sort.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_topological_sort.py",
+      "approach": "derive char constraints from adjacent words then topo sort",
+      "role": "primary solution",
+      "complexity": "Time: O(C+E); Space: O(C+E)"
+    },
+    {
+      "file": "solutions/solution_dfs_topological_sort.py",
+      "approach": "DFS topological sort",
+      "role": "alternative advanced-graph reference",
+      "complexity": "Time: O(total characters + edges); Space: O(unique characters + edges)"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": 124,
+  "title": "Binary Tree Maximum Path Sum",
+  "slug": "binary-tree-maximum-path-sum",
+  "folder": "0124_binary_tree_maximum_path_sum",
+  "difficulty": "Hard",
+  "section": "Trees",
+  "order": 58,
+  "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+  "problem_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "dynamic-programming",
+    "tree",
+    "depth-first-search",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "maxPathSum",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 58
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Path Sum",
+      "titleSlug": "path-sum",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Sum Root to Leaf Numbers",
+      "titleSlug": "sum-root-to-leaf-numbers",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Path Sum IV",
+      "titleSlug": "path-sum-iv",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Longest Univalue Path",
+      "titleSlug": "longest-univalue-path",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Time Needed to Inform All Employees",
+      "titleSlug": "time-needed-to-inform-all-employees",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Difference Between Maximum and Minimum Price Sum",
+      "titleSlug": "difference-between-maximum-and-minimum-price-sum",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0124-binary-tree-maximum-path-sum",
+    "url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
+    "video": "Hr5cWUld4vU"
+  },
+  "reference_solution": "solutions/solution_gain_dfs.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_gain_dfs.py",
+      "approach": "postorder downward gain and global split path",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(h)"
+    },
+    {
+      "file": "solutions/solution_tuple_state.py",
+      "approach": "postorder returns gain and best path",
+      "role": "alternative state-shape reference",
+      "complexity": "Time: O(n); Space: O(h)"
+    }
+  ]
+}

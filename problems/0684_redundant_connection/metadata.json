@@ -1,0 +1,109 @@
+{
+  "id": 684,
+  "title": "Redundant Connection",
+  "slug": "redundant-connection",
+  "folder": "0684_redundant_connection",
+  "difficulty": "Medium",
+  "section": "Graphs",
+  "order": 91,
+  "url": "https://leetcode.com/problems/redundant-connection/",
+  "problem_url": "https://leetcode.com/problems/redundant-connection/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Union-Find",
+      "slug": "union-find"
+    },
+    {
+      "name": "Graph Theory",
+      "slug": "graph"
+    }
+  ],
+  "tags": [
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "graph"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "findRedundantConnection",
+    "params": [
+      {
+        "name": "edges",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "integer[]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 91
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Graphs"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Redundant Connection II",
+      "titleSlug": "redundant-connection-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Accounts Merge",
+      "titleSlug": "accounts-merge",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Employees to Be Invited to a Meeting",
+      "titleSlug": "maximum-employees-to-be-invited-to-a-meeting",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Shortest Cycle in a Graph",
+      "titleSlug": "shortest-cycle-in-a-graph",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "graph",
+  "neetcode": {
+    "code": "0684-redundant-connection",
+    "url": "https://neetcode.io/problems/redundant-connection",
+    "video": "1lNK80tOTfc"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_union_find.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_union_find.py",
+      "approach": "return first edge whose endpoints are already connected",
+      "role": "primary solution",
+      "complexity": "Time: O(E alpha n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_dfs_incremental.py",
+      "approach": "incremental DFS cycle check",
+      "role": "alternative graph baseline",
+      "complexity": "Time: O(n^2); Space: O(n)"
+    }
+  ]
+}

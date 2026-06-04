@@ -1,0 +1,98 @@
+{
+  "id": 494,
+  "title": "Target Sum",
+  "slug": "target-sum",
+  "folder": "0494_target_sum",
+  "difficulty": "Medium",
+  "section": "2-D Dynamic Programming",
+  "order": 115,
+  "url": "https://leetcode.com/problems/target-sum/",
+  "problem_url": "https://leetcode.com/problems/target-sum/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Backtracking",
+      "slug": "backtracking"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "backtracking"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "findTargetSumWays",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 115
+  },
+  "sections_by_plan": {
+    "neetcode-150": "2-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Expression Add Operators",
+      "titleSlug": "expression-add-operators",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Ways to Express an Integer as Sum of Powers",
+      "titleSlug": "ways-to-express-an-integer-as-sum-of-powers",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "multidimensional_dp",
+  "neetcode": {
+    "code": "0494-target-sum",
+    "url": "https://neetcode.io/problems/target-sum",
+    "video": "dwMOrl85Xes"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_subset_count.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_subset_count.py",
+      "approach": "transform signs to subset-sum count",
+      "role": "primary solution",
+      "complexity": "Time: O(n*S); Space: O(S)"
+    },
+    {
+      "file": "solutions/solution_dfs_memo.py",
+      "approach": "memoized sign assignment DFS",
+      "role": "recursive DP reference",
+      "complexity": "Time: O(n * sum(nums)); Space: O(n * sum(nums))"
+    }
+  ]
+}

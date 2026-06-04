@@ -1,0 +1,124 @@
+{
+  "id": 703,
+  "title": "Kth Largest Element in a Stream",
+  "slug": "kth-largest-element-in-a-stream",
+  "folder": "0703_kth_largest_element_in_a_stream",
+  "difficulty": "Easy",
+  "section": "Heap / Priority Queue",
+  "order": 60,
+  "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+  "problem_url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    },
+    {
+      "name": "Binary Search Tree",
+      "slug": "binary-search-tree"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    },
+    {
+      "name": "Data Stream",
+      "slug": "data-stream"
+    }
+  ],
+  "tags": [
+    "tree",
+    "design",
+    "binary-search-tree",
+    "heap-priority-queue",
+    "binary-tree",
+    "data-stream"
+  ],
+  "function": {
+    "class_name": "KthLargest",
+    "methods": [
+      {
+        "name": "add",
+        "params": [
+          {
+            "type": "integer",
+            "name": "val"
+          }
+        ],
+        "return_type": "integer"
+      }
+    ]
+  },
+  "judge": {
+    "mode": "design"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 60
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Heap / Priority Queue"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Kth Largest Element in an Array",
+      "titleSlug": "kth-largest-element-in-an-array",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Finding MK Average",
+      "titleSlug": "finding-mk-average",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Sequentially Ordinal Rank Tracker",
+      "titleSlug": "sequentially-ordinal-rank-tracker",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "heap",
+  "neetcode": {
+    "code": "0703-kth-largest-element-in-a-stream",
+    "url": "https://neetcode.io/problems/kth-largest-integer-in-a-stream",
+    "video": "hOjcdrqMoQ8"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_size_k_heap.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_size_k_heap.py",
+      "approach": "size-k min heap with conditional replacement",
+      "role": "primary stream solution",
+      "complexity": "Constructor O(n log k); add O(log k) when heap changes; Space O(k)"
+    },
+    {
+      "file": "solutions/solution_sorted_list_bisect.py",
+      "approach": "maintain all values in sorted order",
+      "role": "baseline rank solution",
+      "complexity": "Constructor O(n log n); add O(n); Space O(n)"
+    },
+    {
+      "file": "solutions/solution_heapify_trim.py",
+      "approach": "heapify all initial values then trim to top k",
+      "role": "heap API and construction variant",
+      "complexity": "Constructor O(n + (n-k) log n); add O(log k); Space O(n) transient, O(k) final"
+    }
+  ]
+}

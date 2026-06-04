@@ -1,0 +1,154 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 2
+      },
+      "expected": {
+        "return": [
+          2,
+          1,
+          4,
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 3
+      },
+      "expected": {
+        "return": [
+          3,
+          2,
+          1,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "name": "k_one_no_change",
+      "args": {
+        "head": [
+          1,
+          2,
+          3
+        ],
+        "k": 1
+      },
+      "expected": {
+        "return": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "name": "k_equals_length",
+      "args": {
+        "head": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k": 4
+      },
+      "expected": {
+        "return": [
+          4,
+          3,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "name": "exact_multiple_groups",
+      "args": {
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "k": 3
+      },
+      "expected": {
+        "return": [
+          3,
+          2,
+          1,
+          6,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "name": "incomplete_suffix_left_unchanged",
+      "args": {
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "k": 3
+      },
+      "expected": {
+        "return": [
+          3,
+          2,
+          1,
+          6,
+          5,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "name": "two_nodes_pair",
+      "args": {
+        "head": [
+          1,
+          2
+        ],
+        "k": 2
+      },
+      "expected": {
+        "return": [
+          2,
+          1
+        ]
+      }
+    }
+  ]
+}

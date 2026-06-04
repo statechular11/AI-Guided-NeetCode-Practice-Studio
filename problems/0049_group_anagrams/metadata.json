@@ -1,0 +1,109 @@
+{
+  "id": 49,
+  "title": "Group Anagrams",
+  "slug": "group-anagrams",
+  "folder": "0049_group_anagrams",
+  "difficulty": "Medium",
+  "section": "Arrays & Hashing",
+  "order": 4,
+  "url": "https://leetcode.com/problems/group-anagrams/",
+  "problem_url": "https://leetcode.com/problems/group-anagrams/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    }
+  ],
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "sorting"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "groupAnagrams",
+    "params": [
+      {
+        "name": "strs",
+        "type": "string[]"
+      }
+    ],
+    "return_type": "list<list<string>>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 4
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Arrays & Hashing"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Valid Anagram",
+      "titleSlug": "valid-anagram",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Group Shifted Strings",
+      "titleSlug": "group-shifted-strings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Resultant Array After Removing Anagrams",
+      "titleSlug": "find-resultant-array-after-removing-anagrams",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Count Anagrams",
+      "titleSlug": "count-anagrams",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "hash_map",
+  "neetcode": {
+    "code": "0049-group-anagrams",
+    "url": "https://neetcode.io/problems/anagram-groups",
+    "video": "vzdNOK2oB2E"
+  },
+  "reference_solution": "solutions/solution_count_tuple_key.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_sorted_key.py",
+      "approach": "sorted string key",
+      "role": "easy interview implementation",
+      "complexity": "Time: O(n*k log k); Space: O(n*k)"
+    },
+    {
+      "file": "solutions/solution_count_tuple_key.py",
+      "approach": "26-count tuple key",
+      "role": "optimized lowercase solution",
+      "complexity": "Time: O(n*k); Space: O(n*k)"
+    }
+  ]
+}

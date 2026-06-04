@@ -1,0 +1,113 @@
+{
+  "id": 518,
+  "title": "Coin Change II",
+  "slug": "coin-change-ii",
+  "folder": "0518_coin_change_ii",
+  "difficulty": "Medium",
+  "section": "2-D Dynamic Programming",
+  "order": 114,
+  "url": "https://leetcode.com/problems/coin-change-ii/",
+  "problem_url": "https://leetcode.com/problems/coin-change-ii/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "change",
+    "params": [
+      {
+        "name": "amount",
+        "type": "integer"
+      },
+      {
+        "name": "coins",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 114
+  },
+  "sections_by_plan": {
+    "neetcode-150": "2-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Maximum Value of K Coins From Piles",
+      "titleSlug": "maximum-value-of-k-coins-from-piles",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Number of Ways to Earn Points",
+      "titleSlug": "number-of-ways-to-earn-points",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Count of Sub-Multisets With Bounded Sum",
+      "titleSlug": "count-of-sub-multisets-with-bounded-sum",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Length of the Longest Subsequence That Sums to Target",
+      "titleSlug": "length-of-the-longest-subsequence-that-sums-to-target",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "The Number of Ways to Make the Sum",
+      "titleSlug": "the-number-of-ways-to-make-the-sum",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Inverse Coin Change",
+      "titleSlug": "inverse-coin-change",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "multidimensional_dp",
+  "neetcode": {
+    "code": "0518-coin-change-ii",
+    "url": "https://neetcode.io/problems/coin-change-ii",
+    "video": "Mjy4hd2xgrs"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_combinations_dp.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_combinations_dp.py",
+      "approach": "coin outer loop counts order-insensitive combinations",
+      "role": "primary solution",
+      "complexity": "Time: O(amount*coins); Space: O(amount)"
+    },
+    {
+      "file": "solutions/solution_2d_dp.py",
+      "approach": "coin-index and amount DP table",
+      "role": "first-principles combinations-DP reference",
+      "complexity": "Time: O(n * amount); Space: O(n * amount)"
+    }
+  ]
+}

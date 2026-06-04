@@ -1,0 +1,86 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "board": [
+          [
+            "X",
+            "X",
+            "X",
+            "X"
+          ],
+          [
+            "X",
+            "O",
+            "O",
+            "X"
+          ],
+          [
+            "X",
+            "X",
+            "O",
+            "X"
+          ],
+          [
+            "X",
+            "O",
+            "X",
+            "X"
+          ]
+        ]
+      },
+      "expected": {
+        "args": [
+          [
+            [
+              "X",
+              "X",
+              "X",
+              "X"
+            ],
+            [
+              "X",
+              "X",
+              "X",
+              "X"
+            ],
+            [
+              "X",
+              "X",
+              "X",
+              "X"
+            ],
+            [
+              "X",
+              "O",
+              "X",
+              "X"
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "board": [
+          [
+            "X"
+          ]
+        ]
+      },
+      "expected": {
+        "args": [
+          [
+            [
+              "X"
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

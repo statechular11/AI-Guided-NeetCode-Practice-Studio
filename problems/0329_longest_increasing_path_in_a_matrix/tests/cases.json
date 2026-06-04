@@ -1,0 +1,63 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "matrix": [
+          [
+            9,
+            9,
+            4
+          ],
+          [
+            6,
+            6,
+            8
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 4
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "matrix": [
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            3,
+            2,
+            6
+          ],
+          [
+            2,
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": 4
+    },
+    {
+      "name": "example_3",
+      "args": {
+        "matrix": [
+          [
+            1
+          ]
+        ]
+      },
+      "expected": 1
+    }
+  ]
+}

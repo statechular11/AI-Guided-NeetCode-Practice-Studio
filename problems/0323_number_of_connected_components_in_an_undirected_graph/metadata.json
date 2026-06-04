@@ -1,0 +1,129 @@
+{
+  "id": 323,
+  "title": "Number of Connected Components in an Undirected Graph",
+  "slug": "number-of-connected-components-in-an-undirected-graph",
+  "folder": "0323_number_of_connected_components_in_an_undirected_graph",
+  "difficulty": "Medium",
+  "section": "Graphs",
+  "order": 90,
+  "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+  "problem_url": "https://neetcode.io/problems/count-connected-components/question",
+  "problem_source": "neetcode",
+  "topic_tags": [
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Union-Find",
+      "slug": "union-find"
+    },
+    {
+      "name": "Graph Theory",
+      "slug": "graph"
+    }
+  ],
+  "tags": [
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "graph"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "countComponents",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "edges",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 90
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Graphs"
+  },
+  "is_paid_only": true,
+  "content_available": true,
+  "leetcode_content_available": false,
+  "content_source": "neetcode",
+  "similar_questions": [
+    {
+      "title": "Number of Islands",
+      "titleSlug": "number-of-islands",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Graph Valid Tree",
+      "titleSlug": "graph-valid-tree",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Number of Provinces",
+      "titleSlug": "number-of-provinces",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Paths in Maze That Lead to Same Room",
+      "titleSlug": "paths-in-maze-that-lead-to-same-room",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count the Number of Complete Components",
+      "titleSlug": "count-the-number-of-complete-components",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "graph",
+  "neetcode": {
+    "code": "0323-number-of-connected-components-in-an-undirected-graph",
+    "url": "https://neetcode.io/problems/count-connected-components",
+    "video": "8f1XPm4WOUc",
+    "question_url": "https://neetcode.io/problems/count-connected-components/question",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph",
+      "Theory",
+      "Recommended Time & Space Complexity",
+      "You should aim for a solution as good or better than O(V + E) time and O(V + E) space",
+      "where V is the number vertices and E is the number of edges in the graph."
+    ]
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_union_find.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_union_find.py",
+      "approach": "decrease component count on successful union",
+      "role": "primary solution",
+      "complexity": "Time: O(E alpha n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_dfs_components.py",
+      "approach": "DFS component counting",
+      "role": "alternative graph traversal reference",
+      "complexity": "Time: O(V + E); Space: O(V + E)"
+    }
+  ]
+}

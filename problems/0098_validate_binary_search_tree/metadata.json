@@ -1,0 +1,99 @@
+{
+  "id": 98,
+  "title": "Validate Binary Search Tree",
+  "slug": "validate-binary-search-tree",
+  "folder": "0098_validate_binary_search_tree",
+  "difficulty": "Medium",
+  "section": "Trees",
+  "order": 55,
+  "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+  "problem_url": "https://leetcode.com/problems/validate-binary-search-tree/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Binary Search Tree",
+      "slug": "binary-search-tree"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "binary-search-tree",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "isValidBST",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 55
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Binary Tree Inorder Traversal",
+      "titleSlug": "binary-tree-inorder-traversal",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Find Mode in Binary Search Tree",
+      "titleSlug": "find-mode-in-binary-search-tree",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0098-validate-binary-search-tree",
+    "url": "https://neetcode.io/problems/valid-binary-search-tree",
+    "video": "s6ATEkipzow"
+  },
+  "reference_solution": "solutions/solution_bounds_dfs.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_bounds_dfs.py",
+      "approach": "DFS with strict value bounds",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(h)"
+    },
+    {
+      "file": "solutions/solution_inorder_traversal.py",
+      "approach": "inorder sorted-order validation",
+      "role": "alternative BST invariant reference",
+      "complexity": "Time: O(n); Space: O(h)"
+    }
+  ]
+}

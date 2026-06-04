@@ -1,0 +1,103 @@
+{
+  "id": 79,
+  "title": "Word Search",
+  "slug": "word-search",
+  "folder": "0079_word_search",
+  "difficulty": "Medium",
+  "section": "Backtracking",
+  "order": 73,
+  "url": "https://leetcode.com/problems/word-search/",
+  "problem_url": "https://leetcode.com/problems/word-search/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Backtracking",
+      "slug": "backtracking"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Matrix",
+      "slug": "matrix"
+    }
+  ],
+  "tags": [
+    "array",
+    "string",
+    "backtracking",
+    "depth-first-search",
+    "matrix"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "exist",
+    "params": [
+      {
+        "name": "board",
+        "type": "character[][]"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 73
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Backtracking"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Word Search II",
+      "titleSlug": "word-search-ii",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "backtracking",
+  "neetcode": {
+    "code": "0079-word-search",
+    "url": "https://neetcode.io/problems/search-for-word",
+    "video": "pfiQ_PS1g8E"
+  },
+  "reference_solution": "solutions/solution_dfs_marking.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_dfs_marking.py",
+      "approach": "grid DFS with temporary visited marks",
+      "role": "primary solution",
+      "complexity": "Time: O(m*n*4^L); Space: O(L)"
+    },
+    {
+      "file": "solutions/solution_dfs_visited_set.py",
+      "approach": "DFS with explicit visited set",
+      "role": "alternative backtracking reference",
+      "complexity": "Time: O(mn * 4^L); Space: O(L)"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": 43,
+  "title": "Multiply Strings",
+  "slug": "multiply-strings",
+  "folder": "0043_multiply_strings",
+  "difficulty": "Medium",
+  "section": "Math & Geometry",
+  "order": 142,
+  "url": "https://leetcode.com/problems/multiply-strings/",
+  "problem_url": "https://leetcode.com/problems/multiply-strings/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Math",
+      "slug": "math"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Simulation",
+      "slug": "simulation"
+    }
+  ],
+  "tags": [
+    "math",
+    "string",
+    "simulation"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "multiply",
+    "params": [
+      {
+        "name": "num1",
+        "type": "string"
+      },
+      {
+        "name": "num2",
+        "type": "string"
+      }
+    ],
+    "return_type": "string"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 142
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Math & Geometry"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Add Two Numbers",
+      "titleSlug": "add-two-numbers",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Plus One",
+      "titleSlug": "plus-one",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Add Binary",
+      "titleSlug": "add-binary",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Add Strings",
+      "titleSlug": "add-strings",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Apply Discount to Prices",
+      "titleSlug": "apply-discount-to-prices",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "math_geometry",
+  "neetcode": {
+    "code": "0043-multiply-strings",
+    "url": "https://neetcode.io/problems/multiply-strings",
+    "video": "1vZswirL8Y8"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_digit_array.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_digit_array.py",
+      "approach": "grade-school multiplication into digit array",
+      "role": "primary solution",
+      "complexity": "Time: O(m*n); Space: O(m+n)"
+    },
+    {
+      "file": "solutions/solution_diagonal_carry.py",
+      "approach": "right-to-left diagonal carry accumulation",
+      "role": "boundary-focused column variant",
+      "complexity": "Time: O(m*n); Space: O(m+n)"
+    }
+  ]
+}

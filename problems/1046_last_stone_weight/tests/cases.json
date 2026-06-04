@@ -1,0 +1,110 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "stones": [
+          2,
+          7,
+          4,
+          1,
+          8,
+          1
+        ]
+      },
+      "expected": 1
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "stones": [
+          1
+        ]
+      },
+      "expected": 1
+    },
+    {
+      "name": "two_equal_cancel_to_zero",
+      "args": {
+        "stones": [
+          1,
+          1
+        ]
+      },
+      "expected": 0
+    },
+    {
+      "name": "all_pairs_cancel",
+      "args": {
+        "stones": [
+          2,
+          2,
+          3,
+          3
+        ]
+      },
+      "expected": 0
+    },
+    {
+      "name": "three_equal_leave_one",
+      "args": {
+        "stones": [
+          10,
+          10,
+          10
+        ]
+      },
+      "expected": 10
+    },
+    {
+      "name": "max_weight_boundary_cancels",
+      "args": {
+        "stones": [
+          1000,
+          999,
+          1
+        ]
+      },
+      "expected": 0
+    },
+    {
+      "name": "leftover_reinserted_then_cancels",
+      "args": {
+        "stones": [
+          9,
+          3,
+          2,
+          10
+        ]
+      },
+      "expected": 0
+    },
+    {
+      "name": "small_leftovers_cancel",
+      "args": {
+        "stones": [
+          8,
+          7,
+          6,
+          5
+        ]
+      },
+      "expected": 0
+    },
+    {
+      "name": "many_duplicates_one_survives",
+      "args": {
+        "stones": [
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "expected": 6
+    }
+  ]
+}

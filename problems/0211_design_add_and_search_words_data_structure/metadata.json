@@ -1,0 +1,133 @@
+{
+  "id": 211,
+  "title": "Design Add and Search Words Data Structure",
+  "slug": "design-add-and-search-words-data-structure",
+  "folder": "0211_design_add_and_search_words_data_structure",
+  "difficulty": "Medium",
+  "section": "Tries",
+  "order": 78,
+  "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+  "problem_url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    },
+    {
+      "name": "Trie",
+      "slug": "trie"
+    }
+  ],
+  "tags": [
+    "string",
+    "depth-first-search",
+    "design",
+    "trie"
+  ],
+  "function": {
+    "class_name": "WordDictionary",
+    "methods": [
+      {
+        "name": "addWord",
+        "params": [
+          {
+            "type": "string",
+            "name": "word"
+          }
+        ],
+        "return_type": "void"
+      },
+      {
+        "name": "search",
+        "params": [
+          {
+            "type": "string",
+            "name": "word"
+          }
+        ],
+        "return_type": "boolean"
+      }
+    ]
+  },
+  "judge": {
+    "mode": "design"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 78
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Tries"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Implement Trie (Prefix Tree)",
+      "titleSlug": "implement-trie-prefix-tree",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Prefix and Suffix Search",
+      "titleSlug": "prefix-and-suffix-search",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Match Substring After Replacement",
+      "titleSlug": "match-substring-after-replacement",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Sum of Prefix Scores of Strings",
+      "titleSlug": "sum-of-prefix-scores-of-strings",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Count Prefix and Suffix Pairs II",
+      "titleSlug": "count-prefix-and-suffix-pairs-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Count Prefix and Suffix Pairs I",
+      "titleSlug": "count-prefix-and-suffix-pairs-i",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "trie",
+  "neetcode": {
+    "code": "0211-design-add-and-search-words-data-structure",
+    "url": "https://neetcode.io/problems/design-word-search-data-structure",
+    "video": "BTf05gs_8iU"
+  },
+  "reference_solution": "solutions/solution_trie_dfs_wildcard.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_trie_dfs_wildcard.py",
+      "approach": "trie search that branches on dot wildcard",
+      "role": "primary design solution",
+      "complexity": "add O(L); search wildcard-dependent"
+    },
+    {
+      "file": "solutions/solution_length_buckets.py",
+      "approach": "length buckets with wildcard scan",
+      "role": "educational non-trie baseline",
+      "complexity": "addWord: O(1) amortized; search: O(kL) for same-length words; Space: O(total characters)"
+    }
+  ]
+}

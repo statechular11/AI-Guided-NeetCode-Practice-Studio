@@ -1,0 +1,109 @@
+{
+  "id": 778,
+  "title": "Swim in Rising Water",
+  "slug": "swim-in-rising-water",
+  "folder": "0778_swim_in_rising_water",
+  "difficulty": "Hard",
+  "section": "Advanced Graphs",
+  "order": 96,
+  "url": "https://leetcode.com/problems/swim-in-rising-water/",
+  "problem_url": "https://leetcode.com/problems/swim-in-rising-water/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Binary Search",
+      "slug": "binary-search"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Union-Find",
+      "slug": "union-find"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Matrix",
+      "slug": "matrix"
+    }
+  ],
+  "tags": [
+    "array",
+    "binary-search",
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "heap-priority-queue",
+    "matrix"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "swimInWater",
+    "params": [
+      {
+        "name": "grid",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 96
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Advanced Graphs"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Path With Minimum Effort",
+      "titleSlug": "path-with-minimum-effort",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "advanced_graph",
+  "neetcode": {
+    "code": "0778-swim-in-rising-water",
+    "url": "https://neetcode.io/problems/swim-in-rising-water",
+    "video": "amvrKlMLuGY"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_dijkstra_minimax.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_dijkstra_minimax.py",
+      "approach": "Dijkstra where path cost is max elevation along path",
+      "role": "primary solution",
+      "complexity": "Time: O(n^2 log n); Space: O(n^2)"
+    },
+    {
+      "file": "solutions/solution_binary_search_bfs.py",
+      "approach": "binary search water level with BFS feasibility",
+      "role": "alternative answer-search reference",
+      "complexity": "Time: O(n^2 log n); Space: O(n^2)"
+    }
+  ]
+}

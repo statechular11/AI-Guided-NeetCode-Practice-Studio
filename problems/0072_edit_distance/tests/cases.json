@@ -1,0 +1,22 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "word1": "horse",
+        "word2": "ros"
+      },
+      "expected": 3
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "word1": "intention",
+        "word2": "execution"
+      },
+      "expected": 5
+    }
+  ]
+}

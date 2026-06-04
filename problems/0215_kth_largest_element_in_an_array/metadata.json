@@ -1,0 +1,150 @@
+{
+  "id": 215,
+  "title": "Kth Largest Element in an Array",
+  "slug": "kth-largest-element-in-an-array",
+  "folder": "0215_kth_largest_element_in_an_array",
+  "difficulty": "Medium",
+  "section": "Heap / Priority Queue",
+  "order": 63,
+  "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+  "problem_url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Divide and Conquer",
+      "slug": "divide-and-conquer"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Quickselect",
+      "slug": "quickselect"
+    }
+  ],
+  "tags": [
+    "array",
+    "divide-and-conquer",
+    "sorting",
+    "heap-priority-queue",
+    "quickselect"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "findKthLargest",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 63
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Heap / Priority Queue"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Wiggle Sort II",
+      "titleSlug": "wiggle-sort-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Top K Frequent Elements",
+      "titleSlug": "top-k-frequent-elements",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Third Maximum Number",
+      "titleSlug": "third-maximum-number",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Kth Largest Element in a Stream",
+      "titleSlug": "kth-largest-element-in-a-stream",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "K Closest Points to Origin",
+      "titleSlug": "k-closest-points-to-origin",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find the Kth Largest Integer in the Array",
+      "titleSlug": "find-the-kth-largest-integer-in-the-array",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Subsequence of Length K With the Largest Sum",
+      "titleSlug": "find-subsequence-of-length-k-with-the-largest-sum",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "K Highest Ranked Items Within a Price Range",
+      "titleSlug": "k-highest-ranked-items-within-a-price-range",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "heap",
+  "neetcode": {
+    "code": "0215-kth-largest-element-in-an-array",
+    "url": "https://neetcode.io/problems/kth-largest-element-in-an-array",
+    "video": "XEmy13g1Qxc"
+  },
+  "reference_solution": "solutions/solution_min_heap_size_k.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_sorting.py",
+      "approach": "sort descending",
+      "role": "simple baseline",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_max_heap_k_pops.py",
+      "approach": "max heap simulated with negated values",
+      "role": "direct priority-queue simulation",
+      "complexity": "Time: O(n + k log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_min_heap_size_k.py",
+      "approach": "size-k min heap",
+      "role": "primary heap solution",
+      "complexity": "Time: O(n log k); Space: O(k)"
+    },
+    {
+      "file": "solutions/solution_quickselect.py",
+      "approach": "quickselect on ascending target index n - k",
+      "role": "optimized average-time selection",
+      "complexity": "Average time: O(n); worst-case time: O(n^2); Space: O(n)"
+    }
+  ]
+}

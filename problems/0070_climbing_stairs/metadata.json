@@ -1,0 +1,134 @@
+{
+  "id": 70,
+  "title": "Climbing Stairs",
+  "slug": "climbing-stairs",
+  "folder": "0070_climbing_stairs",
+  "difficulty": "Easy",
+  "section": "1-D Dynamic Programming",
+  "order": 99,
+  "url": "https://leetcode.com/problems/climbing-stairs/",
+  "problem_url": "https://leetcode.com/problems/climbing-stairs/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Math",
+      "slug": "math"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Memoization",
+      "slug": "memoization"
+    }
+  ],
+  "tags": [
+    "math",
+    "dynamic-programming",
+    "memoization"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "climbStairs",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 99
+  },
+  "sections_by_plan": {
+    "neetcode-150": "1-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Min Cost Climbing Stairs",
+      "titleSlug": "min-cost-climbing-stairs",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Fibonacci Number",
+      "titleSlug": "fibonacci-number",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "N-th Tribonacci Number",
+      "titleSlug": "n-th-tribonacci-number",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Minimum Rounds to Complete All Tasks",
+      "titleSlug": "minimum-rounds-to-complete-all-tasks",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count Number of Ways to Place Houses",
+      "titleSlug": "count-number-of-ways-to-place-houses",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Number of Ways to Reach a Position After Exactly k Steps",
+      "titleSlug": "number-of-ways-to-reach-a-position-after-exactly-k-steps",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count Ways To Build Good Strings",
+      "titleSlug": "count-ways-to-build-good-strings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Frog Jump II",
+      "titleSlug": "frog-jump-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Number of Ways to Reach the K-th Stair",
+      "titleSlug": "find-number-of-ways-to-reach-the-k-th-stair",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "The Number of Ways to Make the Sum",
+      "titleSlug": "the-number-of-ways-to-make-the-sum",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "dynamic_programming",
+  "neetcode": {
+    "code": "0070-climbing-stairs",
+    "url": "https://neetcode.io/problems/climbing-stairs",
+    "video": "Y0lT9Fck7qI"
+  },
+  "reference_solution": "solutions/solution_fibonacci.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_fibonacci.py",
+      "approach": "rolling Fibonacci transition",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_dp_array.py",
+      "approach": "full DP table",
+      "role": "first-principles DP baseline",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

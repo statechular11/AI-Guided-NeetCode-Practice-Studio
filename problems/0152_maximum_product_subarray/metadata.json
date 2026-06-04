@@ -1,0 +1,104 @@
+{
+  "id": 152,
+  "title": "Maximum Product Subarray",
+  "slug": "maximum-product-subarray",
+  "folder": "0152_maximum_product_subarray",
+  "difficulty": "Medium",
+  "section": "1-D Dynamic Programming",
+  "order": 107,
+  "url": "https://leetcode.com/problems/maximum-product-subarray/",
+  "problem_url": "https://leetcode.com/problems/maximum-product-subarray/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "maxProduct",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 107
+  },
+  "sections_by_plan": {
+    "neetcode-150": "1-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Maximum Subarray",
+      "titleSlug": "maximum-subarray",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "House Robber",
+      "titleSlug": "house-robber",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Product of Array Except Self",
+      "titleSlug": "product-of-array-except-self",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Product of Three Numbers",
+      "titleSlug": "maximum-product-of-three-numbers",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Subarray Product Less Than K",
+      "titleSlug": "subarray-product-less-than-k",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "dynamic_programming",
+  "neetcode": {
+    "code": "0152-maximum-product-subarray",
+    "url": "https://neetcode.io/problems/maximum-product-subarray",
+    "video": "lXVy6YWFcRM"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_track_max_min.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_track_max_min.py",
+      "approach": "carry max/min product ending here",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_two_pass_scan.py",
+      "approach": "left-right product scans",
+      "role": "alternative product-sign reference",
+      "complexity": "Time: O(n); Space: O(1)"
+    }
+  ]
+}

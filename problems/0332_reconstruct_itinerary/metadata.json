@@ -1,0 +1,114 @@
+{
+  "id": 332,
+  "title": "Reconstruct Itinerary",
+  "slug": "reconstruct-itinerary",
+  "folder": "0332_reconstruct_itinerary",
+  "difficulty": "Hard",
+  "section": "Advanced Graphs",
+  "order": 94,
+  "url": "https://leetcode.com/problems/reconstruct-itinerary/",
+  "problem_url": "https://leetcode.com/problems/reconstruct-itinerary/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Graph Theory",
+      "slug": "graph"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Eulerian Circuit",
+      "slug": "eulerian-circuit"
+    }
+  ],
+  "tags": [
+    "array",
+    "string",
+    "depth-first-search",
+    "graph",
+    "sorting",
+    "heap-priority-queue",
+    "eulerian-circuit"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "findItinerary",
+    "params": [
+      {
+        "name": "tickets",
+        "type": "list<list<string>>"
+      }
+    ],
+    "return_type": "list<string>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 94
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Advanced Graphs"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Longest Common Subpath",
+      "titleSlug": "longest-common-subpath",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Valid Arrangement of Pairs",
+      "titleSlug": "valid-arrangement-of-pairs",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "advanced_graph",
+  "neetcode": {
+    "code": "0332-reconstruct-itinerary",
+    "url": "https://neetcode.io/problems/reconstruct-flight-path",
+    "video": "ZyB_gQ8vqGA"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_hierholzer.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_hierholzer.py",
+      "approach": "lexicographic Eulerian path with reverse-sorted adjacency",
+      "role": "primary solution",
+      "complexity": "Time: O(E log E); Space: O(E)"
+    },
+    {
+      "file": "solutions/solution_backtracking_baseline.py",
+      "approach": "lexicographic backtracking baseline",
+      "role": "educational baseline",
+      "complexity": "Time: O(E! * E) worst case; Space: O(E)"
+    }
+  ]
+}

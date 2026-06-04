@@ -1,0 +1,89 @@
+{
+  "id": 309,
+  "title": "Best Time to Buy and Sell Stock with Cooldown",
+  "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+  "folder": "0309_best_time_to_buy_and_sell_stock_with_cooldown",
+  "difficulty": "Medium",
+  "section": "2-D Dynamic Programming",
+  "order": 113,
+  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+  "problem_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "maxProfit",
+    "params": [
+      {
+        "name": "prices",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 113
+  },
+  "sections_by_plan": {
+    "neetcode-150": "2-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Best Time to Buy and Sell Stock",
+      "titleSlug": "best-time-to-buy-and-sell-stock",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Best Time to Buy and Sell Stock II",
+      "titleSlug": "best-time-to-buy-and-sell-stock-ii",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "multidimensional_dp",
+  "neetcode": {
+    "code": "0309-best-time-to-buy-and-sell-stock-with-cooldown",
+    "url": "https://neetcode.io/problems/buy-and-sell-crypto-with-cooldown",
+    "video": "I7j0F7AHpb8"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_three_states.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_three_states.py",
+      "approach": "hold/sold/rest cooldown state machine",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_top_down_memo.py",
+      "approach": "top-down DP over day and holding state",
+      "role": "recursive DP reference",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

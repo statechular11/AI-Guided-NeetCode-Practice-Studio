@@ -1,0 +1,123 @@
+{
+  "id": 62,
+  "title": "Unique Paths",
+  "slug": "unique-paths",
+  "folder": "0062_unique_paths",
+  "difficulty": "Medium",
+  "section": "2-D Dynamic Programming",
+  "order": 111,
+  "url": "https://leetcode.com/problems/unique-paths/",
+  "problem_url": "https://leetcode.com/problems/unique-paths/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Math",
+      "slug": "math"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Combinatorics",
+      "slug": "combinatorics"
+    }
+  ],
+  "tags": [
+    "math",
+    "dynamic-programming",
+    "combinatorics"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "uniquePaths",
+    "params": [
+      {
+        "name": "m",
+        "type": "integer"
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 111
+  },
+  "sections_by_plan": {
+    "neetcode-150": "2-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Unique Paths II",
+      "titleSlug": "unique-paths-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Path Sum",
+      "titleSlug": "minimum-path-sum",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Dungeon Game",
+      "titleSlug": "dungeon-game",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Minimum Path Cost in a Grid",
+      "titleSlug": "minimum-path-cost-in-a-grid",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Cost Homecoming of a Robot in a Grid",
+      "titleSlug": "minimum-cost-homecoming-of-a-robot-in-a-grid",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Number of Ways to Reach a Position After Exactly k Steps",
+      "titleSlug": "number-of-ways-to-reach-a-position-after-exactly-k-steps",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Paths in Matrix Whose Sum Is Divisible by K",
+      "titleSlug": "paths-in-matrix-whose-sum-is-divisible-by-k",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "multidimensional_dp",
+  "neetcode": {
+    "code": "0062-unique-paths",
+    "url": "https://neetcode.io/problems/count-paths",
+    "video": "IlEsdxuD4lY"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_1d_dp.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_1d_dp.py",
+      "approach": "rolling row path counts",
+      "role": "primary solution",
+      "complexity": "Time: O(m*n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_combinatorics.py",
+      "approach": "combinatorial path count",
+      "role": "math optimized reference",
+      "complexity": "Time: O(min(m, n)); Space: O(1)"
+    }
+  ]
+}

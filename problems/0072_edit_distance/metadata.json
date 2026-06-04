@@ -1,0 +1,118 @@
+{
+  "id": 72,
+  "title": "Edit Distance",
+  "slug": "edit-distance",
+  "folder": "0072_edit_distance",
+  "difficulty": "Medium",
+  "section": "2-D Dynamic Programming",
+  "order": 119,
+  "url": "https://leetcode.com/problems/edit-distance/",
+  "problem_url": "https://leetcode.com/problems/edit-distance/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "string",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "minDistance",
+    "params": [
+      {
+        "name": "word1",
+        "type": "string"
+      },
+      {
+        "name": "word2",
+        "type": "string"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 119
+  },
+  "sections_by_plan": {
+    "neetcode-150": "2-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "One Edit Distance",
+      "titleSlug": "one-edit-distance",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Delete Operation for Two Strings",
+      "titleSlug": "delete-operation-for-two-strings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum ASCII Delete Sum for Two Strings",
+      "titleSlug": "minimum-ascii-delete-sum-for-two-strings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Uncrossed Lines",
+      "titleSlug": "uncrossed-lines",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum White Tiles After Covering With Carpets",
+      "titleSlug": "minimum-white-tiles-after-covering-with-carpets",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Longest Palindrome After Substring Concatenation II",
+      "titleSlug": "longest-palindrome-after-substring-concatenation-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Minimum Steps to Convert String with Operations",
+      "titleSlug": "minimum-steps-to-convert-string-with-operations",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "multidimensional_dp",
+  "neetcode": {
+    "code": "0072-edit-distance",
+    "url": "https://neetcode.io/problems/edit-distance",
+    "video": "XYi2-LPrwm4"
+  },
+  "reference_solution": "solutions/solution_dp_table.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_dp_table.py",
+      "approach": "prefix edit distance with insert/delete/replace",
+      "role": "primary solution",
+      "complexity": "Time: O(m*n); Space: O(m*n)"
+    },
+    {
+      "file": "solutions/solution_1d_dp.py",
+      "approach": "space-compressed edit distance DP",
+      "role": "optimized-space DP reference",
+      "complexity": "Time: O(mn); Space: O(n)"
+    }
+  ]
+}

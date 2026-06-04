@@ -1,0 +1,136 @@
+{
+  "id": 2,
+  "title": "Add Two Numbers",
+  "slug": "add-two-numbers",
+  "folder": "0002_add_two_numbers",
+  "difficulty": "Medium",
+  "section": "Linked List",
+  "order": 40,
+  "url": "https://leetcode.com/problems/add-two-numbers/",
+  "problem_url": "https://leetcode.com/problems/add-two-numbers/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Linked List",
+      "slug": "linked-list"
+    },
+    {
+      "name": "Math",
+      "slug": "math"
+    },
+    {
+      "name": "Recursion",
+      "slug": "recursion"
+    }
+  ],
+  "tags": [
+    "linked-list",
+    "math",
+    "recursion"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "addTwoNumbers",
+    "params": [
+      {
+        "name": "l1",
+        "type": "ListNode",
+        "dealloc": false
+      },
+      {
+        "name": "l2",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return_type": "ListNode"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 40
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Linked List"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Multiply Strings",
+      "titleSlug": "multiply-strings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Add Binary",
+      "titleSlug": "add-binary",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Sum of Two Integers",
+      "titleSlug": "sum-of-two-integers",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Add Strings",
+      "titleSlug": "add-strings",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Add Two Numbers II",
+      "titleSlug": "add-two-numbers-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Add to Array-Form of Integer",
+      "titleSlug": "add-to-array-form-of-integer",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Add Two Polynomials Represented as Linked Lists",
+      "titleSlug": "add-two-polynomials-represented-as-linked-lists",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Double a Number Represented as a Linked List",
+      "titleSlug": "double-a-number-represented-as-a-linked-list",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "linked_list",
+  "neetcode": {
+    "code": "0002-add-two-numbers",
+    "url": "https://neetcode.io/problems/add-two-numbers",
+    "video": "wgFPrzTjm7s"
+  },
+  "reference_solution": "solutions/solution_digit_carry.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_digit_carry.py",
+      "approach": "digit-by-digit addition with carry",
+      "role": "primary linked-list solution",
+      "complexity": "Time: O(max(n,m)); Space: O(max(n,m))"
+    },
+    {
+      "file": "solutions/solution_recursive_carry.py",
+      "approach": "recursive digit-by-digit addition with carry",
+      "role": "recursive control-flow variant",
+      "complexity": "Time: O(max(n,m)); Space: O(max(n,m)) recursion stack"
+    },
+    {
+      "file": "solutions/solution_reuse_nodes.py",
+      "approach": "reuse input nodes while carrying digits",
+      "role": "mutation tradeoff / allocation-minimizing variant",
+      "complexity": "Time: O(max(n,m)); Space: O(1) auxiliary"
+    }
+  ]
+}

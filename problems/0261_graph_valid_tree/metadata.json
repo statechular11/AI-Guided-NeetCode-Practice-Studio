@@ -1,0 +1,118 @@
+{
+  "id": 261,
+  "title": "Graph Valid Tree",
+  "slug": "graph-valid-tree",
+  "folder": "0261_graph_valid_tree",
+  "difficulty": "Medium",
+  "section": "Graphs",
+  "order": 89,
+  "url": "https://leetcode.com/problems/graph-valid-tree/",
+  "problem_url": "https://neetcode.io/problems/valid-tree/question",
+  "problem_source": "neetcode",
+  "topic_tags": [
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Union-Find",
+      "slug": "union-find"
+    },
+    {
+      "name": "Graph Theory",
+      "slug": "graph"
+    }
+  ],
+  "tags": [
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "graph"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "validTree",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "edges",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 89
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Graphs"
+  },
+  "is_paid_only": true,
+  "content_available": true,
+  "leetcode_content_available": false,
+  "content_source": "neetcode",
+  "similar_questions": [
+    {
+      "title": "Course Schedule",
+      "titleSlug": "course-schedule",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Number of Connected Components in an Undirected Graph",
+      "titleSlug": "number-of-connected-components-in-an-undirected-graph",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Keys and Rooms",
+      "titleSlug": "keys-and-rooms",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "graph",
+  "neetcode": {
+    "code": "0261-graph-valid-tree",
+    "url": "https://neetcode.io/problems/valid-tree",
+    "video": "bXsUuownnoQ",
+    "question_url": "https://neetcode.io/problems/valid-tree/question",
+    "topics": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph",
+      "Recommended Time & Space Complexity",
+      "You should aim for a solution as good or better than O(V + E) time and O(V + E) space",
+      "where V is the number vertices and E is the number of edges in the graph."
+    ]
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_union_find.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_union_find.py",
+      "approach": "n-1 edges plus union-find cycle check",
+      "role": "primary solution",
+      "complexity": "Time: O(E alpha n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_dfs.py",
+      "approach": "DFS connected-and-acyclic check",
+      "role": "alternative graph reference",
+      "complexity": "Time: O(V + E); Space: O(V + E)"
+    }
+  ]
+}

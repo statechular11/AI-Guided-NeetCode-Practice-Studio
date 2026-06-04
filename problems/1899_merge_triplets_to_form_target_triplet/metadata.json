@@ -1,0 +1,82 @@
+{
+  "id": 1899,
+  "title": "Merge Triplets to Form Target Triplet",
+  "slug": "merge-triplets-to-form-target-triplet",
+  "folder": "1899_merge_triplets_to_form_target_triplet",
+  "difficulty": "Medium",
+  "section": "Greedy",
+  "order": 127,
+  "url": "https://leetcode.com/problems/merge-triplets-to-form-target-triplet/",
+  "problem_url": "https://leetcode.com/problems/merge-triplets-to-form-target-triplet/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    }
+  ],
+  "tags": [
+    "array",
+    "greedy"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "mergeTriplets",
+    "params": [
+      {
+        "name": "triplets",
+        "type": "integer[][]"
+      },
+      {
+        "type": "integer[]",
+        "name": "target"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 127
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Greedy"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [],
+  "approach": "greedy",
+  "neetcode": {
+    "code": "1899-merge-triplets-to-form-target-triplet",
+    "url": "https://neetcode.io/problems/merge-triplets-to-form-target",
+    "video": "kShkQLQZ9K4"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_filter_and_cover.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_filter_and_cover.py",
+      "approach": "discard oversized triplets then cover coordinates",
+      "role": "primary greedy solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_coordinate_max.py",
+      "approach": "coordinate-wise maximum simulation",
+      "role": "alternative greedy reference",
+      "complexity": "Time: O(n); Space: O(1)"
+    }
+  ]
+}

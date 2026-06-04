@@ -1,0 +1,64 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "tokens": [
+          "2",
+          "1",
+          "+",
+          "3",
+          "*"
+        ]
+      },
+      "expected": 9
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "tokens": [
+          "4",
+          "13",
+          "5",
+          "/",
+          "+"
+        ]
+      },
+      "expected": 6
+    },
+    {
+      "name": "example_3",
+      "args": {
+        "tokens": [
+          "10",
+          "6",
+          "9",
+          "3",
+          "+",
+          "-11",
+          "*",
+          "/",
+          "*",
+          "17",
+          "+",
+          "5",
+          "+"
+        ]
+      },
+      "expected": 22
+    },
+    {
+      "name": "truncate_toward_zero",
+      "args": {
+        "tokens": [
+          "7",
+          "-3",
+          "/"
+        ]
+      },
+      "expected": -2
+    }
+  ]
+}

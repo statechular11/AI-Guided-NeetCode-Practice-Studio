@@ -1,0 +1,125 @@
+{
+  "id": 787,
+  "title": "Cheapest Flights Within K Stops",
+  "slug": "cheapest-flights-within-k-stops",
+  "folder": "0787_cheapest_flights_within_k_stops",
+  "difficulty": "Medium",
+  "section": "Advanced Graphs",
+  "order": 98,
+  "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+  "problem_url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Graph Theory",
+      "slug": "graph"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Shortest Path",
+      "slug": "shortest-path"
+    }
+  ],
+  "tags": [
+    "dynamic-programming",
+    "depth-first-search",
+    "breadth-first-search",
+    "graph",
+    "heap-priority-queue",
+    "shortest-path"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "findCheapestPrice",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      },
+      {
+        "name": "flights",
+        "type": "integer[][]"
+      },
+      {
+        "name": "src",
+        "type": "integer"
+      },
+      {
+        "name": "dst",
+        "type": "integer"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 98
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Advanced Graphs"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Maximum Vacation Days",
+      "titleSlug": "maximum-vacation-days",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Minimum Cost to Reach City With Discounts",
+      "titleSlug": "minimum-cost-to-reach-city-with-discounts",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "advanced_graph",
+  "neetcode": {
+    "code": "0787-cheapest-flights-within-k-stops",
+    "url": "https://neetcode.io/problems/cheapest-flight-path",
+    "video": "5eIK3zUdYmE"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_bellman_ford_limited.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_bellman_ford_limited.py",
+      "approach": "k+1 rounds of edge relaxation",
+      "role": "primary solution",
+      "complexity": "Time: O(kE); Space: O(V)"
+    },
+    {
+      "file": "solutions/solution_state_dijkstra.py",
+      "approach": "Dijkstra over node and edge-count state",
+      "role": "alternative constrained-shortest-path reference",
+      "complexity": "Time: O(EK log(VK)); Space: O(VK)"
+    }
+  ]
+}

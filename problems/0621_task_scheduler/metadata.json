@@ -1,0 +1,145 @@
+{
+  "id": 621,
+  "title": "Task Scheduler",
+  "slug": "task-scheduler",
+  "folder": "0621_task_scheduler",
+  "difficulty": "Medium",
+  "section": "Heap / Priority Queue",
+  "order": 64,
+  "url": "https://leetcode.com/problems/task-scheduler/",
+  "problem_url": "https://leetcode.com/problems/task-scheduler/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Counting",
+      "slug": "counting"
+    }
+  ],
+  "tags": [
+    "array",
+    "hash-table",
+    "greedy",
+    "sorting",
+    "heap-priority-queue",
+    "counting"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "leastInterval",
+    "params": [
+      {
+        "name": "tasks",
+        "type": "character[]"
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 64
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Heap / Priority Queue"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Rearrange String k Distance Apart",
+      "titleSlug": "rearrange-string-k-distance-apart",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Reorganize String",
+      "titleSlug": "reorganize-string",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Number of Weeks for Which You Can Work",
+      "titleSlug": "maximum-number-of-weeks-for-which-you-can-work",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Minimum Time to Finish All Jobs II",
+      "titleSlug": "find-minimum-time-to-finish-all-jobs-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Task Scheduler II",
+      "titleSlug": "task-scheduler-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Generate Schedule",
+      "titleSlug": "generate-schedule",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "heap",
+  "neetcode": {
+    "code": "0621-task-scheduler",
+    "url": "https://neetcode.io/problems/task-scheduling",
+    "video": "s8p8ukTyA2I"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_formula.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_formula.py",
+      "approach": "max-frequency frame formula",
+      "role": "primary optimized solution",
+      "complexity": "Time: O(T + A); Space: O(A), O(1) for uppercase letters"
+    },
+    {
+      "file": "solutions/solution_idle_slots.py",
+      "approach": "fill idle slots created by the most frequent task",
+      "role": "alternative formula derivation",
+      "complexity": "Time: O(T + A log A); Space: O(A)"
+    },
+    {
+      "file": "solutions/solution_heap_simulation.py",
+      "approach": "cooldown cycle simulation",
+      "role": "process-oriented variant",
+      "complexity": "Time: O(answer log A); Space: O(A)"
+    },
+    {
+      "file": "solutions/solution_cooldown_queue.py",
+      "approach": "one-interval heap plus cooldown queue simulation",
+      "role": "fine-grained timing simulation",
+      "complexity": "Time: O(answer log A); Space: O(A)"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 543,
+  "title": "Diameter of Binary Tree",
+  "slug": "diameter-of-binary-tree",
+  "folder": "0543_diameter_of_binary_tree",
+  "difficulty": "Easy",
+  "section": "Trees",
+  "order": 47,
+  "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+  "problem_url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "diameterOfBinaryTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 47
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Diameter of N-Ary Tree",
+      "titleSlug": "diameter-of-n-ary-tree",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Longest Path With Different Adjacent Characters",
+      "titleSlug": "longest-path-with-different-adjacent-characters",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0543-diameter-of-binary-tree",
+    "url": "https://neetcode.io/problems/binary-tree-diameter",
+    "video": "K81C31ytOZE"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_height_and_best.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_height_and_best.py",
+      "approach": "postorder height and path-through-node best",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(h)"
+    },
+    {
+      "file": "solutions/solution_tuple_state.py",
+      "approach": "postorder height and diameter tuple",
+      "role": "alternative state-return reference",
+      "complexity": "Time: O(n); Space: O(h)"
+    }
+  ]
+}

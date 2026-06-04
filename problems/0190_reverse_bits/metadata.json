@@ -1,0 +1,106 @@
+{
+  "id": 190,
+  "title": "Reverse Bits",
+  "slug": "reverse-bits",
+  "folder": "0190_reverse_bits",
+  "difficulty": "Easy",
+  "section": "Bit Manipulation",
+  "order": 147,
+  "url": "https://leetcode.com/problems/reverse-bits/",
+  "problem_url": "https://leetcode.com/problems/reverse-bits/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Divide and Conquer",
+      "slug": "divide-and-conquer"
+    },
+    {
+      "name": "Bit Manipulation",
+      "slug": "bit-manipulation"
+    }
+  ],
+  "tags": [
+    "divide-and-conquer",
+    "bit-manipulation"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "reverseBits",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 147
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Bit Manipulation"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Reverse Integer",
+      "titleSlug": "reverse-integer",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Number of 1 Bits",
+      "titleSlug": "number-of-1-bits",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "A Number After a Double Reversal",
+      "titleSlug": "a-number-after-a-double-reversal",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "bit_manipulation",
+  "neetcode": {
+    "code": "0190-reverse-bits",
+    "url": "https://neetcode.io/problems/reverse-bits",
+    "video": "UcoN6UjAI64"
+  },
+  "reference_solution": "solutions/solution_shift_accumulate.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_shift_accumulate.py",
+      "approach": "shift and append bits",
+      "role": "primary bit solution",
+      "complexity": "Time: O(32); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_direct_positions.py",
+      "approach": "map source bit i to destination bit 31 - i",
+      "role": "positional invariant variant",
+      "complexity": "Time: O(32); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_mask_swaps.py",
+      "approach": "swap fixed-size bit groups with masks",
+      "role": "constant-operation optimized bit trick",
+      "complexity": "Time: O(1); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_byte_cache.py",
+      "approach": "cache reversed bytes and compose four lookups",
+      "role": "many-calls follow-up optimization",
+      "complexity": "Time: O(1) per call; Space: O(256)"
+    }
+  ]
+}

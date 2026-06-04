@@ -1,0 +1,114 @@
+{
+  "id": 5,
+  "title": "Longest Palindromic Substring",
+  "slug": "longest-palindromic-substring",
+  "folder": "0005_longest_palindromic_substring",
+  "difficulty": "Medium",
+  "section": "1-D Dynamic Programming",
+  "order": 103,
+  "url": "https://leetcode.com/problems/longest-palindromic-substring/",
+  "problem_url": "https://leetcode.com/problems/longest-palindromic-substring/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "two-pointers",
+    "string",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "longestPalindrome",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return_type": "string"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 103
+  },
+  "sections_by_plan": {
+    "neetcode-150": "1-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Shortest Palindrome",
+      "titleSlug": "shortest-palindrome",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Palindrome Permutation",
+      "titleSlug": "palindrome-permutation",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Palindrome Pairs",
+      "titleSlug": "palindrome-pairs",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Longest Palindromic Subsequence",
+      "titleSlug": "longest-palindromic-subsequence",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Palindromic Substrings",
+      "titleSlug": "palindromic-substrings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+      "titleSlug": "maximum-number-of-non-overlapping-palindrome-substrings",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "dynamic_programming",
+  "neetcode": {
+    "code": "0005-longest-palindromic-substring",
+    "url": "https://neetcode.io/problems/longest-palindromic-substring",
+    "video": "XYQecbcd6_c"
+  },
+  "reference_solution": "solutions/solution_expand_centers.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_expand_centers.py",
+      "approach": "expand every odd/even palindrome center",
+      "role": "primary solution",
+      "complexity": "Time: O(n^2); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_dp_table.py",
+      "approach": "palindrome DP table",
+      "role": "alternative DP reference",
+      "complexity": "Time: O(n^2); Space: O(n^2)"
+    }
+  ]
+}

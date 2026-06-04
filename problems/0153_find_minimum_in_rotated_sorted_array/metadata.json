@@ -1,0 +1,89 @@
+{
+  "id": 153,
+  "title": "Find Minimum in Rotated Sorted Array",
+  "slug": "find-minimum-in-rotated-sorted-array",
+  "folder": "0153_find_minimum_in_rotated_sorted_array",
+  "difficulty": "Medium",
+  "section": "Binary Search",
+  "order": 30,
+  "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+  "problem_url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Binary Search",
+      "slug": "binary-search"
+    }
+  ],
+  "tags": [
+    "array",
+    "binary-search"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "findMin",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 30
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Binary Search"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Search in Rotated Sorted Array",
+      "titleSlug": "search-in-rotated-sorted-array",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Minimum in Rotated Sorted Array II",
+      "titleSlug": "find-minimum-in-rotated-sorted-array-ii",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "binary_search",
+  "neetcode": {
+    "code": "0153-find-minimum-in-rotated-sorted-array",
+    "url": "https://neetcode.io/problems/find-minimum-in-rotated-sorted-array",
+    "video": "nIVW4P8b1VA"
+  },
+  "reference_solution": "solutions/solution_compare_right.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_compare_right.py",
+      "approach": "binary search against right edge",
+      "role": "primary solution",
+      "complexity": "Time: O(log n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_linear_scan_baseline.py",
+      "approach": "linear scan baseline",
+      "role": "educational baseline",
+      "complexity": "Time: O(n); Space: O(1)"
+    }
+  ]
+}

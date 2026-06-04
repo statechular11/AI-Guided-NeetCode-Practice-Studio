@@ -1,0 +1,94 @@
+{
+  "id": 90,
+  "title": "Subsets II",
+  "slug": "subsets-ii",
+  "folder": "0090_subsets_ii",
+  "difficulty": "Medium",
+  "section": "Backtracking",
+  "order": 71,
+  "url": "https://leetcode.com/problems/subsets-ii/",
+  "problem_url": "https://leetcode.com/problems/subsets-ii/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Backtracking",
+      "slug": "backtracking"
+    },
+    {
+      "name": "Bit Manipulation",
+      "slug": "bit-manipulation"
+    }
+  ],
+  "tags": [
+    "array",
+    "backtracking",
+    "bit-manipulation"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "subsetsWithDup",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "list<list<integer>>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 71
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Backtracking"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Subsets",
+      "titleSlug": "subsets",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Array Given Subset Sums",
+      "titleSlug": "find-array-given-subset-sums",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "backtracking",
+  "neetcode": {
+    "code": "0090-subsets-ii",
+    "url": "https://neetcode.io/problems/subsets-ii",
+    "video": "Vn2v6ajA7U0"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_sort_skip_duplicates.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_sort_skip_duplicates.py",
+      "approach": "sorted backtracking with same-depth duplicate skip",
+      "role": "primary solution",
+      "complexity": "Time: O(n*2^n); Space: O(n) excl. output"
+    },
+    {
+      "file": "solutions/solution_iterative_cascading.py",
+      "approach": "iterative cascading with duplicate window",
+      "role": "alternative duplicate-aware subsets reference",
+      "complexity": "Time: O(n * 2^n); Space: O(n * 2^n)"
+    }
+  ]
+}

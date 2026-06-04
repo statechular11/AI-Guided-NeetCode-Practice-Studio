@@ -1,0 +1,103 @@
+{
+  "id": 167,
+  "title": "Two Sum II - Input Array Is Sorted",
+  "slug": "two-sum-ii-input-array-is-sorted",
+  "folder": "0167_two_sum_ii_input_array_is_sorted",
+  "difficulty": "Medium",
+  "section": "Two Pointers",
+  "order": 11,
+  "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+  "problem_url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "Binary Search",
+      "slug": "binary-search"
+    }
+  ],
+  "tags": [
+    "array",
+    "two-pointers",
+    "binary-search"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "twoSum",
+    "params": [
+      {
+        "name": "numbers",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer[]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 11
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Two Pointers"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Two Sum",
+      "titleSlug": "two-sum",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Two Sum IV - Input is a BST",
+      "titleSlug": "two-sum-iv-input-is-a-bst",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Two Sum Less Than K",
+      "titleSlug": "two-sum-less-than-k",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "two_pointers",
+  "neetcode": {
+    "code": "0167-two-sum-ii-input-array-is-sorted",
+    "url": "https://neetcode.io/problems/two-integer-sum-ii",
+    "video": "cQ1Oz4ckceM"
+  },
+  "reference_solution": "solutions/solution_two_pointers.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_two_pointers.py",
+      "approach": "opposing pointers on sorted array",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_binary_search_partner.py",
+      "approach": "binary search partner for each index",
+      "role": "alternative sorted-array reference",
+      "complexity": "Time: O(n log n); Space: O(1)"
+    }
+  ]
+}

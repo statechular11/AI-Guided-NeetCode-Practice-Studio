@@ -1,0 +1,108 @@
+{
+  "id": 1143,
+  "title": "Longest Common Subsequence",
+  "slug": "longest-common-subsequence",
+  "folder": "1143_longest_common_subsequence",
+  "difficulty": "Medium",
+  "section": "2-D Dynamic Programming",
+  "order": 112,
+  "url": "https://leetcode.com/problems/longest-common-subsequence/",
+  "problem_url": "https://leetcode.com/problems/longest-common-subsequence/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "string",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "longestCommonSubsequence",
+    "params": [
+      {
+        "name": "text1",
+        "type": "string"
+      },
+      {
+        "type": "string",
+        "name": "text2"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 112
+  },
+  "sections_by_plan": {
+    "neetcode-150": "2-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Longest Palindromic Subsequence",
+      "titleSlug": "longest-palindromic-subsequence",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Delete Operation for Two Strings",
+      "titleSlug": "delete-operation-for-two-strings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Shortest Common Supersequence ",
+      "titleSlug": "shortest-common-supersequence",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Maximize Number of Subsequences in a String",
+      "titleSlug": "maximize-number-of-subsequences-in-a-string",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Subsequence With the Minimum Score",
+      "titleSlug": "subsequence-with-the-minimum-score",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "multidimensional_dp",
+  "neetcode": {
+    "code": "1143-longest-common-subsequence",
+    "url": "https://neetcode.io/problems/longest-common-subsequence",
+    "video": "Ua0GhsJSlWM"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_dp_table.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_dp_table.py",
+      "approach": "prefix DP for matching or dropping characters",
+      "role": "primary solution",
+      "complexity": "Time: O(m*n); Space: O(m*n)"
+    },
+    {
+      "file": "solutions/solution_1d_dp.py",
+      "approach": "space-compressed LCS DP",
+      "role": "optimized-space DP reference",
+      "complexity": "Time: O(mn); Space: O(n)"
+    }
+  ]
+}

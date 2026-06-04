@@ -1,0 +1,114 @@
+{
+  "id": 155,
+  "title": "Min Stack",
+  "slug": "min-stack",
+  "folder": "0155_min_stack",
+  "difficulty": "Medium",
+  "section": "Stack",
+  "order": 22,
+  "url": "https://leetcode.com/problems/min-stack/",
+  "problem_url": "https://leetcode.com/problems/min-stack/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Stack",
+      "slug": "stack"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    }
+  ],
+  "tags": [
+    "stack",
+    "design"
+  ],
+  "function": {
+    "class_name": "MinStack",
+    "methods": [
+      {
+        "name": "push",
+        "params": [
+          {
+            "type": "integer",
+            "name": "val"
+          }
+        ],
+        "return_type": "void"
+      },
+      {
+        "name": "pop",
+        "params": [],
+        "return_type": "void"
+      },
+      {
+        "name": "top",
+        "params": [],
+        "return_type": "integer"
+      },
+      {
+        "name": "getMin",
+        "params": [],
+        "return_type": "integer"
+      }
+    ]
+  },
+  "judge": {
+    "mode": "design"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 22
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Stack"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Sliding Window Maximum",
+      "titleSlug": "sliding-window-maximum",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Max Stack",
+      "titleSlug": "max-stack",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "stack",
+  "neetcode": {
+    "code": "0155-min-stack",
+    "url": "https://neetcode.io/problems/minimum-stack",
+    "video": "qkLl7nAwDPo"
+  },
+  "reference_solution": "solutions/solution_parallel_min_stack.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_pair_stack.py",
+      "approach": "value/min pairs",
+      "role": "readable design solution",
+      "complexity": "Time: O(1) per op; Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_parallel_min_stack.py",
+      "approach": "parallel value and min stacks",
+      "role": "primary design solution",
+      "complexity": "Time: O(1) per op; Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_sparse_min_stack_counts.py",
+      "approach": "sparse min stack with duplicate counts",
+      "role": "space-conscious duplicate-aware variant",
+      "complexity": "Time: O(1) per op; Space: O(n)"
+    }
+  ]
+}

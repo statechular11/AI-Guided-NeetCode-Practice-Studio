@@ -1,0 +1,93 @@
+{
+  "id": 4,
+  "title": "Median of Two Sorted Arrays",
+  "slug": "median-of-two-sorted-arrays",
+  "folder": "0004_median_of_two_sorted_arrays",
+  "difficulty": "Hard",
+  "section": "Binary Search",
+  "order": 33,
+  "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+  "problem_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Binary Search",
+      "slug": "binary-search"
+    },
+    {
+      "name": "Divide and Conquer",
+      "slug": "divide-and-conquer"
+    }
+  ],
+  "tags": [
+    "array",
+    "binary-search",
+    "divide-and-conquer"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "findMedianSortedArrays",
+    "params": [
+      {
+        "name": "nums1",
+        "type": "integer[]"
+      },
+      {
+        "name": "nums2",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "double"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 33
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Binary Search"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Median of a Row Wise Sorted Matrix",
+      "titleSlug": "median-of-a-row-wise-sorted-matrix",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "binary_search",
+  "neetcode": {
+    "code": "0004-median-of-two-sorted-arrays",
+    "url": "https://neetcode.io/problems/median-of-two-sorted-arrays",
+    "video": "q6IEA26hvXc"
+  },
+  "reference_solution": "solutions/solution_binary_partition.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_merge_until_middle.py",
+      "approach": "merge to middle",
+      "role": "learning baseline",
+      "complexity": "Time: O(m+n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_binary_partition.py",
+      "approach": "binary partition smaller array",
+      "role": "primary optimized solution",
+      "complexity": "Time: O(log(min(m,n))); Space: O(1)"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": 45,
+  "title": "Jump Game II",
+  "slug": "jump-game-ii",
+  "folder": "0045_jump_game_ii",
+  "difficulty": "Medium",
+  "section": "Greedy",
+  "order": 124,
+  "url": "https://leetcode.com/problems/jump-game-ii/",
+  "problem_url": "https://leetcode.com/problems/jump-game-ii/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "greedy"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "jump",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 124
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Greedy"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Jump Game",
+      "titleSlug": "jump-game",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Jump Game III",
+      "titleSlug": "jump-game-iii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Jump Game VII",
+      "titleSlug": "jump-game-vii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Jump Game VIII",
+      "titleSlug": "jump-game-viii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Number of Visited Cells in a Grid",
+      "titleSlug": "minimum-number-of-visited-cells-in-a-grid",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Maximum Number of Jumps to Reach the Last Index",
+      "titleSlug": "maximum-number-of-jumps-to-reach-the-last-index",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Visit Array Positions to Maximize Score",
+      "titleSlug": "visit-array-positions-to-maximize-score",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "greedy",
+  "neetcode": {
+    "code": "0045-jump-game-ii",
+    "url": "https://neetcode.io/problems/jump-game-ii",
+    "video": "dJ7sWiOoK7g"
+  },
+  "reference_solution": "solutions/solution_level_greedy.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_level_greedy.py",
+      "approach": "BFS-level greedy range",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_quadratic_dp.py",
+      "approach": "quadratic dynamic programming baseline",
+      "role": "educational baseline",
+      "complexity": "Time: O(n^2); Space: O(n)"
+    }
+  ]
+}

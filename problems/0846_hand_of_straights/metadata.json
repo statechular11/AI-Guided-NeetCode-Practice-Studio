@@ -1,0 +1,92 @@
+{
+  "id": 846,
+  "title": "Hand of Straights",
+  "slug": "hand-of-straights",
+  "folder": "0846_hand_of_straights",
+  "difficulty": "Medium",
+  "section": "Greedy",
+  "order": 126,
+  "url": "https://leetcode.com/problems/hand-of-straights/",
+  "problem_url": "https://leetcode.com/problems/hand-of-straights/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    }
+  ],
+  "tags": [
+    "array",
+    "hash-table",
+    "greedy",
+    "sorting"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "isNStraightHand",
+    "params": [
+      {
+        "name": "hand",
+        "type": "integer[]"
+      },
+      {
+        "name": "groupSize",
+        "type": "integer"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 126
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Greedy"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [],
+  "approach": "greedy",
+  "neetcode": {
+    "code": "0846-hand-of-straights",
+    "url": "https://neetcode.io/problems/hand-of-straights",
+    "video": "amnrMCVd2YI"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_counter_start_runs.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_counter_start_runs.py",
+      "approach": "consume runs from smallest card",
+      "role": "primary greedy solution",
+      "complexity": "Time: O(n log n + n*g); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_open_groups_heap.py",
+      "approach": "min-heap of open groups",
+      "role": "alternative greedy grouping reference",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    }
+  ]
+}

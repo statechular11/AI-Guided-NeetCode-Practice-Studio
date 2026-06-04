@@ -1,0 +1,48 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "operations": [
+        "Trie",
+        "insert",
+        "search",
+        "search",
+        "startsWith",
+        "insert",
+        "search"
+      ],
+      "arguments": [
+        [],
+        [
+          "apple"
+        ],
+        [
+          "apple"
+        ],
+        [
+          "app"
+        ],
+        [
+          "app"
+        ],
+        [
+          "app"
+        ],
+        [
+          "app"
+        ]
+      ],
+      "expected": [
+        null,
+        null,
+        true,
+        false,
+        true,
+        null,
+        true
+      ]
+    }
+  ]
+}

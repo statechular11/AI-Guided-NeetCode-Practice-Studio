@@ -1,0 +1,114 @@
+{
+  "id": 55,
+  "title": "Jump Game",
+  "slug": "jump-game",
+  "folder": "0055_jump_game",
+  "difficulty": "Medium",
+  "section": "Greedy",
+  "order": 123,
+  "url": "https://leetcode.com/problems/jump-game/",
+  "problem_url": "https://leetcode.com/problems/jump-game/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "greedy"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "canJump",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 123
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Greedy"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Jump Game II",
+      "titleSlug": "jump-game-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Jump Game III",
+      "titleSlug": "jump-game-iii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Jump Game VII",
+      "titleSlug": "jump-game-vii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Jump Game VIII",
+      "titleSlug": "jump-game-viii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Number of Visited Cells in a Grid",
+      "titleSlug": "minimum-number-of-visited-cells-in-a-grid",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Largest Element in an Array after Merge Operations",
+      "titleSlug": "largest-element-in-an-array-after-merge-operations",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "greedy",
+  "neetcode": {
+    "code": "0055-jump-game",
+    "url": "https://neetcode.io/problems/jump-game",
+    "video": "Yan0cv2cLy8"
+  },
+  "reference_solution": "solutions/solution_farthest_reach.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_farthest_reach.py",
+      "approach": "farthest reachable index",
+      "role": "primary greedy solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_backward_goal.py",
+      "approach": "backward goalpost greedy",
+      "role": "alternative optimized greedy reference",
+      "complexity": "Time: O(n); Space: O(1)"
+    }
+  ]
+}

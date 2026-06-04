@@ -1,0 +1,103 @@
+{
+  "id": 105,
+  "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+  "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+  "folder": "0105_construct_binary_tree_from_preorder_and_inorder_traversal",
+  "difficulty": "Medium",
+  "section": "Trees",
+  "order": 57,
+  "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+  "problem_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Divide and Conquer",
+      "slug": "divide-and-conquer"
+    },
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "array",
+    "hash-table",
+    "divide-and-conquer",
+    "tree",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "buildTree",
+    "params": [
+      {
+        "name": "preorder",
+        "type": "integer[]"
+      },
+      {
+        "name": "inorder",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "TreeNode"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 57
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+      "titleSlug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0105-construct-binary-tree-from-preorder-and-inorder-traversal",
+    "url": "https://neetcode.io/problems/binary-tree-from-preorder-and-inorder-traversal",
+    "video": "ihj4IQGZ2zc"
+  },
+  "reference_solution": "solutions/solution_preorder_index.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_preorder_index.py",
+      "approach": "preorder root pointer plus inorder index map",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_slice_recursion.py",
+      "approach": "readable slice recursion",
+      "role": "educational baseline",
+      "complexity": "Time: O(n^2); Space: O(n^2) from slicing"
+    }
+  ]
+}

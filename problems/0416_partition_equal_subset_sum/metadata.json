@@ -1,0 +1,114 @@
+{
+  "id": 416,
+  "title": "Partition Equal Subset Sum",
+  "slug": "partition-equal-subset-sum",
+  "folder": "0416_partition_equal_subset_sum",
+  "difficulty": "Medium",
+  "section": "1-D Dynamic Programming",
+  "order": 110,
+  "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+  "problem_url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "canPartition",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 110
+  },
+  "sections_by_plan": {
+    "neetcode-150": "1-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Partition to K Equal Sum Subsets",
+      "titleSlug": "partition-to-k-equal-sum-subsets",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimize the Difference Between Target and Chosen Elements",
+      "titleSlug": "minimize-the-difference-between-target-and-chosen-elements",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Number of Ways to Partition an Array",
+      "titleSlug": "maximum-number-of-ways-to-partition-an-array",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+      "titleSlug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Find Subarrays With Equal Sum",
+      "titleSlug": "find-subarrays-with-equal-sum",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Number of Great Partitions",
+      "titleSlug": "number-of-great-partitions",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Split With Minimum Sum",
+      "titleSlug": "split-with-minimum-sum",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "dynamic_programming",
+  "neetcode": {
+    "code": "0416-partition-equal-subset-sum",
+    "url": "https://neetcode.io/problems/partition-equal-subset-sum",
+    "video": "IsvocB5BJhw"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_subset_sum_set.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_subset_sum_set.py",
+      "approach": "subset-sum reachable totals up to half total",
+      "role": "primary solution",
+      "complexity": "Time: O(n*target); Space: O(target)"
+    },
+    {
+      "file": "solutions/solution_bitset_dp.py",
+      "approach": "integer bitset subset-sum DP",
+      "role": "optimized Python state-compression reference",
+      "complexity": "Time: O(n * target / word_size) conceptually; Space: O(target) bits"
+    }
+  ]
+}

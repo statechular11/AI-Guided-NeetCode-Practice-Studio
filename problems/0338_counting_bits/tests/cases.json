@@ -1,0 +1,31 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "n": 2
+      },
+      "expected": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "n": 5
+      },
+      "expected": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        2
+      ]
+    }
+  ]
+}

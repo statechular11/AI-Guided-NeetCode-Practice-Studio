@@ -1,0 +1,90 @@
+{
+  "id": 48,
+  "title": "Rotate Image",
+  "slug": "rotate-image",
+  "folder": "0048_rotate_image",
+  "difficulty": "Medium",
+  "section": "Math & Geometry",
+  "order": 136,
+  "url": "https://leetcode.com/problems/rotate-image/",
+  "problem_url": "https://leetcode.com/problems/rotate-image/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Math",
+      "slug": "math"
+    },
+    {
+      "name": "Matrix",
+      "slug": "matrix"
+    }
+  ],
+  "tags": [
+    "array",
+    "math",
+    "matrix"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "rotate",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "void"
+  },
+  "judge": {
+    "mode": "in_place",
+    "arg_index": 0
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 136
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Math & Geometry"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+      "titleSlug": "determine-whether-matrix-can-be-obtained-by-rotation",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "math_geometry",
+  "neetcode": {
+    "code": "0048-rotate-image",
+    "url": "https://neetcode.io/problems/rotate-matrix",
+    "video": "fMSJSS7eO1w"
+  },
+  "reference_solution": "solutions/solution_transpose_reverse.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_transpose_reverse.py",
+      "approach": "transpose matrix then reverse each row",
+      "role": "primary in-place solution",
+      "complexity": "Time: O(n^2); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_layer_four_way_swap.py",
+      "approach": "rotate each matrix layer with four-way swaps",
+      "role": "layer/index-control variant",
+      "complexity": "Time: O(n^2); Space: O(1)"
+    }
+  ]
+}

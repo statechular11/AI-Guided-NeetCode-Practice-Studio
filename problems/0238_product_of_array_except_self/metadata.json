@@ -1,0 +1,109 @@
+{
+  "id": 238,
+  "title": "Product of Array Except Self",
+  "slug": "product-of-array-except-self",
+  "folder": "0238_product_of_array_except_self",
+  "difficulty": "Medium",
+  "section": "Arrays & Hashing",
+  "order": 7,
+  "url": "https://leetcode.com/problems/product-of-array-except-self/",
+  "problem_url": "https://leetcode.com/problems/product-of-array-except-self/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Prefix Sum",
+      "slug": "prefix-sum"
+    }
+  ],
+  "tags": [
+    "array",
+    "prefix-sum"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "productExceptSelf",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer[]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 7
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Arrays & Hashing"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Trapping Rain Water",
+      "titleSlug": "trapping-rain-water",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Maximum Product Subarray",
+      "titleSlug": "maximum-product-subarray",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Paint House II",
+      "titleSlug": "paint-house-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Minimum Difference in Sums After Removal of Elements",
+      "titleSlug": "minimum-difference-in-sums-after-removal-of-elements",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Construct Product Matrix",
+      "titleSlug": "construct-product-matrix",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Sum of Array Product of Magical Sequences",
+      "titleSlug": "find-sum-of-array-product-of-magical-sequences",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "arrays_and_hashing",
+  "neetcode": {
+    "code": "0238-product-of-array-except-self",
+    "url": "https://neetcode.io/problems/products-of-array-discluding-self",
+    "video": "bNvIQI2wAjk"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_prefix_suffix.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_left_right_arrays.py",
+      "approach": "left/right product arrays",
+      "role": "learning-friendly no-division solution",
+      "complexity": "Time: O(n); Space: O(n) extra"
+    },
+    {
+      "file": "solutions/solution_prefix_suffix.py",
+      "approach": "prefix/suffix products in output",
+      "role": "primary optimized interview solution",
+      "complexity": "Time: O(n); Space: O(1) extra, excluding output"
+    }
+  ]
+}

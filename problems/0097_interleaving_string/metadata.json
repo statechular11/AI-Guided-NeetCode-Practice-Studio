@@ -1,0 +1,86 @@
+{
+  "id": 97,
+  "title": "Interleaving String",
+  "slug": "interleaving-string",
+  "folder": "0097_interleaving_string",
+  "difficulty": "Medium",
+  "section": "2-D Dynamic Programming",
+  "order": 116,
+  "url": "https://leetcode.com/problems/interleaving-string/",
+  "problem_url": "https://leetcode.com/problems/interleaving-string/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "string",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "isInterleave",
+    "params": [
+      {
+        "name": "s1",
+        "type": "string"
+      },
+      {
+        "name": "s2",
+        "type": "string"
+      },
+      {
+        "name": "s3",
+        "type": "string"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 116
+  },
+  "sections_by_plan": {
+    "neetcode-150": "2-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [],
+  "approach": "multidimensional_dp",
+  "neetcode": {
+    "code": "0097-interleaving-string",
+    "url": "https://neetcode.io/problems/interleaving-string",
+    "video": "3Rw3p9LrgvE"
+  },
+  "reference_solution": "solutions/solution_2d_dp.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_2d_dp.py",
+      "approach": "prefix DP over consumed characters from s1 and s2",
+      "role": "primary solution",
+      "complexity": "Time: O(m*n); Space: O(m*n)"
+    },
+    {
+      "file": "solutions/solution_1d_dp.py",
+      "approach": "space-compressed interleaving DP",
+      "role": "optimized-space DP reference",
+      "complexity": "Time: O(mn); Space: O(n)"
+    }
+  ]
+}

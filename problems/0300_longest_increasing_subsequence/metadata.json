@@ -1,0 +1,164 @@
+{
+  "id": 300,
+  "title": "Longest Increasing Subsequence",
+  "slug": "longest-increasing-subsequence",
+  "folder": "0300_longest_increasing_subsequence",
+  "difficulty": "Medium",
+  "section": "1-D Dynamic Programming",
+  "order": 109,
+  "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+  "problem_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Binary Search",
+      "slug": "binary-search"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "array",
+    "binary-search",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "lengthOfLIS",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 109
+  },
+  "sections_by_plan": {
+    "neetcode-150": "1-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Increasing Triplet Subsequence",
+      "titleSlug": "increasing-triplet-subsequence",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Russian Doll Envelopes",
+      "titleSlug": "russian-doll-envelopes",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Maximum Length of Pair Chain",
+      "titleSlug": "maximum-length-of-pair-chain",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Number of Longest Increasing Subsequence",
+      "titleSlug": "number-of-longest-increasing-subsequence",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum ASCII Delete Sum for Two Strings",
+      "titleSlug": "minimum-ascii-delete-sum-for-two-strings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Number of Removals to Make Mountain Array",
+      "titleSlug": "minimum-number-of-removals-to-make-mountain-array",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Find the Longest Valid Obstacle Course at Each Position",
+      "titleSlug": "find-the-longest-valid-obstacle-course-at-each-position",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Minimum Operations to Make the Array K-Increasing",
+      "titleSlug": "minimum-operations-to-make-the-array-k-increasing",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Longest Ideal Subsequence",
+      "titleSlug": "longest-ideal-subsequence",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Number of Books You Can Take",
+      "titleSlug": "maximum-number-of-books-you-can-take",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Longest Increasing Subsequence II",
+      "titleSlug": "longest-increasing-subsequence-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Find the Maximum Length of a Good Subsequence II",
+      "titleSlug": "find-the-maximum-length-of-a-good-subsequence-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Find the Maximum Length of a Good Subsequence I",
+      "titleSlug": "find-the-maximum-length-of-a-good-subsequence-i",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find the Maximum Length of Valid Subsequence I",
+      "titleSlug": "find-the-maximum-length-of-valid-subsequence-i",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find the Maximum Length of Valid Subsequence II",
+      "titleSlug": "find-the-maximum-length-of-valid-subsequence-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Longest Subsequence With Decreasing Adjacent Difference",
+      "titleSlug": "longest-subsequence-with-decreasing-adjacent-difference",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "dynamic_programming",
+  "neetcode": {
+    "code": "0300-longest-increasing-subsequence",
+    "url": "https://neetcode.io/problems/longest-increasing-subsequence",
+    "video": "cjWnW0hdF1Y"
+  },
+  "reference_solution": "solutions/solution_patience.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_patience.py",
+      "approach": "patience tails with binary search",
+      "role": "optimized primary solution",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_quadratic_dp.py",
+      "approach": "LIS ending at each index",
+      "role": "baseline DP",
+      "complexity": "Time: O(n^2); Space: O(n)"
+    }
+  ]
+}

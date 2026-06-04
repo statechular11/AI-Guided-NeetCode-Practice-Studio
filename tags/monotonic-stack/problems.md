@@ -1,0 +1,8 @@
+# Monotonic Stack
+
+| ID | Problem | Difficulty | Section | Status |
+| --- | --- | --- | --- | --- |
+| 0042 | [Trapping Rain Water](../../problems/0042_trapping_rain_water) | Hard | Two Pointers | todo |
+| 0084 | [Largest Rectangle in Histogram](../../problems/0084_largest_rectangle_in_histogram) | Hard | Stack | todo |
+| 0739 | [Daily Temperatures](../../problems/0739_daily_temperatures) | Medium | Stack | todo |
+| 0853 | [Car Fleet](../../problems/0853_car_fleet) | Medium | Stack | todo |

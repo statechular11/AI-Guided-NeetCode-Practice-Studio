@@ -1,0 +1,108 @@
+{
+  "id": 242,
+  "title": "Valid Anagram",
+  "slug": "valid-anagram",
+  "folder": "0242_valid_anagram",
+  "difficulty": "Easy",
+  "section": "Arrays & Hashing",
+  "order": 2,
+  "url": "https://leetcode.com/problems/valid-anagram/",
+  "problem_url": "https://leetcode.com/problems/valid-anagram/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "string",
+    "sorting"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "isAnagram",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "t",
+        "type": "string"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 2
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Arrays & Hashing"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Group Anagrams",
+      "titleSlug": "group-anagrams",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Palindrome Permutation",
+      "titleSlug": "palindrome-permutation",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Find All Anagrams in a String",
+      "titleSlug": "find-all-anagrams-in-a-string",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Resultant Array After Removing Anagrams",
+      "titleSlug": "find-resultant-array-after-removing-anagrams",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "hash_map",
+  "neetcode": {
+    "code": "0242-valid-anagram",
+    "url": "https://neetcode.io/problems/is-anagram",
+    "video": "9UtInBqnCgA"
+  },
+  "reference_solution": "solutions/solution_fixed_counts.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_counter.py",
+      "approach": "frequency map with Counter",
+      "role": "Pythonic baseline",
+      "complexity": "Time: O(n + m); Space: O(k)"
+    },
+    {
+      "file": "solutions/solution_fixed_counts.py",
+      "approach": "fixed 26-slot balance array",
+      "role": "primary lowercase interview solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    }
+  ]
+}

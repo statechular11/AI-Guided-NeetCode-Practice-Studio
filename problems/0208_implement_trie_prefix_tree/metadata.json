@@ -1,0 +1,153 @@
+{
+  "id": 208,
+  "title": "Implement Trie (Prefix Tree)",
+  "slug": "implement-trie-prefix-tree",
+  "folder": "0208_implement_trie_prefix_tree",
+  "difficulty": "Medium",
+  "section": "Tries",
+  "order": 77,
+  "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+  "problem_url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    },
+    {
+      "name": "Trie",
+      "slug": "trie"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "string",
+    "design",
+    "trie"
+  ],
+  "function": {
+    "class_name": "Trie",
+    "methods": [
+      {
+        "name": "insert",
+        "params": [
+          {
+            "type": "string",
+            "name": "word"
+          }
+        ],
+        "return_type": "void"
+      },
+      {
+        "name": "search",
+        "params": [
+          {
+            "type": "string",
+            "name": "word"
+          }
+        ],
+        "return_type": "boolean"
+      },
+      {
+        "name": "startsWith",
+        "params": [
+          {
+            "type": "string",
+            "name": "prefix"
+          }
+        ],
+        "return_type": "boolean"
+      }
+    ]
+  },
+  "judge": {
+    "mode": "design"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 77
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Tries"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Design Add and Search Words Data Structure",
+      "titleSlug": "design-add-and-search-words-data-structure",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Design Search Autocomplete System",
+      "titleSlug": "design-search-autocomplete-system",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Replace Words",
+      "titleSlug": "replace-words",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Implement Magic Dictionary",
+      "titleSlug": "implement-magic-dictionary",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Encrypt and Decrypt Strings",
+      "titleSlug": "encrypt-and-decrypt-strings",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Implement Trie II (Prefix Tree)",
+      "titleSlug": "implement-trie-ii-prefix-tree",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count Prefix and Suffix Pairs II",
+      "titleSlug": "count-prefix-and-suffix-pairs-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Count Prefix and Suffix Pairs I",
+      "titleSlug": "count-prefix-and-suffix-pairs-i",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "trie",
+  "neetcode": {
+    "code": "0208-implement-trie-prefix-tree",
+    "url": "https://neetcode.io/problems/implement-prefix-tree",
+    "video": "oobqoCJlHA0"
+  },
+  "reference_solution": "solutions/solution_nested_nodes.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_nested_nodes.py",
+      "approach": "character edges with terminal word marker",
+      "role": "primary design solution",
+      "complexity": "O(L) operations; Space: O(total chars)"
+    },
+    {
+      "file": "solutions/solution_dict_sentinel.py",
+      "approach": "nested dictionaries with terminal sentinel",
+      "role": "compact design reference",
+      "complexity": "O(L) per operation; Space: O(total characters)"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": 128,
+  "title": "Longest Consecutive Sequence",
+  "slug": "longest-consecutive-sequence",
+  "folder": "0128_longest_consecutive_sequence",
+  "difficulty": "Medium",
+  "section": "Arrays & Hashing",
+  "order": 9,
+  "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+  "problem_url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Union-Find",
+      "slug": "union-find"
+    }
+  ],
+  "tags": [
+    "array",
+    "hash-table",
+    "union-find"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "longestConsecutive",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 9
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Arrays & Hashing"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Binary Tree Longest Consecutive Sequence",
+      "titleSlug": "binary-tree-longest-consecutive-sequence",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Three Consecutive Integers That Sum to a Given Number",
+      "titleSlug": "find-three-consecutive-integers-that-sum-to-a-given-number",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Consecutive Floors Without Special Floors",
+      "titleSlug": "maximum-consecutive-floors-without-special-floors",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Length of the Longest Alphabetical Continuous Substring",
+      "titleSlug": "length-of-the-longest-alphabetical-continuous-substring",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find the Maximum Number of Elements in Subset",
+      "titleSlug": "find-the-maximum-number-of-elements-in-subset",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "arrays_and_hashing",
+  "neetcode": {
+    "code": "0128-longest-consecutive-sequence",
+    "url": "https://neetcode.io/problems/longest-consecutive-sequence",
+    "video": "P6RZZMu_maU"
+  },
+  "reference_solution": "solutions/solution_hash_set_starts.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_sorting.py",
+      "approach": "sort unique values",
+      "role": "learning baseline",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_hash_set_starts.py",
+      "approach": "hash set sequence starts",
+      "role": "primary optimized solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_union_find.py",
+      "approach": "union adjacent values into components",
+      "role": "educational union-find variant",
+      "complexity": "Time: O(n * alpha(n)); Space: O(n)"
+    }
+  ]
+}

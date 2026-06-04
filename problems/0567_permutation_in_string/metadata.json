@@ -1,0 +1,115 @@
+{
+  "id": 567,
+  "title": "Permutation in String",
+  "slug": "permutation-in-string",
+  "folder": "0567_permutation_in_string",
+  "difficulty": "Medium",
+  "section": "Sliding Window",
+  "order": 18,
+  "url": "https://leetcode.com/problems/permutation-in-string/",
+  "problem_url": "https://leetcode.com/problems/permutation-in-string/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Sliding Window",
+      "slug": "sliding-window"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "two-pointers",
+    "string",
+    "sliding-window"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "checkInclusion",
+    "params": [
+      {
+        "name": "s1",
+        "type": "string"
+      },
+      {
+        "name": "s2",
+        "type": "string"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 18
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Sliding Window"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Minimum Window Substring",
+      "titleSlug": "minimum-window-substring",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Find All Anagrams in a String",
+      "titleSlug": "find-all-anagrams-in-a-string",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "sliding_window",
+  "neetcode": {
+    "code": "0567-permutation-in-string",
+    "url": "https://neetcode.io/problems/permutation-string",
+    "video": "UbyhOgBN834"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_fixed_window_counts.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_brute_force_sorted.py",
+      "approach": "sorted fixed-window baseline",
+      "role": "educational baseline",
+      "complexity": "Time: O((m-n+1) * n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_fixed_window_counts.py",
+      "approach": "fixed-size frequency window",
+      "role": "primary learning-friendly solution",
+      "complexity": "Time: O(26m); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_matches_count.py",
+      "approach": "fixed-size window with match counter",
+      "role": "constant-factor optimized solution",
+      "complexity": "Time: O(m); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_deficit_window.py",
+      "approach": "deficit balance sliding window",
+      "role": "alternative optimized formulation",
+      "complexity": "Time: O(n); Space: O(1)"
+    }
+  ]
+}

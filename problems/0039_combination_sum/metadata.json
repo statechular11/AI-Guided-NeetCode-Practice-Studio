@@ -1,0 +1,118 @@
+{
+  "id": 39,
+  "title": "Combination Sum",
+  "slug": "combination-sum",
+  "folder": "0039_combination_sum",
+  "difficulty": "Medium",
+  "section": "Backtracking",
+  "order": 68,
+  "url": "https://leetcode.com/problems/combination-sum/",
+  "problem_url": "https://leetcode.com/problems/combination-sum/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Backtracking",
+      "slug": "backtracking"
+    }
+  ],
+  "tags": [
+    "array",
+    "backtracking"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "combinationSum",
+    "params": [
+      {
+        "name": "candidates",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return_type": "list<list<integer>>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 68
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Backtracking"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Letter Combinations of a Phone Number",
+      "titleSlug": "letter-combinations-of-a-phone-number",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Combination Sum II",
+      "titleSlug": "combination-sum-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Combinations",
+      "titleSlug": "combinations",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Combination Sum III",
+      "titleSlug": "combination-sum-iii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Factor Combinations",
+      "titleSlug": "factor-combinations",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Combination Sum IV",
+      "titleSlug": "combination-sum-iv",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "The Number of Ways to Make the Sum",
+      "titleSlug": "the-number-of-ways-to-make-the-sum",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "backtracking",
+  "neetcode": {
+    "code": "0039-combination-sum",
+    "url": "https://neetcode.io/problems/combination-target-sum",
+    "video": "GBKI9VSKdGg"
+  },
+  "reference_solution": "solutions/solution_reuse_same_index.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_reuse_same_index.py",
+      "approach": "sorted backtracking with reusable candidates",
+      "role": "primary solution",
+      "complexity": "Exponential time; O(depth) space excl. output"
+    },
+    {
+      "file": "solutions/solution_choose_skip.py",
+      "approach": "choose-or-skip recursion",
+      "role": "alternative backtracking reference",
+      "complexity": "Time: exponential in target/min(candidates); Space: O(target/min(candidates)) excl. output"
+    }
+  ]
+}

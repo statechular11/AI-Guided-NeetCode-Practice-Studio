@@ -1,0 +1,169 @@
+{
+  "id": 56,
+  "title": "Merge Intervals",
+  "slug": "merge-intervals",
+  "folder": "0056_merge_intervals",
+  "difficulty": "Medium",
+  "section": "Intervals",
+  "order": 131,
+  "url": "https://leetcode.com/problems/merge-intervals/",
+  "problem_url": "https://leetcode.com/problems/merge-intervals/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    }
+  ],
+  "tags": [
+    "array",
+    "sorting"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "merge",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "integer[][]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 131
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Intervals"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Insert Interval",
+      "titleSlug": "insert-interval",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Meeting Rooms",
+      "titleSlug": "meeting-rooms",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Meeting Rooms II",
+      "titleSlug": "meeting-rooms-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Teemo Attacking",
+      "titleSlug": "teemo-attacking",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Add Bold Tag in String",
+      "titleSlug": "add-bold-tag-in-string",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Range Module",
+      "titleSlug": "range-module",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Employee Free Time",
+      "titleSlug": "employee-free-time",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Partition Labels",
+      "titleSlug": "partition-labels",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Interval List Intersections",
+      "titleSlug": "interval-list-intersections",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Amount of New Area Painted Each Day",
+      "titleSlug": "amount-of-new-area-painted-each-day",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Longest Substring of One Repeating Character",
+      "titleSlug": "longest-substring-of-one-repeating-character",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Count Integers in Intervals",
+      "titleSlug": "count-integers-in-intervals",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Divide Intervals Into Minimum Number of Groups",
+      "titleSlug": "divide-intervals-into-minimum-number-of-groups",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Determine if Two Events Have Conflict",
+      "titleSlug": "determine-if-two-events-have-conflict",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Count Ways to Group Overlapping Ranges",
+      "titleSlug": "count-ways-to-group-overlapping-ranges",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Points That Intersect With Cars",
+      "titleSlug": "points-that-intersect-with-cars",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Count Days Without Meetings",
+      "titleSlug": "count-days-without-meetings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimize Connected Groups by Inserting Interval",
+      "titleSlug": "minimize-connected-groups-by-inserting-interval",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "intervals",
+  "neetcode": {
+    "code": "0056-merge-intervals",
+    "url": "https://neetcode.io/problems/merge-intervals",
+    "video": "44H3cEC2fFM"
+  },
+  "reference_solution": "solutions/solution_sort_and_merge.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_sort_and_merge.py",
+      "approach": "sort by start then merge",
+      "role": "primary solution",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_sweep_line.py",
+      "approach": "sweep-line active interval count",
+      "role": "alternative interval reference",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    }
+  ]
+}

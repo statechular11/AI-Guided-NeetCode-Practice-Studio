@@ -1,0 +1,99 @@
+{
+  "id": 22,
+  "title": "Generate Parentheses",
+  "slug": "generate-parentheses",
+  "folder": "0022_generate_parentheses",
+  "difficulty": "Medium",
+  "section": "Backtracking",
+  "order": 72,
+  "url": "https://leetcode.com/problems/generate-parentheses/",
+  "problem_url": "https://leetcode.com/problems/generate-parentheses/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Backtracking",
+      "slug": "backtracking"
+    }
+  ],
+  "tags": [
+    "string",
+    "dynamic-programming",
+    "backtracking"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "generateParenthesis",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return_type": "list<string>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 72
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Backtracking"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Letter Combinations of a Phone Number",
+      "titleSlug": "letter-combinations-of-a-phone-number",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Valid Parentheses",
+      "titleSlug": "valid-parentheses",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Check if a Parentheses String Can Be Valid",
+      "titleSlug": "check-if-a-parentheses-string-can-be-valid",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "backtracking",
+  "neetcode": {
+    "code": "0022-generate-parentheses",
+    "url": "https://neetcode.io/problems/generate-parentheses",
+    "video": "s9fokUqJ76A"
+  },
+  "reference_solution": "solutions/solution_open_close_counts.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_open_close_counts.py",
+      "approach": "backtrack only valid prefixes",
+      "role": "primary solution",
+      "complexity": "Time: O(C_n*n); Space: O(n) excl. output"
+    },
+    {
+      "file": "solutions/solution_iterative_stack_states.py",
+      "approach": "explicit stack of backtracking states",
+      "role": "iterative backtracking reference",
+      "complexity": "Time: O(C_n * n); Space: O(C_n * n)"
+    }
+  ]
+}

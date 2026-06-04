@@ -1,0 +1,88 @@
+{
+  "id": 134,
+  "title": "Gas Station",
+  "slug": "gas-station",
+  "folder": "0134_gas_station",
+  "difficulty": "Medium",
+  "section": "Greedy",
+  "order": 125,
+  "url": "https://leetcode.com/problems/gas-station/",
+  "problem_url": "https://leetcode.com/problems/gas-station/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    }
+  ],
+  "tags": [
+    "array",
+    "greedy"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "canCompleteCircuit",
+    "params": [
+      {
+        "name": "gas",
+        "type": "integer[]"
+      },
+      {
+        "name": "cost",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 125
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Greedy"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Maximize the Topmost Element After K Moves",
+      "titleSlug": "maximize-the-topmost-element-after-k-moves",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "greedy",
+  "neetcode": {
+    "code": "0134-gas-station",
+    "url": "https://neetcode.io/problems/gas-station",
+    "video": "lJwbPZGo05A"
+  },
+  "reference_solution": "solutions/solution_reset_start.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_reset_start.py",
+      "approach": "reset failed segment start",
+      "role": "primary greedy solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_prefix_min_start.py",
+      "approach": "prefix-sum minimum start",
+      "role": "alternative greedy proof reference",
+      "complexity": "Time: O(n); Space: O(1)"
+    }
+  ]
+}

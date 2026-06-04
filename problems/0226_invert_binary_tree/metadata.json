@@ -1,0 +1,94 @@
+{
+  "id": 226,
+  "title": "Invert Binary Tree",
+  "slug": "invert-binary-tree",
+  "folder": "0226_invert_binary_tree",
+  "difficulty": "Easy",
+  "section": "Trees",
+  "order": 45,
+  "url": "https://leetcode.com/problems/invert-binary-tree/",
+  "problem_url": "https://leetcode.com/problems/invert-binary-tree/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "invertTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return_type": "TreeNode"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 45
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Reverse Odd Levels of Binary Tree",
+      "titleSlug": "reverse-odd-levels-of-binary-tree",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0226-invert-binary-tree",
+    "url": "https://neetcode.io/problems/invert-a-binary-tree",
+    "video": "OnSn2XEQ4MY"
+  },
+  "reference_solution": "solutions/solution_recursive_swap.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_recursive_swap.py",
+      "approach": "recursive left/right child swap",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(h)"
+    },
+    {
+      "file": "solutions/solution_iterative_stack.py",
+      "approach": "iterative DFS swapping",
+      "role": "alternative tree mutation reference",
+      "complexity": "Time: O(n); Space: O(h) average, O(n) worst case"
+    }
+  ]
+}

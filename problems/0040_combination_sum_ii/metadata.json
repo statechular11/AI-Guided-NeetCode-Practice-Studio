@@ -1,0 +1,88 @@
+{
+  "id": 40,
+  "title": "Combination Sum II",
+  "slug": "combination-sum-ii",
+  "folder": "0040_combination_sum_ii",
+  "difficulty": "Medium",
+  "section": "Backtracking",
+  "order": 69,
+  "url": "https://leetcode.com/problems/combination-sum-ii/",
+  "problem_url": "https://leetcode.com/problems/combination-sum-ii/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Backtracking",
+      "slug": "backtracking"
+    }
+  ],
+  "tags": [
+    "array",
+    "backtracking"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "combinationSum2",
+    "params": [
+      {
+        "name": "candidates",
+        "type": "integer[]"
+      },
+      {
+        "name": "target",
+        "type": "integer"
+      }
+    ],
+    "return_type": "list<list<integer>>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 69
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Backtracking"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Combination Sum",
+      "titleSlug": "combination-sum",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "backtracking",
+  "neetcode": {
+    "code": "0040-combination-sum-ii",
+    "url": "https://neetcode.io/problems/combination-target-sum-ii",
+    "video": "FOyRpNUSFeA"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_skip_duplicates.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_skip_duplicates.py",
+      "approach": "sort and skip duplicate branches per depth",
+      "role": "primary solution",
+      "complexity": "Time: O(2^n*n); Space: O(n) excl. output"
+    },
+    {
+      "file": "solutions/solution_counter_counts.py",
+      "approach": "frequency-count backtracking",
+      "role": "alternative duplicate-handling reference",
+      "complexity": "Time: O(product(count_i + 1)); Space: O(u + target/min(candidates)) excl. output"
+    }
+  ]
+}

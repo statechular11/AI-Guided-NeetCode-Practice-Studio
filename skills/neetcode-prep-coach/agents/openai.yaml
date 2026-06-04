@@ -1,0 +1,6 @@
+interface:
+  display_name: "NeetCode Prep Coach"
+  short_description: "Coach NeetCode 150 practice"
+  default_prompt: "Use $neetcode-prep-coach with package root <PACKAGE_ROOT> and guide my next NeetCode 150 problem."
+policy:
+  allow_implicit_invocation: true

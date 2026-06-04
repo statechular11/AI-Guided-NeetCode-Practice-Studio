@@ -1,0 +1,103 @@
+{
+  "id": 1851,
+  "title": "Minimum Interval to Include Each Query",
+  "slug": "minimum-interval-to-include-each-query",
+  "folder": "1851_minimum_interval_to_include_each_query",
+  "difficulty": "Hard",
+  "section": "Intervals",
+  "order": 135,
+  "url": "https://leetcode.com/problems/minimum-interval-to-include-each-query/",
+  "problem_url": "https://leetcode.com/problems/minimum-interval-to-include-each-query/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Binary Search",
+      "slug": "binary-search"
+    },
+    {
+      "name": "Sweep Line",
+      "slug": "line-sweep"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    }
+  ],
+  "tags": [
+    "array",
+    "binary-search",
+    "line-sweep",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "minInterval",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      },
+      {
+        "type": "integer[]",
+        "name": "queries"
+      }
+    ],
+    "return_type": "integer[]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 135
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Intervals"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Number of Flowers in Full Bloom",
+      "titleSlug": "number-of-flowers-in-full-bloom",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "intervals",
+  "neetcode": {
+    "code": "1851-minimum-interval-to-include-each-query",
+    "url": "https://neetcode.io/problems/minimum-interval-including-query",
+    "video": "5hQ5WWW5awQ"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_sort_queries_heap.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_sort_queries_heap.py",
+      "approach": "offline sorted queries with min heap",
+      "role": "primary solution",
+      "complexity": "Time: O((n+q) log n); Space: O(n+q)"
+    },
+    {
+      "file": "solutions/solution_brute_force.py",
+      "approach": "scan all intervals per query",
+      "role": "educational baseline",
+      "complexity": "Time: O(qn); Space: O(1) excl. output"
+    }
+  ]
+}

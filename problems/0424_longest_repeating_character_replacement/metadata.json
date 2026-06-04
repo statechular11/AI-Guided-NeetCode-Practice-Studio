@@ -1,0 +1,119 @@
+{
+  "id": 424,
+  "title": "Longest Repeating Character Replacement",
+  "slug": "longest-repeating-character-replacement",
+  "folder": "0424_longest_repeating_character_replacement",
+  "difficulty": "Medium",
+  "section": "Sliding Window",
+  "order": 17,
+  "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+  "problem_url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Sliding Window",
+      "slug": "sliding-window"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "string",
+    "sliding-window"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "characterReplacement",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 17
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Sliding Window"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Longest Substring with At Most K Distinct Characters",
+      "titleSlug": "longest-substring-with-at-most-k-distinct-characters",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Max Consecutive Ones III",
+      "titleSlug": "max-consecutive-ones-iii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Number of Operations to Make Array Continuous",
+      "titleSlug": "minimum-number-of-operations-to-make-array-continuous",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Maximize the Confusion of an Exam",
+      "titleSlug": "maximize-the-confusion-of-an-exam",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Longest Substring of One Repeating Character",
+      "titleSlug": "longest-substring-of-one-repeating-character",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "sliding_window",
+  "neetcode": {
+    "code": "0424-longest-repeating-character-replacement",
+    "url": "https://neetcode.io/problems/longest-repeating-substring-with-replacement",
+    "video": "gqXU1UyA8pk"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_sliding_window.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_brute_force.py",
+      "approach": "enumerate starts with frequency counts",
+      "role": "educational baseline",
+      "complexity": "Time: O(n^2); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_sliding_window_exact_max.py",
+      "approach": "exact max-frequency valid window",
+      "role": "learning-friendly optimized solution",
+      "complexity": "Time: O(26n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_sliding_window.py",
+      "approach": "stale max-frequency valid window",
+      "role": "primary optimized solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    }
+  ]
+}

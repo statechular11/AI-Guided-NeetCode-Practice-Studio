@@ -1,0 +1,140 @@
+{
+  "id": 76,
+  "title": "Minimum Window Substring",
+  "slug": "minimum-window-substring",
+  "folder": "0076_minimum_window_substring",
+  "difficulty": "Hard",
+  "section": "Sliding Window",
+  "order": 19,
+  "url": "https://leetcode.com/problems/minimum-window-substring/",
+  "problem_url": "https://leetcode.com/problems/minimum-window-substring/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Sliding Window",
+      "slug": "sliding-window"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "string",
+    "sliding-window"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "minWindow",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "t",
+        "type": "string"
+      }
+    ],
+    "return_type": "string"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 19
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Sliding Window"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Substring with Concatenation of All Words",
+      "titleSlug": "substring-with-concatenation-of-all-words",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Minimum Size Subarray Sum",
+      "titleSlug": "minimum-size-subarray-sum",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Sliding Window Maximum",
+      "titleSlug": "sliding-window-maximum",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Permutation in String",
+      "titleSlug": "permutation-in-string",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Smallest Range Covering Elements from K Lists",
+      "titleSlug": "smallest-range-covering-elements-from-k-lists",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Minimum Window Subsequence",
+      "titleSlug": "minimum-window-subsequence",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Count Substrings That Can Be Rearranged to Contain a String II",
+      "titleSlug": "count-substrings-that-can-be-rearranged-to-contain-a-string-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Count Substrings That Can Be Rearranged to Contain a String I",
+      "titleSlug": "count-substrings-that-can-be-rearranged-to-contain-a-string-i",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "sliding_window",
+  "neetcode": {
+    "code": "0076-minimum-window-substring",
+    "url": "https://neetcode.io/problems/minimum-window-with-characters",
+    "video": "jSto0O4AJbM"
+  },
+  "reference_solution": "solutions/solution_need_window.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_brute_force.py",
+      "approach": "enumerate starts until coverage",
+      "role": "educational baseline",
+      "complexity": "Time: O(m^2 + n); Space: O(k)"
+    },
+    {
+      "file": "solutions/solution_need_window.py",
+      "approach": "formed/required cover-and-shrink window",
+      "role": "primary interview solution",
+      "complexity": "Time: O(m + n); Space: O(k)"
+    },
+    {
+      "file": "solutions/solution_deficit_missing.py",
+      "approach": "deficit counts with missing total",
+      "role": "alternative optimized formulation",
+      "complexity": "Time: O(m + n); Space: O(k)"
+    },
+    {
+      "file": "solutions/solution_filtered_window.py",
+      "approach": "filtered relevant-character window",
+      "role": "optimization for many irrelevant characters",
+      "complexity": "Time: O(m + n); Space: O(k + r)"
+    }
+  ]
+}

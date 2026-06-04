@@ -1,0 +1,112 @@
+{
+  "id": 84,
+  "title": "Largest Rectangle in Histogram",
+  "slug": "largest-rectangle-in-histogram",
+  "folder": "0084_largest_rectangle_in_histogram",
+  "difficulty": "Hard",
+  "section": "Stack",
+  "order": 26,
+  "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+  "problem_url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Stack",
+      "slug": "stack"
+    },
+    {
+      "name": "Monotonic Stack",
+      "slug": "monotonic-stack"
+    }
+  ],
+  "tags": [
+    "array",
+    "stack",
+    "monotonic-stack"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "largestRectangleArea",
+    "params": [
+      {
+        "name": "heights",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 26
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Stack"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Maximal Rectangle",
+      "titleSlug": "maximal-rectangle",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Maximum Score of a Good Subarray",
+      "titleSlug": "maximum-score-of-a-good-subarray",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "stack",
+  "neetcode": {
+    "code": "0084-largest-rectangle-in-histogram",
+    "url": "https://neetcode.io/problems/largest-rectangle-in-histogram",
+    "video": "zx5Sw9130L0"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_monotonic_stack.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_brute_force_expand.py",
+      "approach": "expand around each bar",
+      "role": "learning baseline",
+      "complexity": "Time: O(n^2); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_monotonic_stack.py",
+      "approach": "increasing-height stack",
+      "role": "primary optimized solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_start_index_stack.py",
+      "approach": "monotonic stack with explicit start indices",
+      "role": "interview-friendly stack variant",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_nearest_smaller_boundaries.py",
+      "approach": "precompute previous and next smaller boundaries",
+      "role": "boundary-explicit optimized solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_segment_tree_divide_conquer.py",
+      "approach": "range-minimum segment tree with interval splitting",
+      "role": "advanced alternative",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    }
+  ]
+}

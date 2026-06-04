@@ -1,0 +1,99 @@
+{
+  "id": 435,
+  "title": "Non-overlapping Intervals",
+  "slug": "non-overlapping-intervals",
+  "folder": "0435_non_overlapping_intervals",
+  "difficulty": "Medium",
+  "section": "Intervals",
+  "order": 132,
+  "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+  "problem_url": "https://leetcode.com/problems/non-overlapping-intervals/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "greedy",
+    "sorting"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "eraseOverlapIntervals",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 132
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Intervals"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Minimum Number of Arrows to Burst Balloons",
+      "titleSlug": "minimum-number-of-arrows-to-burst-balloons",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Determine if Two Events Have Conflict",
+      "titleSlug": "determine-if-two-events-have-conflict",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "intervals",
+  "neetcode": {
+    "code": "0435-non-overlapping-intervals",
+    "url": "https://neetcode.io/problems/non-overlapping-intervals",
+    "video": "nONCGxWoUfM"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_greedy_end_time.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_greedy_end_time.py",
+      "approach": "keep earliest-ending intervals",
+      "role": "primary greedy solution",
+      "complexity": "Time: O(n log n); Space: O(1) extra"
+    },
+    {
+      "file": "solutions/solution_quadratic_dp.py",
+      "approach": "maximum non-overlapping subset DP",
+      "role": "educational baseline",
+      "complexity": "Time: O(n^2); Space: O(n)"
+    }
+  ]
+}

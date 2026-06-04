@@ -1,0 +1,99 @@
+{
+  "id": 678,
+  "title": "Valid Parenthesis String",
+  "slug": "valid-parenthesis-string",
+  "folder": "0678_valid_parenthesis_string",
+  "difficulty": "Medium",
+  "section": "Greedy",
+  "order": 129,
+  "url": "https://leetcode.com/problems/valid-parenthesis-string/",
+  "problem_url": "https://leetcode.com/problems/valid-parenthesis-string/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    },
+    {
+      "name": "Stack",
+      "slug": "stack"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    }
+  ],
+  "tags": [
+    "string",
+    "dynamic-programming",
+    "stack",
+    "greedy"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "checkValidString",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 129
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Greedy"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Special Binary String",
+      "titleSlug": "special-binary-string",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Check if a Parentheses String Can Be Valid",
+      "titleSlug": "check-if-a-parentheses-string-can-be-valid",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "greedy",
+  "neetcode": {
+    "code": "0678-valid-parenthesis-string",
+    "url": "https://neetcode.io/problems/valid-parenthesis-string",
+    "video": "QhPdNS143Qg"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_balance_range.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_balance_range.py",
+      "approach": "range of possible open counts",
+      "role": "primary greedy solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_stack_indices.py",
+      "approach": "stacks of open and star indices",
+      "role": "alternative greedy-stack reference",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

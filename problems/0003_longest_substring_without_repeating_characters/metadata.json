@@ -1,0 +1,145 @@
+{
+  "id": 3,
+  "title": "Longest Substring Without Repeating Characters",
+  "slug": "longest-substring-without-repeating-characters",
+  "folder": "0003_longest_substring_without_repeating_characters",
+  "difficulty": "Medium",
+  "section": "Sliding Window",
+  "order": 16,
+  "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+  "problem_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Sliding Window",
+      "slug": "sliding-window"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "string",
+    "sliding-window"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "lengthOfLongestSubstring",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 16
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Sliding Window"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Longest Substring with At Most Two Distinct Characters",
+      "titleSlug": "longest-substring-with-at-most-two-distinct-characters",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Longest Substring with At Most K Distinct Characters",
+      "titleSlug": "longest-substring-with-at-most-k-distinct-characters",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Subarrays with K Different Integers",
+      "titleSlug": "subarrays-with-k-different-integers",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Maximum Erasure Value",
+      "titleSlug": "maximum-erasure-value",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Number of Equal Count Substrings",
+      "titleSlug": "number-of-equal-count-substrings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Consecutive Cards to Pick Up",
+      "titleSlug": "minimum-consecutive-cards-to-pick-up",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Longest Nice Subarray",
+      "titleSlug": "longest-nice-subarray",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Optimal Partition of String",
+      "titleSlug": "optimal-partition-of-string",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count Complete Subarrays in an Array",
+      "titleSlug": "count-complete-subarrays-in-an-array",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Longest Special Substring That Occurs Thrice II",
+      "titleSlug": "find-longest-special-substring-that-occurs-thrice-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Longest Special Substring That Occurs Thrice I",
+      "titleSlug": "find-longest-special-substring-that-occurs-thrice-i",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "sliding_window",
+  "neetcode": {
+    "code": "0003-longest-substring-without-repeating-characters",
+    "url": "https://neetcode.io/problems/longest-substring-without-duplicates",
+    "video": "wiGpQwVHdE0"
+  },
+  "reference_solution": "solutions/solution_last_seen_window.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_brute_force.py",
+      "approach": "enumerate starts until duplicate",
+      "role": "educational baseline",
+      "complexity": "Time: O(n^2); Space: O(k)"
+    },
+    {
+      "file": "solutions/solution_set_window.py",
+      "approach": "deduplicating set window",
+      "role": "learning-friendly sliding window",
+      "complexity": "Time: O(n); Space: O(k)"
+    },
+    {
+      "file": "solutions/solution_last_seen_window.py",
+      "approach": "last-seen index jump",
+      "role": "primary optimized solution",
+      "complexity": "Time: O(n); Space: O(k)"
+    }
+  ]
+}

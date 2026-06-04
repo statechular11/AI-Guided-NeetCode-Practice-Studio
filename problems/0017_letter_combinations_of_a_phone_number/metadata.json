@@ -1,0 +1,114 @@
+{
+  "id": 17,
+  "title": "Letter Combinations of a Phone Number",
+  "slug": "letter-combinations-of-a-phone-number",
+  "folder": "0017_letter_combinations_of_a_phone_number",
+  "difficulty": "Medium",
+  "section": "Backtracking",
+  "order": 75,
+  "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+  "problem_url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Backtracking",
+      "slug": "backtracking"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "string",
+    "backtracking"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "letterCombinations",
+    "params": [
+      {
+        "name": "digits",
+        "type": "string"
+      }
+    ],
+    "return_type": "list<string>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 75
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Backtracking"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Generate Parentheses",
+      "titleSlug": "generate-parentheses",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Combination Sum",
+      "titleSlug": "combination-sum",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Binary Watch",
+      "titleSlug": "binary-watch",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Count Number of Texts",
+      "titleSlug": "count-number-of-texts",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Number of Pushes to Type Word I",
+      "titleSlug": "minimum-number-of-pushes-to-type-word-i",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Minimum Number of Pushes to Type Word II",
+      "titleSlug": "minimum-number-of-pushes-to-type-word-ii",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "backtracking",
+  "neetcode": {
+    "code": "0017-letter-combinations-of-a-phone-number",
+    "url": "https://neetcode.io/problems/combinations-of-a-phone-number",
+    "video": "0snEunUacZY"
+  },
+  "reference_solution": "solutions/solution_backtracking.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_backtracking.py",
+      "approach": "choose one mapped letter per digit",
+      "role": "primary solution",
+      "complexity": "Time: O(4^n*n); Space: O(n) excl. output"
+    },
+    {
+      "file": "solutions/solution_iterative_cascade.py",
+      "approach": "iterative combination cascade",
+      "role": "alternative BFS-style construction",
+      "complexity": "Time: O(4^n * n); Space: O(4^n * n)"
+    }
+  ]
+}

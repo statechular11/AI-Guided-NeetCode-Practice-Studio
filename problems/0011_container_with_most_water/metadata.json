@@ -1,0 +1,105 @@
+{
+  "id": 11,
+  "title": "Container With Most Water",
+  "slug": "container-with-most-water",
+  "folder": "0011_container_with_most_water",
+  "difficulty": "Medium",
+  "section": "Two Pointers",
+  "order": 13,
+  "url": "https://leetcode.com/problems/container-with-most-water/",
+  "problem_url": "https://leetcode.com/problems/container-with-most-water/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    }
+  ],
+  "tags": [
+    "array",
+    "two-pointers",
+    "greedy"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "maxArea",
+    "params": [
+      {
+        "name": "height",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 13
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Two Pointers"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Trapping Rain Water",
+      "titleSlug": "trapping-rain-water",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Maximum Tastiness of Candy Basket",
+      "titleSlug": "maximum-tastiness-of-candy-basket",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "House Robber IV",
+      "titleSlug": "house-robber-iv",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "two_pointers",
+  "neetcode": {
+    "code": "0011-container-with-most-water",
+    "url": "https://neetcode.io/problems/max-water-container",
+    "video": "UuiTKBwPgAo"
+  },
+  "reference_solution": "solutions/solution_two_pointers.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_brute_force.py",
+      "approach": "all pairs",
+      "role": "learning baseline",
+      "complexity": "Time: O(n^2); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_two_pointers.py",
+      "approach": "move shorter wall",
+      "role": "primary optimized solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_two_pointers_skip_dominated.py",
+      "approach": "skip dominated shorter walls",
+      "role": "dominance-pruning variant",
+      "complexity": "Time: O(n); Space: O(1)"
+    }
+  ]
+}

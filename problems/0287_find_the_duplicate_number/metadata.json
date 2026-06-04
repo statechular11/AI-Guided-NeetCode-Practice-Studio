@@ -1,0 +1,126 @@
+{
+  "id": 287,
+  "title": "Find the Duplicate Number",
+  "slug": "find-the-duplicate-number",
+  "folder": "0287_find_the_duplicate_number",
+  "difficulty": "Medium",
+  "section": "Linked List",
+  "order": 41,
+  "url": "https://leetcode.com/problems/find-the-duplicate-number/",
+  "problem_url": "https://leetcode.com/problems/find-the-duplicate-number/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "Binary Search",
+      "slug": "binary-search"
+    },
+    {
+      "name": "Bit Manipulation",
+      "slug": "bit-manipulation"
+    }
+  ],
+  "tags": [
+    "array",
+    "two-pointers",
+    "binary-search",
+    "bit-manipulation"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "findDuplicate",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 41
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Linked List"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "First Missing Positive",
+      "titleSlug": "first-missing-positive",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Single Number",
+      "titleSlug": "single-number",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Linked List Cycle II",
+      "titleSlug": "linked-list-cycle-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Missing Number",
+      "titleSlug": "missing-number",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Set Mismatch",
+      "titleSlug": "set-mismatch",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "linked_list",
+  "neetcode": {
+    "code": "0287-find-the-duplicate-number",
+    "url": "https://neetcode.io/problems/find-duplicate-integer",
+    "video": "wjYnzkAhcNk"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_floyd_cycle.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_floyd_cycle.py",
+      "approach": "index-as-next-pointer cycle detection",
+      "role": "optimized primary solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_binary_search_count.py",
+      "approach": "binary search duplicate value via counts",
+      "role": "alternative no-mutation solution",
+      "complexity": "Time: O(n log n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_hash_set.py",
+      "approach": "track seen values in a set",
+      "role": "baseline solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_bit_count.py",
+      "approach": "reconstruct duplicate from value-range bit counts",
+      "role": "bit-manipulation variant",
+      "complexity": "Time: O(n log n); Space: O(1)"
+    }
+  ]
+}

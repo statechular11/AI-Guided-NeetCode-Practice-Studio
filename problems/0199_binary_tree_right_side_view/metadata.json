@@ -1,0 +1,99 @@
+{
+  "id": 199,
+  "title": "Binary Tree Right Side View",
+  "slug": "binary-tree-right-side-view",
+  "folder": "0199_binary_tree_right_side_view",
+  "difficulty": "Medium",
+  "section": "Trees",
+  "order": 53,
+  "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+  "problem_url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "rightSideView",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return_type": "list<integer>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 53
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Populating Next Right Pointers in Each Node",
+      "titleSlug": "populating-next-right-pointers-in-each-node",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Boundary of Binary Tree",
+      "titleSlug": "boundary-of-binary-tree",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0199-binary-tree-right-side-view",
+    "url": "https://neetcode.io/problems/binary-tree-right-side-view",
+    "video": "d4zLyf32e3I"
+  },
+  "reference_solution": "solutions/solution_bfs_last_value.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_bfs_last_value.py",
+      "approach": "BFS and keep last node per level",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(width)"
+    },
+    {
+      "file": "solutions/solution_dfs_right_first.py",
+      "approach": "right-first DFS",
+      "role": "alternative tree traversal reference",
+      "complexity": "Time: O(n); Space: O(h)"
+    }
+  ]
+}

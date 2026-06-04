@@ -1,0 +1,99 @@
+{
+  "id": 54,
+  "title": "Spiral Matrix",
+  "slug": "spiral-matrix",
+  "folder": "0054_spiral_matrix",
+  "difficulty": "Medium",
+  "section": "Math & Geometry",
+  "order": 137,
+  "url": "https://leetcode.com/problems/spiral-matrix/",
+  "problem_url": "https://leetcode.com/problems/spiral-matrix/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Matrix",
+      "slug": "matrix"
+    },
+    {
+      "name": "Simulation",
+      "slug": "simulation"
+    }
+  ],
+  "tags": [
+    "array",
+    "matrix",
+    "simulation"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "spiralOrder",
+    "params": [
+      {
+        "name": "matrix",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "list<integer>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 137
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Math & Geometry"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Spiral Matrix II",
+      "titleSlug": "spiral-matrix-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Spiral Matrix III",
+      "titleSlug": "spiral-matrix-iii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Spiral Matrix IV",
+      "titleSlug": "spiral-matrix-iv",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "math_geometry",
+  "neetcode": {
+    "code": "0054-spiral-matrix",
+    "url": "https://neetcode.io/problems/spiral-matrix",
+    "video": "BJnMZNwUk1M"
+  },
+  "reference_solution": "solutions/solution_boundary_shrink.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_boundary_shrink.py",
+      "approach": "walk outer ring then shrink boundaries",
+      "role": "primary solution",
+      "complexity": "Time: O(m*n); Space: O(1) excl. output"
+    },
+    {
+      "file": "solutions/solution_direction_visited.py",
+      "approach": "directional grid walk with visited cells",
+      "role": "simulation variant",
+      "complexity": "Time: O(m*n); Space: O(m*n) excl. output"
+    }
+  ]
+}

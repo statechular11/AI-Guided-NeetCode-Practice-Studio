@@ -1,0 +1,118 @@
+{
+  "id": 207,
+  "title": "Course Schedule",
+  "slug": "course-schedule",
+  "folder": "0207_course_schedule",
+  "difficulty": "Medium",
+  "section": "Graphs",
+  "order": 87,
+  "url": "https://leetcode.com/problems/course-schedule/",
+  "problem_url": "https://leetcode.com/problems/course-schedule/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Graph Theory",
+      "slug": "graph"
+    },
+    {
+      "name": "Topological Sort",
+      "slug": "topological-sort"
+    }
+  ],
+  "tags": [
+    "depth-first-search",
+    "breadth-first-search",
+    "graph",
+    "topological-sort"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "canFinish",
+    "params": [
+      {
+        "name": "numCourses",
+        "type": "integer"
+      },
+      {
+        "name": "prerequisites",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 87
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Graphs"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Course Schedule II",
+      "titleSlug": "course-schedule-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Graph Valid Tree",
+      "titleSlug": "graph-valid-tree",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Height Trees",
+      "titleSlug": "minimum-height-trees",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Course Schedule III",
+      "titleSlug": "course-schedule-iii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Build a Matrix With Conditions",
+      "titleSlug": "build-a-matrix-with-conditions",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "graph",
+  "neetcode": {
+    "code": "0207-course-schedule",
+    "url": "https://neetcode.io/problems/course-schedule",
+    "video": "EgI5nU9etnU"
+  },
+  "reference_solution": "solutions/solution_topological_sort.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_topological_sort.py",
+      "approach": "Kahn BFS over indegree-zero courses",
+      "role": "primary solution",
+      "complexity": "Time: O(V+E); Space: O(V+E)"
+    },
+    {
+      "file": "solutions/solution_dfs_cycle_detection.py",
+      "approach": "DFS cycle detection",
+      "role": "alternative topological-sort reference",
+      "complexity": "Time: O(V + E); Space: O(V + E)"
+    }
+  ]
+}

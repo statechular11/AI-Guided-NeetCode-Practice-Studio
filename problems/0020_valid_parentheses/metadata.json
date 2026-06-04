@@ -1,0 +1,115 @@
+{
+  "id": 20,
+  "title": "Valid Parentheses",
+  "slug": "valid-parentheses",
+  "folder": "0020_valid_parentheses",
+  "difficulty": "Easy",
+  "section": "Stack",
+  "order": 21,
+  "url": "https://leetcode.com/problems/valid-parentheses/",
+  "problem_url": "https://leetcode.com/problems/valid-parentheses/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Stack",
+      "slug": "stack"
+    }
+  ],
+  "tags": [
+    "string",
+    "stack"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "isValid",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 21
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Stack"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Generate Parentheses",
+      "titleSlug": "generate-parentheses",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Longest Valid Parentheses",
+      "titleSlug": "longest-valid-parentheses",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Remove Invalid Parentheses",
+      "titleSlug": "remove-invalid-parentheses",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Check If Word Is Valid After Substitutions",
+      "titleSlug": "check-if-word-is-valid-after-substitutions",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Check if a Parentheses String Can Be Valid",
+      "titleSlug": "check-if-a-parentheses-string-can-be-valid",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Move Pieces to Obtain a String",
+      "titleSlug": "move-pieces-to-obtain-a-string",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "stack",
+  "neetcode": {
+    "code": "0020-valid-parentheses",
+    "url": "https://neetcode.io/problems/validate-parentheses",
+    "video": "WTzjTskDFMg"
+  },
+  "reference_solution": "solutions/solution_stack.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_stack.py",
+      "approach": "opening-bracket stack",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_expected_closers.py",
+      "approach": "stack of expected closing brackets",
+      "role": "equivalent stack state representation",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_repeated_reduction.py",
+      "approach": "repeatedly remove adjacent matched pairs",
+      "role": "learning baseline",
+      "complexity": "Time: O(n^2); Space: O(n)"
+    }
+  ]
+}

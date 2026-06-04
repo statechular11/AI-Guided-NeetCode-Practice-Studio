@@ -1,0 +1,143 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "tasks": [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B"
+        ],
+        "n": 2
+      },
+      "expected": 8
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "tasks": [
+          "A",
+          "C",
+          "A",
+          "B",
+          "D",
+          "B"
+        ],
+        "n": 1
+      },
+      "expected": 6
+    },
+    {
+      "name": "example_3",
+      "args": {
+        "tasks": [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B"
+        ],
+        "n": 3
+      },
+      "expected": 10
+    },
+    {
+      "name": "zero_cooldown",
+      "args": {
+        "tasks": [
+          "A",
+          "A",
+          "A",
+          "B"
+        ],
+        "n": 0
+      },
+      "expected": 4
+    },
+    {
+      "name": "all_unique_large_cooldown",
+      "args": {
+        "tasks": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "n": 100
+      },
+      "expected": 4
+    },
+    {
+      "name": "enough_fillers_no_idle",
+      "args": {
+        "tasks": [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "C",
+          "C",
+          "D",
+          "D"
+        ],
+        "n": 2
+      },
+      "expected": 10
+    },
+    {
+      "name": "multiple_max_frequency_tail_matters",
+      "args": {
+        "tasks": [
+          "A",
+          "A",
+          "A",
+          "B",
+          "B",
+          "B",
+          "C",
+          "C",
+          "C"
+        ],
+        "n": 3
+      },
+      "expected": 11
+    },
+    {
+      "name": "single_dominant_task_idle_heavy",
+      "args": {
+        "tasks": [
+          "A",
+          "A",
+          "A",
+          "A",
+          "A",
+          "B",
+          "C"
+        ],
+        "n": 2
+      },
+      "expected": 13
+    },
+    {
+      "name": "single_task_type",
+      "args": {
+        "tasks": [
+          "A",
+          "A",
+          "A",
+          "A"
+        ],
+        "n": 3
+      },
+      "expected": 13
+    }
+  ]
+}

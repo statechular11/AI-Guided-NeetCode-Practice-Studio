@@ -1,0 +1,109 @@
+{
+  "id": 125,
+  "title": "Valid Palindrome",
+  "slug": "valid-palindrome",
+  "folder": "0125_valid_palindrome",
+  "difficulty": "Easy",
+  "section": "Two Pointers",
+  "order": 10,
+  "url": "https://leetcode.com/problems/valid-palindrome/",
+  "problem_url": "https://leetcode.com/problems/valid-palindrome/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    }
+  ],
+  "tags": [
+    "two-pointers",
+    "string"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "isPalindrome",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 10
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Two Pointers"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Palindrome Linked List",
+      "titleSlug": "palindrome-linked-list",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Valid Palindrome II",
+      "titleSlug": "valid-palindrome-ii",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+      "titleSlug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find First Palindromic String in the Array",
+      "titleSlug": "find-first-palindromic-string-in-the-array",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Valid Palindrome IV",
+      "titleSlug": "valid-palindrome-iv",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Palindromes After Operations",
+      "titleSlug": "maximum-palindromes-after-operations",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "two_pointers",
+  "neetcode": {
+    "code": "0125-valid-palindrome",
+    "url": "https://neetcode.io/problems/is-palindrome",
+    "video": "jJXJ16kPFWg"
+  },
+  "reference_solution": "solutions/solution_two_pointers.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_normalize_then_compare.py",
+      "approach": "normalize then reverse-compare",
+      "role": "easy baseline",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_two_pointers.py",
+      "approach": "in-place two pointers",
+      "role": "primary optimized solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    }
+  ]
+}

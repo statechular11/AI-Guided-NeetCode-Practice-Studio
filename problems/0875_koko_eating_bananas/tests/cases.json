@@ -1,0 +1,47 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "piles": [
+          3,
+          6,
+          7,
+          11
+        ],
+        "h": 8
+      },
+      "expected": 4
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "piles": [
+          30,
+          11,
+          23,
+          4,
+          20
+        ],
+        "h": 5
+      },
+      "expected": 30
+    },
+    {
+      "name": "example_3",
+      "args": {
+        "piles": [
+          30,
+          11,
+          23,
+          4,
+          20
+        ],
+        "h": 6
+      },
+      "expected": 23
+    }
+  ]
+}

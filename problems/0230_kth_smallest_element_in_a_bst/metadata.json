@@ -1,0 +1,103 @@
+{
+  "id": 230,
+  "title": "Kth Smallest Element in a BST",
+  "slug": "kth-smallest-element-in-a-bst",
+  "folder": "0230_kth_smallest_element_in_a_bst",
+  "difficulty": "Medium",
+  "section": "Trees",
+  "order": 56,
+  "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+  "problem_url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Binary Search Tree",
+      "slug": "binary-search-tree"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "binary-search-tree",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "kthSmallest",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 56
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Binary Tree Inorder Traversal",
+      "titleSlug": "binary-tree-inorder-traversal",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Second Minimum Node In a Binary Tree",
+      "titleSlug": "second-minimum-node-in-a-binary-tree",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0230-kth-smallest-element-in-a-bst",
+    "url": "https://neetcode.io/problems/kth-smallest-integer-in-bst",
+    "video": "5LUXSvjmGCw"
+  },
+  "reference_solution": "solutions/solution_iterative_inorder.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_iterative_inorder.py",
+      "approach": "iterative inorder until kth visit",
+      "role": "primary solution",
+      "complexity": "Time: O(h+k); Space: O(h)"
+    },
+    {
+      "file": "solutions/solution_recursive_inorder.py",
+      "approach": "recursive inorder collection",
+      "role": "readable BST-order reference",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

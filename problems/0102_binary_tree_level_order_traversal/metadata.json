@@ -1,0 +1,129 @@
+{
+  "id": 102,
+  "title": "Binary Tree Level Order Traversal",
+  "slug": "binary-tree-level-order-traversal",
+  "folder": "0102_binary_tree_level_order_traversal",
+  "difficulty": "Medium",
+  "section": "Trees",
+  "order": 52,
+  "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+  "problem_url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "tree",
+    "breadth-first-search",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "levelOrder",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return_type": "list<list<integer>>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 52
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Binary Tree Zigzag Level Order Traversal",
+      "titleSlug": "binary-tree-zigzag-level-order-traversal",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Binary Tree Level Order Traversal II",
+      "titleSlug": "binary-tree-level-order-traversal-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Depth of Binary Tree",
+      "titleSlug": "minimum-depth-of-binary-tree",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Binary Tree Vertical Order Traversal",
+      "titleSlug": "binary-tree-vertical-order-traversal",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Average of Levels in Binary Tree",
+      "titleSlug": "average-of-levels-in-binary-tree",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "N-ary Tree Level Order Traversal",
+      "titleSlug": "n-ary-tree-level-order-traversal",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Cousins in Binary Tree",
+      "titleSlug": "cousins-in-binary-tree",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+      "titleSlug": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Divide Nodes Into the Maximum Number of Groups",
+      "titleSlug": "divide-nodes-into-the-maximum-number-of-groups",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0102-binary-tree-level-order-traversal",
+    "url": "https://neetcode.io/problems/level-order-traversal-of-binary-tree",
+    "video": "6ZnyEApgFYg"
+  },
+  "reference_solution": "solutions/solution_bfs_queue.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_bfs_queue.py",
+      "approach": "queue BFS grouped by current level length",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(width)"
+    },
+    {
+      "file": "solutions/solution_dfs_levels.py",
+      "approach": "DFS carrying depth",
+      "role": "alternative tree traversal reference",
+      "complexity": "Time: O(n); Space: O(h) recursion plus output"
+    }
+  ]
+}

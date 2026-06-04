@@ -1,0 +1,115 @@
+{
+  "id": 136,
+  "title": "Single Number",
+  "slug": "single-number",
+  "folder": "0136_single_number",
+  "difficulty": "Easy",
+  "section": "Bit Manipulation",
+  "order": 144,
+  "url": "https://leetcode.com/problems/single-number/",
+  "problem_url": "https://leetcode.com/problems/single-number/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Bit Manipulation",
+      "slug": "bit-manipulation"
+    }
+  ],
+  "tags": [
+    "array",
+    "bit-manipulation"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "singleNumber",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 144
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Bit Manipulation"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Single Number II",
+      "titleSlug": "single-number-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Single Number III",
+      "titleSlug": "single-number-iii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Missing Number",
+      "titleSlug": "missing-number",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Find the Duplicate Number",
+      "titleSlug": "find-the-duplicate-number",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find the Difference",
+      "titleSlug": "find-the-difference",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Find the XOR of Numbers Which Appear Twice",
+      "titleSlug": "find-the-xor-of-numbers-which-appear-twice",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "bit_manipulation",
+  "neetcode": {
+    "code": "0136-single-number",
+    "url": "https://neetcode.io/problems/single-number",
+    "video": "qMPX1AOa83k"
+  },
+  "reference_solution": "solutions/solution_xor.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_xor.py",
+      "approach": "xor cancellation",
+      "role": "primary bit solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_hash_set.py",
+      "approach": "track currently unpaired values in a set",
+      "role": "baseline solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_sorting.py",
+      "approach": "sort then scan adjacent duplicate pairs",
+      "role": "sorting tradeoff",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    }
+  ]
+}

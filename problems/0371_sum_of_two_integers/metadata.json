@@ -1,0 +1,88 @@
+{
+  "id": 371,
+  "title": "Sum of Two Integers",
+  "slug": "sum-of-two-integers",
+  "folder": "0371_sum_of_two_integers",
+  "difficulty": "Medium",
+  "section": "Bit Manipulation",
+  "order": 149,
+  "url": "https://leetcode.com/problems/sum-of-two-integers/",
+  "problem_url": "https://leetcode.com/problems/sum-of-two-integers/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Math",
+      "slug": "math"
+    },
+    {
+      "name": "Bit Manipulation",
+      "slug": "bit-manipulation"
+    }
+  ],
+  "tags": [
+    "math",
+    "bit-manipulation"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "getSum",
+    "params": [
+      {
+        "name": "a",
+        "type": "integer"
+      },
+      {
+        "name": "b",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 149
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Bit Manipulation"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Add Two Numbers",
+      "titleSlug": "add-two-numbers",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "bit_manipulation",
+  "neetcode": {
+    "code": "0371-sum-of-two-integers",
+    "url": "https://neetcode.io/problems/sum-of-two-integers",
+    "video": "gVUrDV4tZfY"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_bitwise_add.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_bitwise_add.py",
+      "approach": "xor plus carry loop",
+      "role": "primary bit solution",
+      "complexity": "Time: O(32); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_full_adder_scan.py",
+      "approach": "fixed-width full-adder bit scan",
+      "role": "educational hardware-adder variant",
+      "complexity": "Time: O(32); Space: O(1)"
+    }
+  ]
+}

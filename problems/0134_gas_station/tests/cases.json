@@ -1,0 +1,42 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "gas": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "cost": [
+          3,
+          4,
+          5,
+          1,
+          2
+        ]
+      },
+      "expected": 3
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "gas": [
+          2,
+          3,
+          4
+        ],
+        "cost": [
+          3,
+          4,
+          3
+        ]
+      },
+      "expected": -1
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 647,
+  "title": "Palindromic Substrings",
+  "slug": "palindromic-substrings",
+  "folder": "0647_palindromic_substrings",
+  "difficulty": "Medium",
+  "section": "1-D Dynamic Programming",
+  "order": 104,
+  "url": "https://leetcode.com/problems/palindromic-substrings/",
+  "problem_url": "https://leetcode.com/problems/palindromic-substrings/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "two-pointers",
+    "string",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "countSubstrings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 104
+  },
+  "sections_by_plan": {
+    "neetcode-150": "1-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Longest Palindromic Substring",
+      "titleSlug": "longest-palindromic-substring",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Longest Palindromic Subsequence",
+      "titleSlug": "longest-palindromic-subsequence",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "dynamic_programming",
+  "neetcode": {
+    "code": "0647-palindromic-substrings",
+    "url": "https://neetcode.io/problems/palindromic-substrings",
+    "video": "4RACzI5-du8"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_expand_centers.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_expand_centers.py",
+      "approach": "count palindromes from every odd/even center",
+      "role": "primary solution",
+      "complexity": "Time: O(n^2); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_dp_table.py",
+      "approach": "palindrome DP table",
+      "role": "alternative DP reference",
+      "complexity": "Time: O(n^2); Space: O(n^2)"
+    }
+  ]
+}

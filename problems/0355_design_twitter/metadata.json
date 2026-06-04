@@ -1,0 +1,146 @@
+{
+  "id": 355,
+  "title": "Design Twitter",
+  "slug": "design-twitter",
+  "folder": "0355_design_twitter",
+  "difficulty": "Medium",
+  "section": "Heap / Priority Queue",
+  "order": 65,
+  "url": "https://leetcode.com/problems/design-twitter/",
+  "problem_url": "https://leetcode.com/problems/design-twitter/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Linked List",
+      "slug": "linked-list"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "linked-list",
+    "design",
+    "heap-priority-queue"
+  ],
+  "function": {
+    "class_name": "Twitter",
+    "methods": [
+      {
+        "name": "postTweet",
+        "params": [
+          {
+            "type": "integer",
+            "name": "userId"
+          },
+          {
+            "type": "integer",
+            "name": "tweetId"
+          }
+        ],
+        "return_type": "void"
+      },
+      {
+        "name": "getNewsFeed",
+        "params": [
+          {
+            "type": "integer",
+            "name": "userId"
+          }
+        ],
+        "return_type": "list<integer>"
+      },
+      {
+        "name": "follow",
+        "params": [
+          {
+            "type": "integer",
+            "name": "followerId"
+          },
+          {
+            "type": "integer",
+            "name": "followeeId"
+          }
+        ],
+        "return_type": "void"
+      },
+      {
+        "name": "unfollow",
+        "params": [
+          {
+            "type": "integer",
+            "name": "followerId"
+          },
+          {
+            "type": "integer",
+            "name": "followeeId"
+          }
+        ],
+        "return_type": "void"
+      }
+    ]
+  },
+  "judge": {
+    "mode": "design"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 65
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Heap / Priority Queue"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Design a File Sharing System",
+      "titleSlug": "design-a-file-sharing-system",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "heap",
+  "neetcode": {
+    "code": "0355-design-twitter",
+    "url": "https://neetcode.io/problems/design-twitter-feed",
+    "video": "pNichitDD2E"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_heap_merge_feeds.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_heap_merge_feeds.py",
+      "approach": "k-way heap merge over visible users",
+      "role": "primary optimized design solution",
+      "complexity": "post/follow O(1), getNewsFeed O(U log U + 10 log U)"
+    },
+    {
+      "file": "solutions/solution_global_timeline_scan.py",
+      "approach": "reverse global timeline scan",
+      "role": "simple design baseline",
+      "complexity": "post/follow O(1), getNewsFeed O(T) worst case"
+    },
+    {
+      "file": "solutions/solution_sort_visible_tweets.py",
+      "approach": "collect and sort visible tweets",
+      "role": "baseline bridge to heap merge",
+      "complexity": "post/follow O(1), getNewsFeed O(M log M)"
+    }
+  ]
+}

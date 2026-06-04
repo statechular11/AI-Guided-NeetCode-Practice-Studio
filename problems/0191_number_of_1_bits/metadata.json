@@ -1,0 +1,137 @@
+{
+  "id": 191,
+  "title": "Number of 1 Bits",
+  "slug": "number-of-1-bits",
+  "folder": "0191_number_of_1_bits",
+  "difficulty": "Easy",
+  "section": "Bit Manipulation",
+  "order": 145,
+  "url": "https://leetcode.com/problems/number-of-1-bits/",
+  "problem_url": "https://leetcode.com/problems/number-of-1-bits/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Divide and Conquer",
+      "slug": "divide-and-conquer"
+    },
+    {
+      "name": "Bit Manipulation",
+      "slug": "bit-manipulation"
+    }
+  ],
+  "tags": [
+    "divide-and-conquer",
+    "bit-manipulation"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "hammingWeight",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 145
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Bit Manipulation"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Reverse Bits",
+      "titleSlug": "reverse-bits",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Power of Two",
+      "titleSlug": "power-of-two",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Counting Bits",
+      "titleSlug": "counting-bits",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Binary Watch",
+      "titleSlug": "binary-watch",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Hamming Distance",
+      "titleSlug": "hamming-distance",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Binary Number with Alternating Bits",
+      "titleSlug": "binary-number-with-alternating-bits",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Prime Number of Set Bits in Binary Representation",
+      "titleSlug": "prime-number-of-set-bits-in-binary-representation",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Convert Date to Binary",
+      "titleSlug": "convert-date-to-binary",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "bit_manipulation",
+  "neetcode": {
+    "code": "0191-number-of-1-bits",
+    "url": "https://neetcode.io/problems/number-of-one-bits",
+    "video": "5Km3utixwZs"
+  },
+  "reference_solution": "solutions/solution_clear_lowest_set_bit.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_shift_count.py",
+      "approach": "inspect all bits",
+      "role": "simple baseline",
+      "complexity": "Time: O(32); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_clear_lowest_set_bit.py",
+      "approach": "Brian Kernighan trick",
+      "role": "primary bit trick",
+      "complexity": "Time: O(set bits); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_builtin_bit_count.py",
+      "approach": "use Python int.bit_count",
+      "role": "Python API variant",
+      "complexity": "Time: O(1) for bounded input; Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_lookup_table.py",
+      "approach": "precomputed byte popcount table",
+      "role": "repeated-call optimization",
+      "complexity": "Time: O(1); Space: O(256)"
+    },
+    {
+      "file": "solutions/solution_parallel_bit_count.py",
+      "approach": "parallel bit count with masks",
+      "role": "divide-and-conquer bit-count variant",
+      "complexity": "Time: O(1); Space: O(1)"
+    }
+  ]
+}

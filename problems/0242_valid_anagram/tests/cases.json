@@ -1,0 +1,38 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "s": "anagram",
+        "t": "nagaram"
+      },
+      "expected": true
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "s": "rat",
+        "t": "car"
+      },
+      "expected": false
+    },
+    {
+      "name": "different_lengths",
+      "args": {
+        "s": "ab",
+        "t": "a"
+      },
+      "expected": false
+    },
+    {
+      "name": "same_letters_wrong_counts",
+      "args": {
+        "s": "aacc",
+        "t": "ccac"
+      },
+      "expected": false
+    }
+  ]
+}

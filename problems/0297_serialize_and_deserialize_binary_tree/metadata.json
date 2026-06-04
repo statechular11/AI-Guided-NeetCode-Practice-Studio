@@ -1,0 +1,119 @@
+{
+  "id": 297,
+  "title": "Serialize and Deserialize Binary Tree",
+  "slug": "serialize-and-deserialize-binary-tree",
+  "folder": "0297_serialize_and_deserialize_binary_tree",
+  "difficulty": "Hard",
+  "section": "Trees",
+  "order": 59,
+  "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+  "problem_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "string",
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "design",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "Codec",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return_type": "string"
+  },
+  "judge": {
+    "mode": "tree_codec"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 59
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Encode and Decode Strings",
+      "titleSlug": "encode-and-decode-strings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Serialize and Deserialize BST",
+      "titleSlug": "serialize-and-deserialize-bst",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Duplicate Subtrees",
+      "titleSlug": "find-duplicate-subtrees",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Serialize and Deserialize N-ary Tree",
+      "titleSlug": "serialize-and-deserialize-n-ary-tree",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0297-serialize-and-deserialize-binary-tree",
+    "url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+    "video": "u4JAi2JJhI8"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_level_order_codec.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_level_order_codec.py",
+      "approach": "level-order tokens with null markers",
+      "role": "primary codec solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_preorder_codec.py",
+      "approach": "preorder tokens with null markers",
+      "role": "alternative codec reference",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

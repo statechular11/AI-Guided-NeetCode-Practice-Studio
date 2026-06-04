@@ -1,0 +1,99 @@
+{
+  "id": 110,
+  "title": "Balanced Binary Tree",
+  "slug": "balanced-binary-tree",
+  "folder": "0110_balanced_binary_tree",
+  "difficulty": "Easy",
+  "section": "Trees",
+  "order": 48,
+  "url": "https://leetcode.com/problems/balanced-binary-tree/",
+  "problem_url": "https://leetcode.com/problems/balanced-binary-tree/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "isBalanced",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 48
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Maximum Depth of Binary Tree",
+      "titleSlug": "maximum-depth-of-binary-tree",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "K-th Largest Perfect Subtree Size in Binary Tree",
+      "titleSlug": "k-th-largest-perfect-subtree-size-in-binary-tree",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Check Balanced String",
+      "titleSlug": "check-balanced-string",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0110-balanced-binary-tree",
+    "url": "https://neetcode.io/problems/balanced-binary-tree",
+    "video": "QfJsau0ItOY"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_height_or_minus_one.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_height_or_minus_one.py",
+      "approach": "postorder height with imbalance sentinel",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(h)"
+    },
+    {
+      "file": "solutions/solution_top_down_height_check.py",
+      "approach": "top-down height recomputation",
+      "role": "educational baseline",
+      "complexity": "Time: O(n^2) worst case; Space: O(h)"
+    }
+  ]
+}

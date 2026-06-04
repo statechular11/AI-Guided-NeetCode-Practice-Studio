@@ -1,0 +1,104 @@
+{
+  "id": 66,
+  "title": "Plus One",
+  "slug": "plus-one",
+  "folder": "0066_plus_one",
+  "difficulty": "Easy",
+  "section": "Math & Geometry",
+  "order": 140,
+  "url": "https://leetcode.com/problems/plus-one/",
+  "problem_url": "https://leetcode.com/problems/plus-one/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Math",
+      "slug": "math"
+    }
+  ],
+  "tags": [
+    "array",
+    "math"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "plusOne",
+    "params": [
+      {
+        "name": "digits",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer[]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 140
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Math & Geometry"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Multiply Strings",
+      "titleSlug": "multiply-strings",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Add Binary",
+      "titleSlug": "add-binary",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Plus One Linked List",
+      "titleSlug": "plus-one-linked-list",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Add to Array-Form of Integer",
+      "titleSlug": "add-to-array-form-of-integer",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Minimum Operations to Reduce an Integer to 0",
+      "titleSlug": "minimum-operations-to-reduce-an-integer-to-0",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "math_geometry",
+  "neetcode": {
+    "code": "0066-plus-one",
+    "url": "https://neetcode.io/problems/plus-one",
+    "video": "jIaA8boiG1s"
+  },
+  "reference_solution": "solutions/solution_carry_from_right.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_carry_from_right.py",
+      "approach": "manual carry propagation from least significant digit",
+      "role": "primary in-place solution",
+      "complexity": "Time: O(n); Space: O(1) extra"
+    },
+    {
+      "file": "solutions/solution_general_carry_output.py",
+      "approach": "explicit carry into a new output array",
+      "role": "transferable carry-template variant",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

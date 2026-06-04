@@ -1,0 +1,122 @@
+{
+  "id": 235,
+  "title": "Lowest Common Ancestor of a Binary Search Tree",
+  "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+  "folder": "0235_lowest_common_ancestor_of_a_binary_search_tree",
+  "difficulty": "Medium",
+  "section": "Trees",
+  "order": 51,
+  "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+  "problem_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Binary Search Tree",
+      "slug": "binary-search-tree"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "binary-search-tree",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "lowestCommonAncestor",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      },
+      {
+        "name": "p",
+        "type": "integer"
+      },
+      {
+        "name": "q",
+        "type": "integer"
+      }
+    ],
+    "return_type": "TreeNode"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 51
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "titleSlug": "lowest-common-ancestor-of-a-binary-tree",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Smallest Common Region",
+      "titleSlug": "smallest-common-region",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Lowest Common Ancestor of a Binary Tree II",
+      "titleSlug": "lowest-common-ancestor-of-a-binary-tree-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Lowest Common Ancestor of a Binary Tree III",
+      "titleSlug": "lowest-common-ancestor-of-a-binary-tree-iii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Lowest Common Ancestor of a Binary Tree IV",
+      "titleSlug": "lowest-common-ancestor-of-a-binary-tree-iv",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "0235-lowest-common-ancestor-of-a-binary-search-tree",
+    "url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree",
+    "video": "gs2LMfuOR9k"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_bst_split.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_bst_split.py",
+      "approach": "walk toward the BST split point",
+      "role": "primary solution",
+      "complexity": "Time: O(h); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_recursive_bst.py",
+      "approach": "recursive BST split point",
+      "role": "alternative BST traversal reference",
+      "complexity": "Time: O(h); Space: O(h)"
+    }
+  ]
+}

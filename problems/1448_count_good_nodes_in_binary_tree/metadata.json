@@ -1,0 +1,88 @@
+{
+  "id": 1448,
+  "title": "Count Good Nodes in Binary Tree",
+  "slug": "count-good-nodes-in-binary-tree",
+  "folder": "1448_count_good_nodes_in_binary_tree",
+  "difficulty": "Medium",
+  "section": "Trees",
+  "order": 54,
+  "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+  "problem_url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Tree",
+      "slug": "tree"
+    },
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Binary Tree",
+      "slug": "binary-tree"
+    }
+  ],
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "goodNodes",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 54
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Trees"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [],
+  "approach": "tree_dfs",
+  "neetcode": {
+    "code": "1448-count-good-nodes-in-binary-tree",
+    "url": "https://neetcode.io/problems/count-good-nodes-in-binary-tree",
+    "video": "7cp5imvDzl4"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_path_max.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_path_max.py",
+      "approach": "DFS carrying maximum value seen so far",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(h)"
+    },
+    {
+      "file": "solutions/solution_iterative_stack.py",
+      "approach": "iterative DFS with path maximum",
+      "role": "alternative tree traversal reference",
+      "complexity": "Time: O(n); Space: O(h) average, O(n) worst case"
+    }
+  ]
+}

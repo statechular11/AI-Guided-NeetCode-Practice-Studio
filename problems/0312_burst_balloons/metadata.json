@@ -1,0 +1,84 @@
+{
+  "id": 312,
+  "title": "Burst Balloons",
+  "slug": "burst-balloons",
+  "folder": "0312_burst_balloons",
+  "difficulty": "Hard",
+  "section": "2-D Dynamic Programming",
+  "order": 120,
+  "url": "https://leetcode.com/problems/burst-balloons/",
+  "problem_url": "https://leetcode.com/problems/burst-balloons/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "maxCoins",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 120
+  },
+  "sections_by_plan": {
+    "neetcode-150": "2-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Minimum Cost to Merge Stones",
+      "titleSlug": "minimum-cost-to-merge-stones",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "multidimensional_dp",
+  "neetcode": {
+    "code": "0312-burst-balloons",
+    "url": "https://neetcode.io/problems/burst-balloons",
+    "video": "VFskby7lUbw"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_interval_dp.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_interval_dp.py",
+      "approach": "choose last balloon inside interval",
+      "role": "primary solution",
+      "complexity": "Time: O(n^3); Space: O(n^2)"
+    },
+    {
+      "file": "solutions/solution_top_down_interval.py",
+      "approach": "top-down interval DP",
+      "role": "recursive interval-DP reference",
+      "complexity": "Time: O(n^3); Space: O(n^2)"
+    }
+  ]
+}

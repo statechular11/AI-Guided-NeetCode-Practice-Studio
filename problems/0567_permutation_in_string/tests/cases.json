@@ -1,0 +1,30 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "s1": "ab",
+        "s2": "eidbaooo"
+      },
+      "expected": true
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "s1": "ab",
+        "s2": "eidboaoo"
+      },
+      "expected": false
+    },
+    {
+      "name": "overlap_at_end",
+      "args": {
+        "s1": "adc",
+        "s2": "dcda"
+      },
+      "expected": true
+    }
+  ]
+}

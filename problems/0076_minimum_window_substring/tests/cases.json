@@ -1,0 +1,38 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "s": "ADOBECODEBANC",
+        "t": "ABC"
+      },
+      "expected": "BANC"
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "s": "a",
+        "t": "a"
+      },
+      "expected": "a"
+    },
+    {
+      "name": "example_3",
+      "args": {
+        "s": "a",
+        "t": "aa"
+      },
+      "expected": ""
+    },
+    {
+      "name": "duplicates_in_t",
+      "args": {
+        "s": "aa",
+        "t": "aa"
+      },
+      "expected": "aa"
+    }
+  ]
+}

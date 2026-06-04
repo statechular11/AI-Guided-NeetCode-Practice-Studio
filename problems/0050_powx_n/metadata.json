@@ -1,0 +1,98 @@
+{
+  "id": 50,
+  "title": "Pow(x, n)",
+  "slug": "powx-n",
+  "folder": "0050_powx_n",
+  "difficulty": "Medium",
+  "section": "Math & Geometry",
+  "order": 141,
+  "url": "https://leetcode.com/problems/powx-n/",
+  "problem_url": "https://leetcode.com/problems/powx-n/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Math",
+      "slug": "math"
+    },
+    {
+      "name": "Recursion",
+      "slug": "recursion"
+    }
+  ],
+  "tags": [
+    "math",
+    "recursion"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "myPow",
+    "params": [
+      {
+        "name": "x",
+        "type": "double"
+      },
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return_type": "double"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 141
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Math & Geometry"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Sqrt(x)",
+      "titleSlug": "sqrtx",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Super Pow",
+      "titleSlug": "super-pow",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count Collisions of Monkeys on a Polygon",
+      "titleSlug": "count-collisions-of-monkeys-on-a-polygon",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "math_geometry",
+  "neetcode": {
+    "code": "0050-powx-n",
+    "url": "https://neetcode.io/problems/pow-x-n",
+    "video": "g9YQyYi4IQQ"
+  },
+  "reference_solution": "solutions/solution_binary_exponentiation.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_binary_exponentiation.py",
+      "approach": "fast power by exponent bits",
+      "role": "primary iterative solution",
+      "complexity": "Time: O(log |n|); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_recursive_fast_power.py",
+      "approach": "recursive divide-and-conquer fast power",
+      "role": "recursion variant",
+      "complexity": "Time: O(log |n|); Space: O(log |n|)"
+    }
+  ]
+}

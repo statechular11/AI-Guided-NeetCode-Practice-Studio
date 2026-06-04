@@ -1,0 +1,107 @@
+{
+  "id": 252,
+  "title": "Meeting Rooms",
+  "slug": "meeting-rooms",
+  "folder": "0252_meeting_rooms",
+  "difficulty": "Easy",
+  "section": "Intervals",
+  "order": 133,
+  "url": "https://leetcode.com/problems/meeting-rooms/",
+  "problem_url": "https://neetcode.io/problems/meeting-schedule/question",
+  "problem_source": "neetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    }
+  ],
+  "tags": [
+    "array",
+    "sorting"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "canAttendMeetings",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "boolean"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 133
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Intervals"
+  },
+  "is_paid_only": true,
+  "content_available": true,
+  "leetcode_content_available": false,
+  "content_source": "neetcode",
+  "similar_questions": [
+    {
+      "title": "Merge Intervals",
+      "titleSlug": "merge-intervals",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Meeting Rooms II",
+      "titleSlug": "meeting-rooms-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Meeting Rooms III",
+      "titleSlug": "meeting-rooms-iii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Points That Intersect With Cars",
+      "titleSlug": "points-that-intersect-with-cars",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "intervals",
+  "neetcode": {
+    "code": "0252-meeting-rooms",
+    "url": "https://neetcode.io/problems/meeting-schedule",
+    "video": "PaJxqZVPhbg",
+    "question_url": "https://neetcode.io/problems/meeting-schedule/question",
+    "topics": [
+      "Array",
+      "Sorting",
+      "Recommended Time & Space Complexity",
+      "You should aim for a solution with O(nlogn) time and O(n) space",
+      "where n is the size of the input array."
+    ]
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_sort_and_check.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_sort_and_check.py",
+      "approach": "sort by start and check overlap",
+      "role": "primary solution",
+      "complexity": "Time: O(n log n); Space: O(1) extra"
+    },
+    {
+      "file": "solutions/solution_sweep_line.py",
+      "approach": "sweep-line overlap detection",
+      "role": "alternative interval reference",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    }
+  ]
+}

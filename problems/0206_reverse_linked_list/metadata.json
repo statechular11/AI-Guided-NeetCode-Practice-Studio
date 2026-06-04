@@ -1,0 +1,121 @@
+{
+  "id": 206,
+  "title": "Reverse Linked List",
+  "slug": "reverse-linked-list",
+  "folder": "0206_reverse_linked_list",
+  "difficulty": "Easy",
+  "section": "Linked List",
+  "order": 34,
+  "url": "https://leetcode.com/problems/reverse-linked-list/",
+  "problem_url": "https://leetcode.com/problems/reverse-linked-list/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Linked List",
+      "slug": "linked-list"
+    },
+    {
+      "name": "Recursion",
+      "slug": "recursion"
+    }
+  ],
+  "tags": [
+    "linked-list",
+    "recursion"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "reverseList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode",
+        "dealloc": false
+      }
+    ],
+    "return_type": "ListNode"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 34
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Linked List"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Reverse Linked List II",
+      "titleSlug": "reverse-linked-list-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Binary Tree Upside Down",
+      "titleSlug": "binary-tree-upside-down",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Palindrome Linked List",
+      "titleSlug": "palindrome-linked-list",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Reverse Nodes in Even Length Groups",
+      "titleSlug": "reverse-nodes-in-even-length-groups",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Twin Sum of a Linked List",
+      "titleSlug": "maximum-twin-sum-of-a-linked-list",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Remove Nodes From Linked List",
+      "titleSlug": "remove-nodes-from-linked-list",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Insert Greatest Common Divisors in Linked List",
+      "titleSlug": "insert-greatest-common-divisors-in-linked-list",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "linked_list",
+  "neetcode": {
+    "code": "0206-reverse-linked-list",
+    "url": "https://neetcode.io/problems/reverse-a-linked-list",
+    "video": "G0_I-ZF0S38"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_iterative_pointers.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_iterative_pointers.py",
+      "approach": "prev/current pointer reversal",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_recursive.py",
+      "approach": "reverse suffix then append head",
+      "role": "recursive learning variant",
+      "complexity": "Time: O(n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_explicit_stack.py",
+      "approach": "push nodes then reconnect in pop order",
+      "role": "auxiliary-stack learning bridge",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

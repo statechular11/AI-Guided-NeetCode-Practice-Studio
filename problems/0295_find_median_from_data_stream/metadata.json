@@ -1,0 +1,139 @@
+{
+  "id": 295,
+  "title": "Find Median from Data Stream",
+  "slug": "find-median-from-data-stream",
+  "folder": "0295_find_median_from_data_stream",
+  "difficulty": "Hard",
+  "section": "Heap / Priority Queue",
+  "order": 66,
+  "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+  "problem_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "Design",
+      "slug": "design"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Data Stream",
+      "slug": "data-stream"
+    }
+  ],
+  "tags": [
+    "two-pointers",
+    "design",
+    "sorting",
+    "heap-priority-queue",
+    "data-stream"
+  ],
+  "function": {
+    "class_name": "MedianFinder",
+    "methods": [
+      {
+        "name": "addNum",
+        "params": [
+          {
+            "type": "integer",
+            "name": "num"
+          }
+        ],
+        "return_type": "void"
+      },
+      {
+        "name": "findMedian",
+        "params": [],
+        "return_type": "double"
+      }
+    ]
+  },
+  "judge": {
+    "mode": "design"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 66
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Heap / Priority Queue"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Sliding Window Median",
+      "titleSlug": "sliding-window-median",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Finding MK Average",
+      "titleSlug": "finding-mk-average",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Sequentially Ordinal Rank Tracker",
+      "titleSlug": "sequentially-ordinal-rank-tracker",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Minimum Operations to Make Median of Array Equal to K",
+      "titleSlug": "minimum-operations-to-make-median-of-array-equal-to-k",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Operations to Make Subarray Elements Equal",
+      "titleSlug": "minimum-operations-to-make-subarray-elements-equal",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Operations to Make Elements Within K Subarrays Equal",
+      "titleSlug": "minimum-operations-to-make-elements-within-k-subarrays-equal",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "heap",
+  "neetcode": {
+    "code": "0295-find-median-from-data-stream",
+    "url": "https://neetcode.io/problems/find-median-in-a-data-stream",
+    "video": "itmhHWaHupI"
+  },
+  "reference_solution": "solutions/solution_two_heaps.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_two_heaps.py",
+      "approach": "max heap plus min heap",
+      "role": "primary streaming median solution",
+      "complexity": "add O(log n), find O(1); Space O(n)"
+    },
+    {
+      "file": "solutions/solution_sorted_list.py",
+      "approach": "maintain a sorted list with binary insertion",
+      "role": "educational baseline",
+      "complexity": "add O(n), find O(1); Space O(n)"
+    },
+    {
+      "file": "solutions/solution_counting_buckets.py",
+      "approach": "frequency buckets over bounded value range",
+      "role": "constraint-aware follow-up variant",
+      "complexity": "add O(1), find O(R), Space O(R), where R is value range size"
+    }
+  ]
+}

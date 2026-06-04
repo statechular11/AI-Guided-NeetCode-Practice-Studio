@@ -1,0 +1,150 @@
+{
+  "id": 973,
+  "title": "K Closest Points to Origin",
+  "slug": "k-closest-points-to-origin",
+  "folder": "0973_k_closest_points_to_origin",
+  "difficulty": "Medium",
+  "section": "Heap / Priority Queue",
+  "order": 62,
+  "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+  "problem_url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Math",
+      "slug": "math"
+    },
+    {
+      "name": "Divide and Conquer",
+      "slug": "divide-and-conquer"
+    },
+    {
+      "name": "Geometry",
+      "slug": "geometry"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Quickselect",
+      "slug": "quickselect"
+    }
+  ],
+  "tags": [
+    "array",
+    "math",
+    "divide-and-conquer",
+    "geometry",
+    "sorting",
+    "heap-priority-queue",
+    "quickselect"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "kClosest",
+    "params": [
+      {
+        "name": "points",
+        "type": "integer[][]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer[][]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 62
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Heap / Priority Queue"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Kth Largest Element in an Array",
+      "titleSlug": "kth-largest-element-in-an-array",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Top K Frequent Elements",
+      "titleSlug": "top-k-frequent-elements",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Top K Frequent Words",
+      "titleSlug": "top-k-frequent-words",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find Nearest Point That Has the Same X or Y Coordinate",
+      "titleSlug": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Minimum Rectangles to Cover Points",
+      "titleSlug": "minimum-rectangles-to-cover-points",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "K-th Nearest Obstacle Queries",
+      "titleSlug": "k-th-nearest-obstacle-queries",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "heap",
+  "neetcode": {
+    "code": "0973-k-closest-points-to-origin",
+    "url": "https://neetcode.io/problems/k-closest-points-to-origin",
+    "video": "rI2EBUEMfTk"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_sort_distance.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_sort_distance.py",
+      "approach": "sort by squared distance",
+      "role": "simple primary solution",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_min_heap_k_pops.py",
+      "approach": "heapify all squared distances and pop k",
+      "role": "direct priority-queue simulation",
+      "complexity": "Time: O(n + k log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_max_heap_size_k.py",
+      "approach": "size-k max heap",
+      "role": "heap optimization",
+      "complexity": "Time: O(n log k); Space: O(k)"
+    },
+    {
+      "file": "solutions/solution_quickselect.py",
+      "approach": "quickselect partitioning by squared distance",
+      "role": "optimized average-time selection",
+      "complexity": "Average time: O(n); worst-case time: O(n^2); Space: O(n)"
+    }
+  ]
+}

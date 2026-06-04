@@ -1,0 +1,107 @@
+{
+  "id": 127,
+  "title": "Word Ladder",
+  "slug": "word-ladder",
+  "folder": "0127_word_ladder",
+  "difficulty": "Hard",
+  "section": "Graphs",
+  "order": 92,
+  "url": "https://leetcode.com/problems/word-ladder/",
+  "problem_url": "https://leetcode.com/problems/word-ladder/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "string",
+    "breadth-first-search"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "ladderLength",
+    "params": [
+      {
+        "name": "beginWord",
+        "type": "string"
+      },
+      {
+        "name": "endWord",
+        "type": "string"
+      },
+      {
+        "name": "wordList",
+        "type": "list<string>"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 92
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Graphs"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Word Ladder II",
+      "titleSlug": "word-ladder-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Minimum Genetic Mutation",
+      "titleSlug": "minimum-genetic-mutation",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Words Within Two Edits of Dictionary",
+      "titleSlug": "words-within-two-edits-of-dictionary",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "graph",
+  "neetcode": {
+    "code": "0127-word-ladder",
+    "url": "https://neetcode.io/problems/word-ladder",
+    "video": "h9iTnkgv05E"
+  },
+  "reference_solution": "solutions/solution_bfs_patterns.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_bfs_patterns.py",
+      "approach": "BFS over wildcard neighbor buckets",
+      "role": "primary solution",
+      "complexity": "Time: O(n*L^2); Space: O(n*L)"
+    },
+    {
+      "file": "solutions/solution_bidirectional_bfs.py",
+      "approach": "bidirectional BFS with wildcard patterns",
+      "role": "optimized graph-search reference",
+      "complexity": "Time: O(n * L^2); Space: O(n * L)"
+    }
+  ]
+}

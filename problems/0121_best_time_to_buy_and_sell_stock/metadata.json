@@ -1,0 +1,124 @@
+{
+  "id": 121,
+  "title": "Best Time to Buy and Sell Stock",
+  "slug": "best-time-to-buy-and-sell-stock",
+  "folder": "0121_best_time_to_buy_and_sell_stock",
+  "difficulty": "Easy",
+  "section": "Sliding Window",
+  "order": 15,
+  "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+  "problem_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "maxProfit",
+    "params": [
+      {
+        "name": "prices",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 15
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Sliding Window"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Maximum Subarray",
+      "titleSlug": "maximum-subarray",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Best Time to Buy and Sell Stock II",
+      "titleSlug": "best-time-to-buy-and-sell-stock-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Best Time to Buy and Sell Stock III",
+      "titleSlug": "best-time-to-buy-and-sell-stock-iii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Best Time to Buy and Sell Stock IV",
+      "titleSlug": "best-time-to-buy-and-sell-stock-iv",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Best Time to Buy and Sell Stock with Cooldown",
+      "titleSlug": "best-time-to-buy-and-sell-stock-with-cooldown",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Sum of Beauty in the Array",
+      "titleSlug": "sum-of-beauty-in-the-array",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Difference Between Increasing Elements",
+      "titleSlug": "maximum-difference-between-increasing-elements",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Maximum Profit From Trading Stocks",
+      "titleSlug": "maximum-profit-from-trading-stocks",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Best Time to Buy and Sell Stock V",
+      "titleSlug": "best-time-to-buy-and-sell-stock-v",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "sliding_window",
+  "neetcode": {
+    "code": "0121-best-time-to-buy-and-sell-stock",
+    "url": "https://neetcode.io/problems/buy-and-sell-crypto",
+    "video": "1pkOgXD63yU"
+  },
+  "reference_solution": "solutions/solution_min_price.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_brute_force.py",
+      "approach": "try every buy-sell pair",
+      "role": "educational baseline",
+      "complexity": "Time: O(n^2); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_min_price.py",
+      "approach": "running minimum price",
+      "role": "primary one-pass solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    }
+  ]
+}

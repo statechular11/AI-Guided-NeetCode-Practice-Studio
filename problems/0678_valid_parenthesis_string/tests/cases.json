@@ -1,0 +1,34 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "s": "()"
+      },
+      "expected": true
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "s": "(*)"
+      },
+      "expected": true
+    },
+    {
+      "name": "example_3",
+      "args": {
+        "s": "(*))"
+      },
+      "expected": true
+    },
+    {
+      "name": "too_many_closing",
+      "args": {
+        "s": ")*("
+      },
+      "expected": false
+    }
+  ]
+}

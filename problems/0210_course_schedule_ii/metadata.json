@@ -1,0 +1,138 @@
+{
+  "id": 210,
+  "title": "Course Schedule II",
+  "slug": "course-schedule-ii",
+  "folder": "0210_course_schedule_ii",
+  "difficulty": "Medium",
+  "section": "Graphs",
+  "order": 88,
+  "url": "https://leetcode.com/problems/course-schedule-ii/",
+  "problem_url": "https://leetcode.com/problems/course-schedule-ii/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Depth-First Search",
+      "slug": "depth-first-search"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Graph Theory",
+      "slug": "graph"
+    },
+    {
+      "name": "Topological Sort",
+      "slug": "topological-sort"
+    }
+  ],
+  "tags": [
+    "depth-first-search",
+    "breadth-first-search",
+    "graph",
+    "topological-sort"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "findOrder",
+    "params": [
+      {
+        "name": "numCourses",
+        "type": "integer"
+      },
+      {
+        "name": "prerequisites",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "integer[]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 88
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Graphs"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Course Schedule",
+      "titleSlug": "course-schedule",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Alien Dictionary",
+      "titleSlug": "alien-dictionary",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Minimum Height Trees",
+      "titleSlug": "minimum-height-trees",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Sequence Reconstruction",
+      "titleSlug": "sequence-reconstruction",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Course Schedule III",
+      "titleSlug": "course-schedule-iii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Parallel Courses",
+      "titleSlug": "parallel-courses",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Find All Possible Recipes from Given Supplies",
+      "titleSlug": "find-all-possible-recipes-from-given-supplies",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Build a Matrix With Conditions",
+      "titleSlug": "build-a-matrix-with-conditions",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Sort Array by Moving Items to Empty Space",
+      "titleSlug": "sort-array-by-moving-items-to-empty-space",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "graph",
+  "neetcode": {
+    "code": "0210-course-schedule-ii",
+    "url": "https://neetcode.io/problems/course-schedule-ii",
+    "video": "Akt3glAwyfY"
+  },
+  "reference_solution": "solutions/solution_topological_order.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_topological_order.py",
+      "approach": "Kahn topological sort order",
+      "role": "primary solution",
+      "complexity": "Time: O(V+E); Space: O(V+E)"
+    },
+    {
+      "file": "solutions/solution_dfs_topological_order.py",
+      "approach": "DFS postorder topological sort",
+      "role": "alternative topological-order reference",
+      "complexity": "Time: O(V + E); Space: O(V + E)"
+    }
+  ]
+}

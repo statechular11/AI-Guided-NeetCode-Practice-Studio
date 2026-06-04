@@ -1,0 +1,99 @@
+{
+  "id": 763,
+  "title": "Partition Labels",
+  "slug": "partition-labels",
+  "folder": "0763_partition_labels",
+  "difficulty": "Medium",
+  "section": "Greedy",
+  "order": 128,
+  "url": "https://leetcode.com/problems/partition-labels/",
+  "problem_url": "https://leetcode.com/problems/partition-labels/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    }
+  ],
+  "tags": [
+    "hash-table",
+    "two-pointers",
+    "string",
+    "greedy"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "partitionLabels",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return_type": "list<integer>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 128
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Greedy"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Merge Intervals",
+      "titleSlug": "merge-intervals",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Optimal Partition of String",
+      "titleSlug": "optimal-partition-of-string",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "greedy",
+  "neetcode": {
+    "code": "0763-partition-labels",
+    "url": "https://neetcode.io/problems/partition-labels",
+    "video": "B7m8UmZE-vw"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_last_occurrence.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_last_occurrence.py",
+      "approach": "farthest last occurrence",
+      "role": "primary greedy solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_interval_merge.py",
+      "approach": "character intervals then merge",
+      "role": "alternative greedy-interval reference",
+      "complexity": "Time: O(n); Space: O(1) for lowercase alphabet"
+    }
+  ]
+}

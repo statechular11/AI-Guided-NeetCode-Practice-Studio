@@ -1,0 +1,117 @@
+{
+  "id": 23,
+  "title": "Merge k Sorted Lists",
+  "slug": "merge-k-sorted-lists",
+  "folder": "0023_merge_k_sorted_lists",
+  "difficulty": "Hard",
+  "section": "Linked List",
+  "order": 43,
+  "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+  "problem_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Linked List",
+      "slug": "linked-list"
+    },
+    {
+      "name": "Divide and Conquer",
+      "slug": "divide-and-conquer"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Merge Sort",
+      "slug": "merge-sort"
+    }
+  ],
+  "tags": [
+    "linked-list",
+    "divide-and-conquer",
+    "heap-priority-queue",
+    "merge-sort"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "mergeKLists",
+    "params": [
+      {
+        "name": "lists",
+        "type": "ListNode[]",
+        "dealloc": false
+      }
+    ],
+    "return_type": "ListNode"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 43
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Linked List"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Merge Two Sorted Lists",
+      "titleSlug": "merge-two-sorted-lists",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Ugly Number II",
+      "titleSlug": "ugly-number-ii",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Smallest Subarrays With Maximum Bitwise OR",
+      "titleSlug": "smallest-subarrays-with-maximum-bitwise-or",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "linked_list",
+  "neetcode": {
+    "code": "0023-merge-k-sorted-lists",
+    "url": "https://neetcode.io/problems/merge-k-sorted-linked-lists",
+    "video": "q5a5OiGbT6Q"
+  },
+  "reference_solution": "solutions/solution_min_heap.py",
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_collect_sort_baseline.py",
+      "approach": "collect all values, sort, and rebuild a list",
+      "role": "brute-force value baseline",
+      "complexity": "Time: O(N log N); Space: O(N)"
+    },
+    {
+      "file": "solutions/solution_sequential_merge.py",
+      "approach": "merge lists one by one with merge-two helper",
+      "role": "pairwise merge baseline that motivates balanced merging",
+      "complexity": "Time: O(N*k); Space: O(1) extra"
+    },
+    {
+      "file": "solutions/solution_min_heap.py",
+      "approach": "heap of current list heads",
+      "role": "primary solution",
+      "complexity": "Time: O(N log k); Space: O(k)"
+    },
+    {
+      "file": "solutions/solution_divide_and_conquer.py",
+      "approach": "pairwise merge rounds",
+      "role": "alternative optimized solution",
+      "complexity": "Time: O(N log k); Space: O(1) extra"
+    }
+  ]
+}

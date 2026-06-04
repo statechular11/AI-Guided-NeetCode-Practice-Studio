@@ -1,0 +1,90 @@
+{
+  "id": 1046,
+  "title": "Last Stone Weight",
+  "slug": "last-stone-weight",
+  "folder": "1046_last_stone_weight",
+  "difficulty": "Easy",
+  "section": "Heap / Priority Queue",
+  "order": 61,
+  "url": "https://leetcode.com/problems/last-stone-weight/",
+  "problem_url": "https://leetcode.com/problems/last-stone-weight/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    }
+  ],
+  "tags": [
+    "array",
+    "heap-priority-queue"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "lastStoneWeight",
+    "params": [
+      {
+        "name": "stones",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 61
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Heap / Priority Queue"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [],
+  "approach": "heap",
+  "neetcode": {
+    "code": "1046-last-stone-weight",
+    "url": "https://neetcode.io/problems/last-stone-weight",
+    "video": "B-QCq79-Vfw"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_max_heap.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_max_heap.py",
+      "approach": "negative-value max heap",
+      "role": "primary heap simulation",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_sort_each_round.py",
+      "approach": "sort remaining stones before each smash",
+      "role": "naive simulation baseline",
+      "complexity": "Time: O(n^2 log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_sorted_list_bisect.py",
+      "approach": "maintain sorted stones with binary insertion",
+      "role": "ordered-list incremental variant",
+      "complexity": "Time: O(n^2); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_bucket_counts.py",
+      "approach": "frequency buckets by stone weight",
+      "role": "bounded-weight counting variant",
+      "complexity": "Time: O(nW), where W is max stone weight; Space: O(W)"
+    }
+  ]
+}

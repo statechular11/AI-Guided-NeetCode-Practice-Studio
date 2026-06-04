@@ -1,0 +1,134 @@
+{
+  "id": 286,
+  "title": "Walls and Gates",
+  "slug": "walls-and-gates",
+  "folder": "0286_walls_and_gates",
+  "difficulty": "Medium",
+  "section": "Graphs",
+  "order": 83,
+  "url": "https://leetcode.com/problems/walls-and-gates/",
+  "problem_url": "https://neetcode.io/problems/islands-and-treasure/question",
+  "problem_source": "neetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Breadth-First Search",
+      "slug": "breadth-first-search"
+    },
+    {
+      "name": "Matrix",
+      "slug": "matrix"
+    }
+  ],
+  "tags": [
+    "array",
+    "breadth-first-search",
+    "matrix"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "wallsAndGates",
+    "params": [
+      {
+        "name": "rooms",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "void"
+  },
+  "judge": {
+    "mode": "in_place",
+    "arg_index": 0
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 83
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Graphs"
+  },
+  "is_paid_only": true,
+  "content_available": true,
+  "leetcode_content_available": false,
+  "content_source": "neetcode",
+  "similar_questions": [
+    {
+      "title": "Surrounded Regions",
+      "titleSlug": "surrounded-regions",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Number of Islands",
+      "titleSlug": "number-of-islands",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Shortest Distance from All Buildings",
+      "titleSlug": "shortest-distance-from-all-buildings",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Battleships in a Board",
+      "titleSlug": "battleships-in-a-board",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Robot Room Cleaner",
+      "titleSlug": "robot-room-cleaner",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Rotting Oranges",
+      "titleSlug": "rotting-oranges",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count the Number of Houses at a Certain Distance I",
+      "titleSlug": "count-the-number-of-houses-at-a-certain-distance-i",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Count the Number of Houses at a Certain Distance II",
+      "titleSlug": "count-the-number-of-houses-at-a-certain-distance-ii",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "graph",
+  "neetcode": {
+    "code": "0286-walls-and-gates",
+    "url": "https://neetcode.io/problems/islands-and-treasure",
+    "video": "e69C6xhiSQE",
+    "question_url": "https://neetcode.io/problems/islands-and-treasure/question",
+    "topics": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix",
+      "Recommended Time & Space Complexity",
+      "You should aim for a solution with O(m * n) time and O(m * n) space",
+      "where m is the number of rows and n is the number of columns in the given grid."
+    ]
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_multi_source_bfs.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_multi_source_bfs.py",
+      "approach": "BFS from every gate simultaneously",
+      "role": "primary solution",
+      "complexity": "Time: O(m*n); Space: O(m*n)"
+    },
+    {
+      "file": "solutions/solution_dfs_relaxation.py",
+      "approach": "DFS relaxation from each gate",
+      "role": "educational baseline",
+      "complexity": "Time: O(gmn) worst case; Space: O(mn)"
+    }
+  ]
+}

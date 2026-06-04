@@ -1,0 +1,40 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "words": [
+          "wrt",
+          "wrf",
+          "er",
+          "ett",
+          "rftt"
+        ]
+      },
+      "expected": "wertf"
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "words": [
+          "z",
+          "x"
+        ]
+      },
+      "expected": "zx"
+    },
+    {
+      "name": "example_3",
+      "args": {
+        "words": [
+          "z",
+          "x",
+          "z"
+        ]
+      },
+      "expected": ""
+    }
+  ]
+}

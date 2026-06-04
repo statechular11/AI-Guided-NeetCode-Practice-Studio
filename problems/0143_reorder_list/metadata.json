@@ -1,0 +1,100 @@
+{
+  "id": 143,
+  "title": "Reorder List",
+  "slug": "reorder-list",
+  "folder": "0143_reorder_list",
+  "difficulty": "Medium",
+  "section": "Linked List",
+  "order": 37,
+  "url": "https://leetcode.com/problems/reorder-list/",
+  "problem_url": "https://leetcode.com/problems/reorder-list/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Linked List",
+      "slug": "linked-list"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "Stack",
+      "slug": "stack"
+    },
+    {
+      "name": "Recursion",
+      "slug": "recursion"
+    }
+  ],
+  "tags": [
+    "linked-list",
+    "two-pointers",
+    "stack",
+    "recursion"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "reorderList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode"
+      }
+    ],
+    "return_type": "void"
+  },
+  "judge": {
+    "mode": "in_place",
+    "arg_index": 0
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 37
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Linked List"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Delete the Middle Node of a Linked List",
+      "titleSlug": "delete-the-middle-node-of-a-linked-list",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Take K of Each Character From Left and Right",
+      "titleSlug": "take-k-of-each-character-from-left-and-right",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "linked_list",
+  "neetcode": {
+    "code": "0143-reorder-list",
+    "url": "https://neetcode.io/problems/reorder-linked-list",
+    "video": "S5bfdUTrKLM"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_split_reverse_merge.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_split_reverse_merge.py",
+      "approach": "middle split, reverse second half, weave",
+      "role": "primary in-place solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_stack.py",
+      "approach": "stack of nodes from the tail",
+      "role": "baseline learning solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

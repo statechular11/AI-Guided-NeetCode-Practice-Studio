@@ -1,0 +1,151 @@
+{
+  "id": 253,
+  "title": "Meeting Rooms II",
+  "slug": "meeting-rooms-ii",
+  "folder": "0253_meeting_rooms_ii",
+  "difficulty": "Medium",
+  "section": "Intervals",
+  "order": 134,
+  "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+  "problem_url": "https://neetcode.io/problems/meeting-schedule-ii/question",
+  "problem_source": "neetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Two Pointers",
+      "slug": "two-pointers"
+    },
+    {
+      "name": "Greedy",
+      "slug": "greedy"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Prefix Sum",
+      "slug": "prefix-sum"
+    }
+  ],
+  "tags": [
+    "array",
+    "two-pointers",
+    "greedy",
+    "sorting",
+    "heap-priority-queue",
+    "prefix-sum"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "minMeetingRooms",
+    "params": [
+      {
+        "name": "intervals",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 134
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Intervals"
+  },
+  "is_paid_only": true,
+  "content_available": true,
+  "leetcode_content_available": false,
+  "content_source": "neetcode",
+  "similar_questions": [
+    {
+      "title": "Merge Intervals",
+      "titleSlug": "merge-intervals",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Meeting Rooms",
+      "titleSlug": "meeting-rooms",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Minimum Number of Arrows to Burst Balloons",
+      "titleSlug": "minimum-number-of-arrows-to-burst-balloons",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Car Pooling",
+      "titleSlug": "car-pooling",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Number of Flowers in Full Bloom",
+      "titleSlug": "number-of-flowers-in-full-bloom",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Meeting Rooms III",
+      "titleSlug": "meeting-rooms-iii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Total Cost to Hire K Workers",
+      "titleSlug": "total-cost-to-hire-k-workers",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Points That Intersect With Cars",
+      "titleSlug": "points-that-intersect-with-cars",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "intervals",
+  "neetcode": {
+    "code": "0253-meeting-rooms-ii",
+    "url": "https://neetcode.io/problems/meeting-schedule-ii",
+    "video": "FdzJmTCVyJU",
+    "question_url": "https://neetcode.io/problems/meeting-schedule-ii/question",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Prefix Sum",
+      "Recommended Time & Space Complexity",
+      "You should aim for a solution with O(nlogn) time and O(n) space",
+      "where n is the size of the input array."
+    ]
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_min_heap_end_times.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_min_heap_end_times.py",
+      "approach": "min heap of room end times",
+      "role": "primary heap solution",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_sweep_line.py",
+      "approach": "start/end event sweep",
+      "role": "sweep-line variant",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    }
+  ]
+}

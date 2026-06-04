@@ -1,0 +1,113 @@
+{
+  "id": 853,
+  "title": "Car Fleet",
+  "slug": "car-fleet",
+  "folder": "0853_car_fleet",
+  "difficulty": "Medium",
+  "section": "Stack",
+  "order": 25,
+  "url": "https://leetcode.com/problems/car-fleet/",
+  "problem_url": "https://leetcode.com/problems/car-fleet/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Stack",
+      "slug": "stack"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    },
+    {
+      "name": "Monotonic Stack",
+      "slug": "monotonic-stack"
+    }
+  ],
+  "tags": [
+    "array",
+    "stack",
+    "sorting",
+    "monotonic-stack"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "carFleet",
+    "params": [
+      {
+        "name": "target",
+        "type": "integer"
+      },
+      {
+        "name": "position",
+        "type": "integer[]"
+      },
+      {
+        "name": "speed",
+        "type": "integer[]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 25
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Stack"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Car Fleet II",
+      "titleSlug": "car-fleet-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Count Collisions on a Road",
+      "titleSlug": "count-collisions-on-a-road",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "stack",
+  "neetcode": {
+    "code": "0853-car-fleet",
+    "url": "https://neetcode.io/problems/car-fleet",
+    "video": "Pr6T-3yB9RM"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_arrival_stack.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_arrival_stack.py",
+      "approach": "arrival times from front to back",
+      "role": "primary solution",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_explicit_time_stack.py",
+      "approach": "explicit stack of fleet arrival times",
+      "role": "stack-shaped variant",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_exact_time_comparison.py",
+      "approach": "integer cross multiplication for exact arrival comparison",
+      "role": "precision-aware alternative",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    }
+  ]
+}

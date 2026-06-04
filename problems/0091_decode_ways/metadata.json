@@ -1,0 +1,94 @@
+{
+  "id": 91,
+  "title": "Decode Ways",
+  "slug": "decode-ways",
+  "folder": "0091_decode_ways",
+  "difficulty": "Medium",
+  "section": "1-D Dynamic Programming",
+  "order": 105,
+  "url": "https://leetcode.com/problems/decode-ways/",
+  "problem_url": "https://leetcode.com/problems/decode-ways/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Dynamic Programming",
+      "slug": "dynamic-programming"
+    }
+  ],
+  "tags": [
+    "string",
+    "dynamic-programming"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "numDecodings",
+    "params": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 105
+  },
+  "sections_by_plan": {
+    "neetcode-150": "1-D Dynamic Programming"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Decode Ways II",
+      "titleSlug": "decode-ways-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Number of Ways to Separate Numbers",
+      "titleSlug": "number-of-ways-to-separate-numbers",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Count Number of Texts",
+      "titleSlug": "count-number-of-texts",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "dynamic_programming",
+  "neetcode": {
+    "code": "0091-decode-ways",
+    "url": "https://neetcode.io/problems/decode-ways",
+    "video": "6aEyTjOwlJU"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_rolling_dp.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_rolling_dp.py",
+      "approach": "prefix decode count with one/two digit transitions",
+      "role": "primary solution",
+      "complexity": "Time: O(n); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_top_down_memo.py",
+      "approach": "top-down memoized decoding",
+      "role": "recursive DP reference",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

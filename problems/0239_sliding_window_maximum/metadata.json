@@ -1,0 +1,150 @@
+{
+  "id": 239,
+  "title": "Sliding Window Maximum",
+  "slug": "sliding-window-maximum",
+  "folder": "0239_sliding_window_maximum",
+  "difficulty": "Hard",
+  "section": "Sliding Window",
+  "order": 20,
+  "url": "https://leetcode.com/problems/sliding-window-maximum/",
+  "problem_url": "https://leetcode.com/problems/sliding-window-maximum/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Queue",
+      "slug": "queue"
+    },
+    {
+      "name": "Sliding Window",
+      "slug": "sliding-window"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Monotonic Queue",
+      "slug": "monotonic-queue"
+    }
+  ],
+  "tags": [
+    "array",
+    "queue",
+    "sliding-window",
+    "heap-priority-queue",
+    "monotonic-queue"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "maxSlidingWindow",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer[]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 20
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Sliding Window"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Minimum Window Substring",
+      "titleSlug": "minimum-window-substring",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Min Stack",
+      "titleSlug": "min-stack",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Longest Substring with At Most Two Distinct Characters",
+      "titleSlug": "longest-substring-with-at-most-two-distinct-characters",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Paint House II",
+      "titleSlug": "paint-house-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Jump Game VI",
+      "titleSlug": "jump-game-vi",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximum Number of Robots Within Budget",
+      "titleSlug": "maximum-number-of-robots-within-budget",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Maximum Tastiness of Candy Basket",
+      "titleSlug": "maximum-tastiness-of-candy-basket",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Maximal Score After Applying K Operations",
+      "titleSlug": "maximal-score-after-applying-k-operations",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "sliding_window",
+  "neetcode": {
+    "code": "0239-sliding-window-maximum",
+    "url": "https://neetcode.io/problems/sliding-window-maximum",
+    "video": "DfljaUwZsOk"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_monotonic_deque.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_brute_force.py",
+      "approach": "scan each window",
+      "role": "educational baseline",
+      "complexity": "Time: O(nk); Space: O(1)"
+    },
+    {
+      "file": "solutions/solution_heap.py",
+      "approach": "lazy max-heap",
+      "role": "practical alternative",
+      "complexity": "Time: O(n log n); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_monotonic_deque.py",
+      "approach": "monotonic deque",
+      "role": "primary optimized solution",
+      "complexity": "Time: O(n); Space: O(k)"
+    },
+    {
+      "file": "solutions/solution_block_decomposition.py",
+      "approach": "block prefix/suffix maxima",
+      "role": "alternative optimized formulation",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

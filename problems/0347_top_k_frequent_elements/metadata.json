@@ -1,0 +1,163 @@
+{
+  "id": 347,
+  "title": "Top K Frequent Elements",
+  "slug": "top-k-frequent-elements",
+  "folder": "0347_top_k_frequent_elements",
+  "difficulty": "Medium",
+  "section": "Arrays & Hashing",
+  "order": 5,
+  "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+  "problem_url": "https://leetcode.com/problems/top-k-frequent-elements/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Hash Table",
+      "slug": "hash-table"
+    },
+    {
+      "name": "Divide and Conquer",
+      "slug": "divide-and-conquer"
+    },
+    {
+      "name": "Sorting",
+      "slug": "sorting"
+    },
+    {
+      "name": "Heap (Priority Queue)",
+      "slug": "heap-priority-queue"
+    },
+    {
+      "name": "Bucket Sort",
+      "slug": "bucket-sort"
+    },
+    {
+      "name": "Counting",
+      "slug": "counting"
+    },
+    {
+      "name": "Quickselect",
+      "slug": "quickselect"
+    }
+  ],
+  "tags": [
+    "array",
+    "hash-table",
+    "divide-and-conquer",
+    "sorting",
+    "heap-priority-queue",
+    "bucket-sort",
+    "counting",
+    "quickselect"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "topKFrequent",
+    "params": [
+      {
+        "name": "nums",
+        "type": "integer[]"
+      },
+      {
+        "name": "k",
+        "type": "integer"
+      }
+    ],
+    "return_type": "integer[]"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 5
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Arrays & Hashing"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Word Frequency",
+      "titleSlug": "word-frequency",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Kth Largest Element in an Array",
+      "titleSlug": "kth-largest-element-in-an-array",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Sort Characters By Frequency",
+      "titleSlug": "sort-characters-by-frequency",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Split Array into Consecutive Subsequences",
+      "titleSlug": "split-array-into-consecutive-subsequences",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Top K Frequent Words",
+      "titleSlug": "top-k-frequent-words",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "K Closest Points to Origin",
+      "titleSlug": "k-closest-points-to-origin",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Sort Features by Popularity",
+      "titleSlug": "sort-features-by-popularity",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Sender With Largest Word Count",
+      "titleSlug": "sender-with-largest-word-count",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Most Frequent Even Element",
+      "titleSlug": "most-frequent-even-element",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Linked List Frequency",
+      "titleSlug": "linked-list-frequency",
+      "difficulty": "Easy"
+    }
+  ],
+  "approach": "arrays_and_hashing",
+  "neetcode": {
+    "code": "0347-top-k-frequent-elements",
+    "url": "https://neetcode.io/problems/top-k-elements-in-list",
+    "video": "YPTqKIgVk-k"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_bucket_sort.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_heap.py",
+      "approach": "frequency heap",
+      "role": "practical priority-queue solution",
+      "complexity": "Time: O(n log k); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_bucket_sort.py",
+      "approach": "frequency buckets",
+      "role": "primary optimized solution",
+      "complexity": "Time: O(n); Space: O(n)"
+    }
+  ]
+}

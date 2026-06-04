@@ -1,0 +1,20 @@
+{
+  "source": "examples_plus_authored_edge_cases",
+  "expected": "explicit",
+  "cases": [
+    {
+      "name": "example_1",
+      "args": {
+        "n": 43261596
+      },
+      "expected": 964176192
+    },
+    {
+      "name": "example_2",
+      "args": {
+        "n": 2147483644
+      },
+      "expected": 1073741822
+    }
+  ]
+}

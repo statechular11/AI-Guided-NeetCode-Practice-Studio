@@ -1,0 +1,94 @@
+{
+  "id": 1584,
+  "title": "Min Cost to Connect All Points",
+  "slug": "min-cost-to-connect-all-points",
+  "folder": "1584_min_cost_to_connect_all_points",
+  "difficulty": "Medium",
+  "section": "Advanced Graphs",
+  "order": 95,
+  "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+  "problem_url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Union-Find",
+      "slug": "union-find"
+    },
+    {
+      "name": "Graph Theory",
+      "slug": "graph"
+    },
+    {
+      "name": "Minimum Spanning Tree",
+      "slug": "minimum-spanning-tree"
+    }
+  ],
+  "tags": [
+    "array",
+    "union-find",
+    "graph",
+    "minimum-spanning-tree"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "minCostConnectPoints",
+    "params": [
+      {
+        "name": "points",
+        "type": "integer[][]"
+      }
+    ],
+    "return_type": "integer"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 95
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Advanced Graphs"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "Minimum Number of Lines to Cover Points",
+      "titleSlug": "minimum-number-of-lines-to-cover-points",
+      "difficulty": "Medium"
+    }
+  ],
+  "approach": "advanced_graph",
+  "neetcode": {
+    "code": "1584-min-cost-to-connect-all-points",
+    "url": "https://neetcode.io/problems/min-cost-to-connect-points",
+    "video": "f7JOBJIC-NA"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_prim.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_prim.py",
+      "approach": "O(n^2) Prim over implicit complete graph",
+      "role": "primary solution",
+      "complexity": "Time: O(n^2); Space: O(n)"
+    },
+    {
+      "file": "solutions/solution_kruskal.py",
+      "approach": "Kruskal minimum spanning tree",
+      "role": "alternative MST reference",
+      "complexity": "Time: O(n^2 log n); Space: O(n^2)"
+    }
+  ]
+}

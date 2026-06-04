@@ -1,0 +1,89 @@
+{
+  "id": 51,
+  "title": "N-Queens",
+  "slug": "n-queens",
+  "folder": "0051_n_queens",
+  "difficulty": "Hard",
+  "section": "Backtracking",
+  "order": 76,
+  "url": "https://leetcode.com/problems/n-queens/",
+  "problem_url": "https://leetcode.com/problems/n-queens/",
+  "problem_source": "leetcode",
+  "topic_tags": [
+    {
+      "name": "Array",
+      "slug": "array"
+    },
+    {
+      "name": "Backtracking",
+      "slug": "backtracking"
+    }
+  ],
+  "tags": [
+    "array",
+    "backtracking"
+  ],
+  "function": {
+    "class_name": "Solution",
+    "method_name": "solveNQueens",
+    "params": [
+      {
+        "name": "n",
+        "type": "integer"
+      }
+    ],
+    "return_type": "list<list<string>>"
+  },
+  "judge": {
+    "mode": "return"
+  },
+  "status": "todo",
+  "source": "leetcode",
+  "study_plans": [
+    "neetcode-150"
+  ],
+  "study_plan_orders": {
+    "neetcode-150": 76
+  },
+  "sections_by_plan": {
+    "neetcode-150": "Backtracking"
+  },
+  "is_paid_only": false,
+  "content_available": true,
+  "leetcode_content_available": true,
+  "content_source": "leetcode",
+  "similar_questions": [
+    {
+      "title": "N-Queens II",
+      "titleSlug": "n-queens-ii",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Grid Illumination",
+      "titleSlug": "grid-illumination",
+      "difficulty": "Hard"
+    }
+  ],
+  "approach": "backtracking",
+  "neetcode": {
+    "code": "0051-n-queens",
+    "url": "https://neetcode.io/problems/n-queens",
+    "video": "Ph95IHmRp5M"
+  },
+  "reference_source_note": "AI-authored educational reference solutions.",
+  "reference_solution": "solutions/solution_sets_backtracking.py",
+  "reference_solutions": [
+    {
+      "file": "solutions/solution_sets_backtracking.py",
+      "approach": "row-by-row queens with column and diagonal sets",
+      "role": "primary solution",
+      "complexity": "Time: O(n!); Space: O(n) excl. output"
+    },
+    {
+      "file": "solutions/solution_bitmask_backtracking.py",
+      "approach": "bitmask backtracking",
+      "role": "optimized state-representation reference",
+      "complexity": "Time: O(n!); Space: O(n) excl. output"
+    }
+  ]
+}
