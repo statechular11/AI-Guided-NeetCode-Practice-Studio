@@ -1,119 +1,96 @@
 # AI-Guided NeetCode 150 Practice Studio
 
-> A local NeetCode 150 workspace with an AI Prep Coach for testing, debugging, reviewing, note-taking, and smarter revisits.
+![AI Coach](https://img.shields.io/badge/AI%20Coach-Test%20%7C%20Debug%20%7C%20Review%20%7C%20Consolidate-purple)
+![Technique Guides](https://img.shields.io/badge/Technique%20Guides-Topic%20Level%20Learning-orange)
+![Local Practice](https://img.shields.io/badge/Practice-Local%20NeetCode%20150-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-**Stop losing the lesson after the solution passes.**
+> A local NeetCode 150 workspace with an AI Prep Coach for testing,
+> debugging, reviewing, note-taking, smarter revisits, and interview-ready
+> technique-guide generation.
 
-This repo turns NeetCode 150 into an AI-assisted interview-prep studio. You solve each problem locally in `solution.py`; the bundled `$neetcode-prep-coach` helps run tests, explain failures from evidence, review your approach against educational references, and consolidate the takeaways into notes and revisit items so future sessions build on your own learning history.
+AI-assisted NeetCode 150 practice with a bundled `$neetcode-prep-coach` skill
+that does the note-taking for you: solve problems locally, get guided through
+Test, Debug, Review, and Consolidate, and let the coach grow personalized notes
+so future sessions build on your own learning trail.
+
+Most practice repos stop at "here are the problems." This one is built for the
+part that actually changes interview performance: recognizing patterns faster,
+explaining invariants and tradeoffs clearly, avoiding repeat mistakes, and
+turning every attempt into durable review material.
 
 ```text
-read prompt.md -> code in solution.py -> Test -> Debug -> Review -> Consolidate
+Problem loop: read prompt.md -> code solution.py -> Test -> Debug -> Review -> Consolidate
+Topic loop: shaky technique -> Generate Technique Guide -> revisit with a stronger mental model
 ```
 
-The goal is not just to grind through 150 answers. The goal is to build durable interview instincts: recognizing patterns faster, explaining invariants and tradeoffs clearly, avoiding repeat mistakes, and keeping a searchable learning trail across Arrays & Hashing, Sliding Window, Trees, Heaps, Graphs, Dynamic Programming, and the rest of the NeetCode roadmap.
+The goal is not just to finish 150 problems. The goal is to leave every session
+with sharper instincts, better notes, stronger explanations, and a searchable map
+of what deserves another pass.
 
 ## Why This Repo Exists
 
-Most coding-interview practice has a memory problem:
+Coding interview prep has a memory problem. You may solve a problem today,
+understand the trick for a few hours, and then forget the invariant, edge case,
+API detail, or bug pattern two weeks later.
 
-1. You solve a problem today.
-2. You understand the trick for a few hours.
-3. Two weeks later, you remember the title but not the invariant, edge case, or bug pattern that mattered.
+This studio is designed to make practice compound:
 
-This workspace is designed to make practice compound. Every problem folder gives you a local place to attempt the problem, run tests, compare against enriched AI-authored references, and preserve the lesson. The AI Prep Coach then helps turn each session into durable notes, status updates, and revisit prompts.
+- You solve in local `solution.py` files instead of only reading explanations.
+- Local tests produce LeetCode-style pass/fail evidence.
+- The AI coach explains failures from actual inputs, outputs, diffs, and code.
+- Review checks correctness, complexity, clarity, edge cases, and interview
+  narration after tests pass.
+- Consolidation updates notes, status, progress views, and revisit items.
+- Technique Guide Generation turns topic-level weak spots into standalone study
+  guides for patterns like Sliding Window, Monotonic Stack, Heap / Priority
+  Queue, Graph BFS, Dynamic Programming, and more.
 
-Instead of asking, “Did I finish this problem?”, the repo helps you ask better interview-prep questions:
+Instead of asking only, "Did I finish this problem?", the repo helps you ask the
+questions that matter in interviews:
 
-- Can I recognize the pattern again?
+- Can I recognize this pattern again?
 - Can I explain the invariant out loud?
-- Do I know why this solution beats brute force?
-- Did I record the edge case or API trap that caused trouble?
-- Which topics deserve another focused drill?
+- Do I know why this beats brute force?
+- Do I know when this technique is not the right tool?
+- Did I record the edge case, state update, or Python API trap that caused
+  trouble?
+- Which topics deserve another focused drill or a full technique guide?
 
-## The AI Prep Coach Loop
+## The AI Prep Coach Is the Core Feature
 
-The `$neetcode-prep-coach` skill is the centerpiece of the repo. It keeps the practice cycle disciplined while letting you code and test locally.
-
-| Stage | What happens | Typical durable output |
-| --- | --- | --- |
-| Pick | Choose the next problem by study-plan section, tag, status, or specific ID. | Current problem context |
-| Test | Run the local judge and report pass/fail evidence only: inputs, outputs, expected values, diffs, and runner errors. | `test_history/` |
-| Debug | Explain failing evidence by connecting the mismatch to your code, invariants, or edge cases. | `debug_history/` |
-| Review | After tests pass, check hidden-risk edge cases, complexity, clarity, interview narration, and gaps versus optimized references. | `review_history/` |
-| Consolidate | Save the durable lesson, update status, sync progress views, and add revisit items when needed. | `notes.md`, `metadata.json`, `REVISIT.md`, generated views |
-
-The important separation is intentional: **Test gives evidence, Debug explains failures, Review is the quality gate, and Consolidate updates long-term memory.** Passing local tests is only one step; the review and consolidation stages are what turn a solved problem into interview-ready learning.
-
-## What Makes This Different
-
-### AI-assisted, but still local-first
-
-You write normal Python solutions in local files and run normal CLI commands. The AI coach wraps the workflow instead of replacing it: it helps select problems, interpret failures, review solution quality, and update learning records.
-
-### Evidence-based debugging
-
-When a solution fails, the local runner produces LeetCode-style failure reports. The coach is expected to reason from concrete evidence: the failing input, your output, the expected output, the diff, and the relevant code path.
-
-### Review after the green check
-
-A passing solution can still be weak for interviews. Review mode checks whether the approach is explainable, robust, idiomatic, and competitive with reference variants. It can flag edge cases, unclear invariants, avoidable complexity gaps, or places where your narration would be hard to defend.
-
-### Personalized revisit memory
-
-The repo includes `REVISIT.md` plus per-problem notes and history folders. When a bug pattern, concept, API, invariant, or problem deserves another pass, the coach can record it so later review sessions start from your real learning trail instead of a blank page.
-
-### Enriched educational references
-
-Reference solutions live under each problem’s `solutions/` folder. They are AI-authored educational implementations, often with explanatory headers, invariants, examples, pitfalls, and complexity notes. They are meant for learning and review, not copy-paste grinding.
-
-### Topic-level learning support
-
-The `technique_guides/` folder supports standalone guides for topics like Arrays & Hashing or Heap / Priority Queue. These guides are designed to teach from first principles, organize reusable patterns, show traces, name invariants, compare tradeoffs, and create interview-ready review material.
-
-## Start Practicing
-
-Clone the repo and run commands from the package root:
-
-```bash
-git clone https://github.com/statechular11/AI-Guided-NeetCode-Practice-Studio.git
-cd AI-Guided-NeetCode-Practice-Studio
-
-python -m tools.validate_tree
-python -m tools.run_problem problems/0001_two_sum --reference
-```
-
-Then open the first attempt file:
-
-```text
-problems/0001_two_sum/solution.py
-```
-
-Code your solution and run it locally:
-
-```bash
-python -m tools.run_problem problems/0001_two_sum
-```
-
-Blank `solution.py` files are expected to fail until implemented.
-
-## Use the AI Coach
-
-The package includes the companion skill here:
+Start by installing the bundled skill with
+[docs/SKILL_INSTALLATION.md](docs/SKILL_INSTALLATION.md). The skill lives at:
 
 ```text
 skills/neetcode-prep-coach/
 ```
 
-Install it using the instructions in [docs/SKILL_INSTALLATION.md](docs/SKILL_INSTALLATION.md), then initialize it with the package root you are using:
+After installation, initialize it with the package root you are using:
 
 ```text
 Use $neetcode-prep-coach with package root <PACKAGE_ROOT>.
 ```
 
-After that, you can practice through natural commands like:
+For the full day-to-day operating manual, use [WORKFLOW.md](WORKFLOW.md). The
+README gives the overview; `WORKFLOW.md` explains the recommended practice loop,
+coach commands, technique-guide flow, revisit tracking, and manual CLI fallback.
+
+| Coach mode | What it does | Durable output |
+| --- | --- | --- |
+| Pick / Navigate | Chooses the next problem by study-plan section, tag, status, or specific ID. | Current problem context |
+| Test | Runs the local judge and reports pass/fail evidence only. | `test_history/` |
+| Debug | Explains failing evidence by connecting the mismatch to your code, invariants, or edge cases. | `debug_history/` |
+| Review | Acts as the quality gate after tests pass: correctness, edge cases, complexity, clarity, and interview narration. | `review_history/` |
+| Consolidate | Turns the session into durable learning records and progress updates. | `notes.md`, `metadata.json`, `REVISIT.md`, generated views |
+| Technique Guide Generation | Creates or updates standalone guides for reusable algorithm and data-structure techniques. | `technique_guides/<topic>.md` |
+| Reference Enrichment | Adds meaningful AI-authored reference variants when a problem needs more representative solution directions. | `solutions/`, `metadata.json`, `notes.md` |
+| Revisit Queue | Records concepts, APIs, bug patterns, and problems worth drilling again. | `REVISIT.md` |
+
+Use the coach like this:
 
 ```text
-Use $neetcode-prep-coach. Give me the next Arrays & Hashing problem from study_plans/neetcode_150.md.
+Use $neetcode-prep-coach. Give me the next Sliding Window problem from study_plans/neetcode_150.md.
 Use $neetcode-prep-coach. Work on 0128.
 Use $neetcode-prep-coach. Test my current problem.
 Use $neetcode-prep-coach. Debug my current problem.
@@ -123,88 +100,162 @@ Use $neetcode-prep-coach. Generate a technique guide for Heap / Priority Queue.
 Use $neetcode-prep-coach. Add a revisit item for this problem: review the monotonic deque invariant.
 ```
 
-For the full day-to-day flow, see [WORKFLOW.md](WORKFLOW.md).
+The separation is intentional: **Test gives evidence, Debug explains failures,
+Review is the quality gate, and Consolidate updates long-term memory.** Passing
+local tests is not the finish line; interview-ready learning comes from the full
+loop.
 
-## Inside a Problem Folder
+## Generate Interview-Ready Technique Guides
 
-Each problem is meant to be a complete local practice unit:
+Technique Guide Generation is the coach's topic-level learning mode. Use it when
+a whole technique feels fuzzy, when several problems share the same pattern, or
+when you want a first-principles study guide before an interview.
 
-```text
-problems/0001_two_sum/
-├── prompt.md              # problem statement, examples, constraints, signature
-├── solution.py            # your blank/current attempt
-├── tests/cases.json       # local test cases
-├── solutions/             # AI-authored educational reference variants
-├── notes.md               # durable lessons and review notes
-├── metadata.json          # source, tags, status, function signature, references
-├── test_history/          # created/updated by Test mode
-├── debug_history/         # created/updated by Debug mode
-├── review_history/        # created/updated by Review mode
-└── consolidate_history/   # created/updated by Consolidate mode
-```
-
-A typical session looks like this:
+Example commands:
 
 ```text
-1. Read prompt.md.
-2. Implement solution.py.
-3. Run local tests.
-4. Debug any failing evidence.
-5. Review after tests pass.
-6. Consolidate the lesson into notes, status, and revisit items.
+Use $neetcode-prep-coach. Generate a technique guide for Monotonic Stack.
+Use $neetcode-prep-coach. Generate a technique guide for Graph BFS.
+Use $neetcode-prep-coach. Create the Linked List Pointer Rewiring guide.
+Use $neetcode-prep-coach. Update the bit manipulation technique guide.
 ```
 
-## Practice by Plan, Tag, or Revisit Queue
+Generated guides belong in:
 
-Use the repo as a structured NeetCode roadmap or as a focused drill system:
+```text
+technique_guides/<topic_slug>.md
+```
 
-- `study_plans/neetcode_150.md` gives the ordered NeetCode 150 progression by section.
-- `tags/` lets you drill focused topics such as arrays, heap, graph, dynamic programming, intervals, or binary search.
-- `indexes/` stores generated machine-readable views for problem metadata, tags, and status.
-- `REVISIT.md` collects concepts, APIs, bug patterns, and problems that deserve another pass.
-- `technique_guides/` can grow topic-level notes that connect individual problems into reusable interview patterns.
+The repo includes two sample technique guides:
 
-## Useful Commands
+```text
+technique_guides/sample_guides/arrays_and_hashing.md
+technique_guides/sample_guides/heap_priority_queue.md
+```
 
-| Goal | Command |
+They are useful examples of the depth and teaching style of the topic-level
+guides this repo is designed to produce. For the recommended guide-generation
+flow, see [WORKFLOW.md](WORKFLOW.md).
+
+## What Makes It Different From a Solutions Repo
+
+| Usual practice repo | This studio |
 | --- | --- |
-| Validate package structure | `python -m tools.validate_tree` |
-| Run your current solution | `python -m tools.run_problem problems/0001_two_sum` |
-| Run the primary reference solution | `python -m tools.run_problem problems/0001_two_sum --reference` |
-| Show all cases, including passed cases | `python -m tools.run_problem problems/0001_two_sum --all-cases` |
-| Disable ANSI color | `python -m tools.run_problem problems/0001_two_sum --no-color` |
-| Validate all reference variants | `python -m tools.validate_reference_variants` |
-| Regenerate indexes and tag pages | `python -m tools.generate_indexes` |
+| Static solution files | Blank attempts plus enriched AI-authored reference variants |
+| Manual memory | Notes, histories, revisit queue, generated progress views, and generated technique guides |
+| "It passed" as the finish line | Review checks correctness, complexity, clarity, edge cases, and interview narration |
+| One-off debugging | Evidence-driven Debug mode tied to local test failures |
+| Topic review from scratch | Technique Guide Generation creates standalone first-principles guides for reusable patterns |
+| Flat problem list | Study-plan sections, tag drill pages, status views, and revisit queues for targeted practice |
 
-## Repo Map
+## What Is Inside
+
+- 150 NeetCode problem folders in a clean `todo` state
+- blank `solution.py` attempt files
+- local `prompt.md` files with problem statements, examples, constraints, and source links
+- local tests with LeetCode-style failure reports
+- enriched AI-authored reference solutions under `solutions/`
+- a strict all-reference validator for checking every solution variant
+- `study_plans/neetcode_150.md` for ordered progress by section
+- `tags/` for focused drills by data structure or technique
+- `REVISIT.md` for concepts, APIs, bug patterns, and problems to drill again
+- reusable tools for running, validating, fetching, regenerating, and expanding
+- bundled `$neetcode-prep-coach` skill for Test, Debug, Review, Consolidate,
+  Reference Enrichment, Revisit Queue, and Technique Guide Generation
+- sample technique guides under `technique_guides/sample_guides/`
+- generated topic-level learning notes under `technique_guides/`
+
+## Recommended Coach-First Practice Flow
+
+1. Install the skill with [docs/SKILL_INSTALLATION.md](docs/SKILL_INSTALLATION.md).
+2. Initialize the coach with your package root.
+3. Ask the coach for the next problem by section, tag, status, ID, or title.
+4. Read the local `prompt.md` and code your attempt in `solution.py`.
+5. Ask the coach to Test the current problem.
+6. If tests fail, ask for Debug.
+7. Once tests pass, ask for Review.
+8. Ask for Consolidate to update notes, status, revisit items, and progress
+   views.
+9. When a topic still feels fuzzy, ask for a Technique Guide.
+10. Revisit weak patterns later using your own notes, generated guides, tags,
+    and `REVISIT.md`.
+
+## Project Map
 
 | Path | Purpose |
 | --- | --- |
-| `problems/` | One folder per NeetCode 150 problem |
-| `study_plans/neetcode_150.md` | Ordered progress dashboard |
-| `tags/` | Tag-to-problem lookup pages for focused drills |
-| `indexes/` | Generated metadata, status, and tag indexes |
-| `tools/` | Fetching, generation, running, validation, indexing, and tagging helpers |
+| `problems/` | One folder per NeetCode 150 problem, with prompt, attempt file, tests, references, notes, and metadata |
+| `study_plans/` | Ordered NeetCode 150 progress dashboard |
+| `tags/` | Generated tag-to-problem lookup pages for focused drills |
+| `indexes/` | Machine-readable metadata, status, and generated lookup files |
+| `tools/` | Local runner, validators, index generation, fetching, and regeneration helpers |
 | `common/` | LeetCode-style data structures, serializers, comparators, and runner support |
-| `docs/` | Architecture, workflow, tooling, installation, and expansion docs |
 | `skills/neetcode-prep-coach/` | Bundled companion skill and helper scripts |
-| `technique_guides/` | Standalone topic guides generated over time |
-| `REVISIT.md` | Package-level concepts and patterns to revisit |
+| `technique_guides/sample_guides/` | Sample technique guides |
+| `technique_guides/` | Generated topic-level learning guides |
+| `docs/` | Architecture, workflow prompts, tooling, installation, troubleshooting, and expansion docs |
+| `templates/` | Reusable generated-file templates |
+| `tests/` | Package-level tests and runner checks |
+| `REVISIT.md` | Package-level queue for concepts, APIs, bug patterns, and problems worth another pass |
 
-## Who This Is For
+## Optional Manual CLI Reference
 
-This repo is useful if you are preparing for coding interviews and want more than a folder of completed answers. It is especially helpful if you want to:
+The companion skill is the recommended way to practice. The CLI remains useful
+when you want direct control, automation, or a quick smoke test.
 
-- practice NeetCode 150 locally;
-- get structured AI help without losing control of the code;
-- debug from concrete test evidence;
-- compare your solution against educational references;
-- build better interview explanations;
-- track repeated mistakes and revisit them intentionally;
-- turn problem attempts into durable topic-level understanding.
+Run your current solution:
 
-## Source and Reference Notes
+```bash
+python -m tools.run_problem problems/0001_two_sum
+```
 
-Problem statements link back to official source pages. Reference solutions are AI-authored educational implementations intended for learning, review, and comparison; they are not copied third-party solution code.
+Run the primary reference solution:
 
-See [WORKFLOW.md](WORKFLOW.md) for the main operating manual and [docs/SKILL_INSTALLATION.md](docs/SKILL_INSTALLATION.md) for skill setup.
+```bash
+python -m tools.run_problem problems/0001_two_sum --reference
+```
+
+Validate the package structure:
+
+```bash
+python -m tools.validate_tree
+```
+
+Run a package-wide primary-reference smoke test:
+
+```bash
+python -m tools.validate_tree --reference
+```
+
+Run every reference variant against local cases:
+
+```bash
+python -m tools.validate_reference_variants
+```
+
+Useful runner flags:
+
+```bash
+python -m tools.run_problem problems/0001_two_sum --verbose
+python -m tools.run_problem problems/0001_two_sum --no-color
+python -m tools.run_problem problems/0001_two_sum --all-cases
+```
+
+## Documentation
+
+- [WORKFLOW.md](WORKFLOW.md): day-to-day operating manual for practicing with
+  the Prep Coach skill
+- [docs/SKILL_INSTALLATION.md](docs/SKILL_INSTALLATION.md): install the bundled
+  Prep Coach skill
+- [docs/TOOLING.md](docs/TOOLING.md): local runner, validators, generators, and
+  helper scripts
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): package structure and design
+  model
+- [docs/AI_PROMPTS.md](docs/AI_PROMPTS.md): reusable prompts for using or
+  recreating the workflow
+
+## Notes
+
+Problem statements link back to official source pages. Reference solutions are
+AI-authored educational implementations intended for learning, not copied
+third-party code.
